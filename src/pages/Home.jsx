@@ -63,6 +63,7 @@ const Home = () => {
     <>
     <Header/>
       <Banner/>
+      <Houseconstruct />
       <DeliveryThings/>
       <MarqueeText/>
       <Modal
@@ -97,14 +98,13 @@ const Home = () => {
                             </div>
                     {/* <strong id='scam-tt' >Hirola Infotech Solutions</strong> */}
                 </Modal>
-      <HomeServices/>
     <HomeOffers/>
     {/* <MyStepper/> */}
       <HomePackages/>
     <HomeFeatures/>
     <Highquality />
     <Trustedpartners />
-        <Houseconstruct />
+       
         <Whatwedo />
         <UTube/>
     <HomeBlogs/>
