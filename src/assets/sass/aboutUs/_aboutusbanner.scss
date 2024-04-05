@@ -1,4 +1,4 @@
-.about-us-banner-main{
+.about-us-banner-main {
     height: fit-content;
     // @media only screen and (min-width: 315px) and (max-width: 553px){
     //     height: 690px;
@@ -13,115 +13,135 @@
     //     height: 545px;
     // }
 
-    .about-us-banner-background{
+    .about-us-banner-background {
         height: fit-content;
-        background: linear-gradient(90deg, rgba(195, 146, 28, 0.67) 0%, rgba(195, 146, 28, 0.658902) 55.49%, rgba(195, 146, 28, 0.65) 100%), url('/images/about-us-banner-background-image.webp');
+        background-image: url('./images/aboutusbanner.jpg');
         background-size: cover;
         background-repeat: no-repeat;
-      
+        padding:80px 0px;
+
         // @media only screen and (min-width: 768px) and (max-width: 992px){
         //     height: 365px;
         // }
         // @media only screen and (min-width: 993px) and (max-width: 1280px){
         //     height: 480px;
         // }
-        .row{
+        .row {
             width: 100%;
             align-items: center;
-            .about-us-banner-left-section{
-                padding-left: 10rem;
+
+            .about-us-banner-left-section {
                 height: fit-content;
+                padding-left: 25px;
+                color: #fff;
                 // font-family: Titillium Web;
-                @media only screen and (min-width: 315px) and (max-width: 553px){
+                @media only screen and (min-width: 315px) and (max-width: 553px) {
                     padding-top: 2.5rem;
                     padding-left: 3rem;
                     height: fit-content;
                 }
-                @media only screen and (min-width: 554px) and (max-width: 767px){
+
+                @media only screen and (min-width: 554px) and (max-width: 767px) {
                     padding-top: 2.5rem;
                     padding-left: 4rem;
                     height: fit-content;
                 }
-                @media only screen and (min-width: 768px) and (max-width: 992px){
+
+                @media only screen and (min-width: 768px) and (max-width: 992px) {
                     padding-top: 3rem;
                     padding-left: 5rem;
                     height: fit-content;
                 }
 
-                @media only screen and (min-width: 993px) and (max-width: 1280px){
+                @media only screen and (min-width: 993px) and (max-width: 1280px) {
                     padding-top: 4rem;
                     padding-left: 6rem;
                     height: fit-content;
                 }
 
-                .about-us-banner-subtitle{
+                .about-us-banner-subtitle {
                     line-height: 2;
-                    @media only screen and (max-width:767px){
+
+                    @media only screen and (max-width:767px) {
                         font-weight: 600;
                     }
                 }
-                .about-us-banner-title{
-                    line-height: 1.2;
-                    font-weight: 500;
-                    font-size: 54px;
 
-                    @media only screen and (min-width: 315px) and (max-width: 553px){
+                .about-us-banner-title {
+                    font-size: 72px;
+                    line-height: 72px;
+                    font-weight: 700;
+
+                    @media only screen and (min-width: 315px) and (max-width: 553px) {
                         font-weight: 600;
                         font-size: 26px;
                     }
-                    @media only screen and (min-width: 554px) and (max-width: 767px){
+
+                    @media only screen and (min-width: 554px) and (max-width: 767px) {
                         line-height: 1.1;
                         font-weight: 500;
                         font-size: 50px;
                     }
-                    @media only screen and (min-width: 768px) and (max-width: 992px){
+
+                    @media only screen and (min-width: 768px) and (max-width: 992px) {
                         line-height: 1.1;
                         font-weight: 600;
                         font-size: 38px;
                     }
 
-                    @media only screen and (min-width: 993px) and (max-width: 1280px){
+                    @media only screen and (min-width: 993px) and (max-width: 1280px) {
                         line-height: 1.1;
                         font-weight: 500;
                         font-size: 40px;
                     }
                 }
+
                 .about-us-banner-description {
                     font-size: 19px;
                     padding-top: 20px;
-                    @media only screen and (max-width:767px){
+
+                    @media only screen and (max-width:767px) {
                         font-size: 18px;
                     }
-                    @media only screen and (min-width: 768px) and (max-width: 992px){
+
+                    @media only screen and (min-width: 768px) and (max-width: 992px) {
                         font-size: 18px;
                         padding-top: 20px;
                     }
                 }
             }
-            .col-md-7{
+
+            .col-md-7 {
+
                 // width: 58px;
-                .about-us-banner-image-parent{
-                  height: 570px;
-                  width: 100%;
-                  img{
-                    height: 100%;
+                .about-us-banner-image-parent {
+                    height: 570px;
                     width: 100%;
-                    object-fit: contain;
-                  }
-                  @media only screen and (max-width:575px){
-                    height: 300px;
-                  }
-                  @media only screen and (min-width:576px) and (max-width:767px){
-                    height: fit-content;
-                  }
-                }
-                .about-us-banner-image{
-                    width: 100%;
-                    @media only screen and (min-width: 315px) and (max-width: 553px){
+
+                    img {
+                        height: 100%;
                         width: 100%;
-                        height:350px;
+                        object-fit: contain;
                     }
-                    @media only screen and (min-width: 768px) and (max-width: 992px){
+
+                    @media only screen and (max-width:575px) {
+                        height: 300px;
+                    }
+
+                    @media only screen and (min-width:576px) and (max-width:767px) {
+                        height: fit-content;
+                    }
+                }
+
+                .about-us-banner-image {
+                    width: 100%;
+
+                    @media only screen and (min-width: 315px) and (max-width: 553px) {
+                        width: 100%;
+                        height: 350px;
+                    }
+
+                    @media only screen and (min-width: 768px) and (max-width: 992px) {
                         width: 100%;
                     }
                 }
