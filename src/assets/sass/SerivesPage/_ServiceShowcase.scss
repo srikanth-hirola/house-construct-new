@@ -1,0 +1,216 @@
+
+.service-showcase-parent {
+    .service-showcase-subparent {
+        padding: 70px 0 30px 0;
+
+        .container {
+            .row {
+                .col-md-5 {
+                    .work-space-line {
+                        display: flex;
+                        justify-content: center;
+                        h1 {
+                            color: var(--Content-Primary, #000);
+                            font-size: 46px;
+                            font-weight: 600;
+                            margin: -8px 0 0 0;
+                        }
+                    }
+                }
+
+                .col-md-7 {
+                    .work-space-rich {
+                        p {
+                            color: #000;
+                            font-size: 17px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 28px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .slider-images {
+            margin: 50px 0;
+        }
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1440px) {
+    .service-showcase-parent {
+        .service-showcase-subparent {
+
+            .slider-images {
+                margin: 20px 0;
+
+                .swiper {
+                    margin: auto;
+
+                    .swiper-wrapper {
+                        .swiper-slide {
+                            div {
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .service-showcase-parent {
+        .service-showcase-subparent {
+            padding: 30px 0 20px 0;
+
+            .container {
+                .row {
+                    .col-md-5 {
+                        .work-space-line {
+                            display: flex;
+                            justify-content: center;
+
+                            h1 {
+                                font-size: 35px;
+                                line-height: 40px;
+                            }
+                        }
+                    }
+
+                    .col-md-7 {
+                        .work-space-rich {
+                            p {
+                                font-size: 17px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .slider-images {
+                margin: 20px 0;
+
+                .swiper {
+                    margin: auto;
+
+                    .swiper-wrapper {
+                        .swiper-slide {
+                            div {
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .service-showcase-parent {
+        .service-showcase-subparent {
+            padding: 20px 0 10px 0;
+
+            .container {
+                .row {
+                    .col-md-5 {
+                        .work-space-line {
+                            display: flex;
+                            justify-content: center;
+
+                            h1 {
+                                font-size: 25px;
+                                line-height: 50px;
+                            }
+                        }
+                    }
+
+                    .col-md-7 {
+                        .work-space-rich {
+                            p {
+                                font-size: 14px;
+                                line-height: 22px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .slider-images {
+                margin: 20px 0;
+
+                .swiper {
+                    margin: auto;
+
+                    .swiper-wrapper {
+                        .swiper-slide {
+                            div {
+                                img {
+                                    width: 96%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 767px) {
+    .service-showcase-parent {
+        .service-showcase-subparent {
+            padding: 10px 0 0px 0;
+
+            .container {
+                .row {
+                    .col-md-5 {
+                        .work-space-line {
+                            display: flex;
+                            justify-content: flex-start;
+
+                            h1 { 
+                                font-size: 24px;
+                                line-height: 40px;
+                            }
+                        }
+                    }
+
+                    .col-md-7 {
+                        .work-space-rich {
+                            p {
+                                font-size: 13px;
+                                padding-top: 10px;
+                                line-height: 23px;
+                                text-align: justify;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .slider-images {
+                margin: 20px 0;
+
+                .swiper {
+                    margin: auto;
+
+                    .swiper-wrapper {
+                        .swiper-slide {
+                            div {
+                                img {
+                                    width: 94%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

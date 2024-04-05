@@ -1,0 +1,291 @@
+.Homepage-header-parent {
+    .Homepage-header-subParent {
+        .row {
+            margin: 0;
+            padding: 0;
+
+            .col-md-12 {
+                .navbar {
+                    background-color: red;
+                    background: #fff !important;
+                    // z-index: 9999;
+                    .container {
+                        .main-logo-image {
+                            img {
+                                margin: auto;
+                                display: flex;
+                                width: 159px;
+                            }
+                        }
+
+                        .collapse.navbar-collapse {
+                            justify-content: center;
+                            ul {
+                                margin: auto;
+
+                                li {
+                                    padding: 0 8px;
+
+                                    a {
+                                        color: var(--Button-Primary-Normal, #022C22);
+                                        text-align: center;
+                                        font-size: 16px;
+                                        font-weight: 600;
+
+                                    }
+                                }
+                            }
+
+                            .header-log-in-button {
+                                a {
+                                    border-radius: 200px;
+                                    border: 1px solid #C3921C;
+                                    padding: 12px 20px;
+                                    margin: 0 10px;
+                                    text-decoration: none;
+                                    color: #1D1F1E;
+                                }
+                            }
+
+                            .header-log-in-button-two {
+                                a {
+                                    border-radius: 200px;
+                                    background-color: #C3921C;
+                                    padding: 12px 20px;
+                                    margin: 0 10px;
+                                    color: white;
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// Header.scss
+
+// Header parent container
+.Homepage-header-parent {
+    // Your styles for the parent container here
+  }
+  
+  // Header sub parent container
+  .Homepage-header-subParent {
+    // Your styles for the sub parent container here
+  }
+  
+  // Logo image
+  .main-logo-image {
+    width: 80px;height: 80px;    img {
+      width: 100%;height: 100%;object-fit: contain;
+      // Your styles for the logo image tag here
+    }
+  }
+  
+  // Navigation links for desktop
+  .desktop-menu {
+    @media (max-width: 991px) {
+      display: none; // Hide menu for screens below 992px
+    }
+  
+    // Your styles for the desktop menu here
+    .menu {
+      // Your styles for the menu here
+    }
+  
+    .nav-item {
+      // Your styles for each navigation item here
+      .nav-link {
+        // Your styles for each navigation link here
+      }
+    }
+  }
+  
+  // Mobile menu button
+  .mobile-menu {
+    display: none; // Hide mobile menu button for screens above 992px
+  
+    @media (max-width: 991px) {
+      display: block; // Show mobile menu button for screens below 992px
+      
+    }
+  
+    // Your styles for the mobile menu button here
+  }
+  
+  // Drawer menu
+  .drawer-menu {
+    // Your styles for the drawer menu here
+  
+    @media (min-width: 992px) {
+      display: none; // Hide drawer menu for screens above 992px
+    }
+    // Header.scss
+
+// Hide the navbar collapse for mobile
+.collapse.navbar-collapse#navbarSupportedContent {
+    display: none;
+  
+    @media (max-width: 991px) {
+      display: block;
+    }
+  }
+  
+  // Logo image for mobile
+  .main-logo-image {
+    // Your styles for the logo image here
+  
+    @media (max-width: 991px) {
+      float: left; // Align the logo to the left for mobile
+      margin-right: 20px; // Add some spacing between the logo and toggle icon
+    }
+  }
+  
+  // Mobile menu button
+  .mobile-menu {
+    display: none; // Hide mobile menu button by default
+  
+    @media (max-width: 991px) {
+      display: block; // Show mobile menu button for screens below 992px
+      float: right; // Align the mobile menu button to the right
+
+      svg{
+        position: absolute;
+        top: 40px;
+        right: 37px;
+    
+      }
+      
+    }
+  
+    // Your styles for the mobile menu button here
+  }
+  
+  // Drawer menu
+  .drawer-menu {
+    // Your styles for the drawer menu here
+  
+    @media (min-width: 992px) {
+      display: none; // Hide drawer menu for screens above 992px
+    }
+  }
+  
+  }
+  
+  :where(.css-dev-only-do-not-override-42nv3w).ant-layout-header{
+    background-color: #fff;
+    height: 100px !important;
+  }
+  @media screen and (max-width:992px){
+    .navbar-toggler{
+        display: none !important;
+      }  
+      :where(.css-dev-only-do-not-override-42nv3w).ant-layout-header{
+        background-color: #fff;
+        height: 100px !important;
+      }
+      ul.ant-menu.ant-menu-root.ant-menu-vertical.ant-menu-dark.css-dev-only-do-not-override-42nv3w {
+        background: #fff !important;
+        li{
+            a{
+                color: #000 !important;
+                font-weight: 600;
+            }
+        }
+    }
+  }
+
+  @media only screen and (min-width:992px) and (max-width:1199px){
+    .Homepage-header-parent{
+      .Homepage-header-subParent{
+        .row {
+          .col-md-12{
+            .navbar{
+              .container{
+                .collapse.navbar-collapse {
+                  .header-log-in-button {
+                    a {
+                      padding: 8px 13px;
+                      margin: 0 10px;
+                      font-size: 14px;
+                  }
+                  }
+                  .header-log-in-button-two{
+                    a {
+                      padding: 8px 13px;
+                      margin: 0 4px;
+                  }
+                  }
+                  ul{
+                    li{
+                      padding: 0px 3px;
+                      a {
+                        font-size: 14px;
+                        padding: 6px;
+              }
+                    } 
+                  }
+              }
+              .main-logo-image{
+                img {
+                  width: 125px;
+              }
+              }
+              }
+            } 
+          } 
+        }
+      }
+    }
+
+}
+
+@media screen and (max-width:992px){
+  .navbar-toggler{
+      display: none !important;
+    }  
+    :where(.css-dev-only-do-not-override-42nv3w).ant-layout-header{
+      background-color: #fff;
+      height: 100px !important;
+    }
+    ul.ant-menu.ant-menu-root.ant-menu-vertical.ant-menu-dark.css-dev-only-do-not-override-42nv3w {
+      background: #fff !important;
+      li{
+          a{
+              color: #000 !important;
+              font-weight: 600;
+          }
+      }
+  }
+  .mobile-menu{
+      svg{
+          position: absolute;
+          top: 40px;
+          right: 37px;
+      
+        }
+  }
+  :where(.css-dev-only-do-not-override-42nv3w).ant-layout-header {
+    padding: 0 0px;
+
+}
+}
+
+:where(.css-42nv3w).ant-layout-header {
+  height: 64px;
+  padding: 0 50px;
+  color: rgba(0, 0, 0, 0.88);
+  line-height: 64px;
+  background: #ffffff !important;
+  height: 100px !important;
+}
+:where(.css-42nv3w).ant-menu-dark, :where(.css-42nv3w).ant-menu-dark>.ant-menu {
+  color: rgba(0, 0, 0, 0.65) !important;
+  background: #fff !important;
+}
+:where(.css-42nv3w).ant-menu-dark .ant-menu-item a{
+  color: #000 !important;
+  font-weight: 600 !important;
+}

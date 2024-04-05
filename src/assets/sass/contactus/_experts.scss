@@ -1,0 +1,614 @@
+.contactus-experts-parent {
+  .contactus-experts-sub {
+    padding-top: 55px;
+    padding-bottom: 0px;
+
+    .container {
+      .contactus-experts-heading {
+        h5 {
+          color: #000;
+          font-size: 45px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 120%;
+          /* 43.2px */
+        }
+      }
+      .input-parents {
+        padding-top: 20px;
+        border-radius: 10px;
+
+        .fields-parents {
+          p {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            margin: 10px 0px;
+          }
+
+          input {
+            box-shadow: rgb(149 157 165 / 19%) 0px 8px 24px;
+            // 
+            border: none;
+            height: 37px;
+            background: var(--White, #fff);
+            width: 95%;
+            border-radius: 7px;
+            border: 1px solid #00000017;
+          }
+        }
+      }
+
+      .fields-parents-msg {
+        p {
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 150%;
+          /* 24px */
+          margin: 10px 0px;
+          padding-top: 10px;
+        }
+
+        input {
+          box-shadow: rgb(149 157 165 / 19%) 0px 8px 24px;
+          border: 1px solid rgba(0, 0, 0, 0.0901960784);
+          display: flex;
+          height: 95px;
+          padding: 12px;
+          align-items: flex-start;
+          align-self: stretch;
+          width: 98%;
+          border-radius: 7px;
+        }
+      }
+
+      .check-box-text-parent {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 0;
+        .chexkbox-text {
+          p {
+          margin: 0;
+          }
+        }
+      }
+
+      .crrers-submit-button {
+        padding-top: 20px;
+
+        button {
+          border: 1px solid #c3921c;
+          background: #c3921c;
+          display: flex;
+          padding: 12px 30px;
+          justify-content: center;
+          align-items: center;
+          gap: 8px;
+          color: var(--White, #fff);
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 150%;
+        }
+      }
+
+      .carrer-det-parent {
+        padding-top: 98px;
+
+        .car-details {
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          margin-left: 34px;
+          padding: 40px 20px;
+          text-align: left;
+
+          p {
+            &:first-child {
+              
+
+              /* Heading/H6 */
+
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 140%;
+              /* 28px */
+            }
+
+            &:nth-child(2) {
+              
+              /* Text/Regular/Normal */
+
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 150%;
+              /* 24px */
+              margin: 9px 0 0px;
+            }
+
+            &:nth-child(3) {
+              
+              /* Text/Regular/Normal */
+
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 150%;
+              /* 24px */
+              margin: 9px 0 0px;
+            }
+
+            &:nth-child(4) {
+              
+              /* Text/Regular/Normal */
+
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 150%;
+              /* 24px */
+              margin: 9px 0 0px;
+            }
+          }
+        }
+
+        .experts-card-par {
+          padding-top: 24px;
+          width: 80%;
+
+          .card-details {
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            padding-left: 24px;
+            margin-left: 24px;
+            height: 100%;
+            padding: 40px 20px;
+            text-align: left;
+
+            p {
+              &:first-child {
+                
+
+                /* Heading/H6 */
+
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 140%;
+                /* 28px */
+              }
+
+              &:nth-child(2) {
+                
+                /* Text/Regular/Normal */
+
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 150%;
+                /* 24px */
+                margin: 9px 0 0px;
+              }
+
+              &:nth-child(3) {
+                
+                /* Text/Regular/Normal */
+
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 150%;
+                /* 24px */
+                margin: 9px 0 0px;
+              }
+
+              &:nth-child(4) {
+                
+
+
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 150%;
+                margin: 9px 0 0px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .contactus-experts-parent {
+    .contactus-experts-sub {
+      padding-top: 40px;
+
+      .container {
+        .contactus-experts-heading {
+          h5 {
+            font-size: 26px;
+          }
+        }
+
+        .input-parents {
+          padding-top: 0px;
+
+          .fields-parents {
+            p {
+              font-size: 16px;
+            }
+
+            input {
+              width: 98%;
+              border-radius: 3px;
+              box-shadow: rgb(149 157 165 / 19%) 0px 8px 24px;
+            }
+          }
+        }
+
+        .fields-parents-msg {
+          p {
+            font-size: 16px;
+          }
+
+          input {
+            width: 98%;
+            border-radius: 3px;
+          }
+        }
+
+        .check-box-text-parent {
+          .check-box-parent {
+            width: 14px;
+            height: 14px;
+            margin-top: 25px;
+          }
+
+          .chexkbox-text {
+            p {
+              padding-top: 21px;
+              padding-left: 13px;
+            }
+          }
+        }
+
+        .crrers-submit-button {
+          padding-top: 3px;
+
+          button {
+            font-size: 15px;
+            line-height: 85%;
+          }
+        }
+
+        .carrer-det-parent {
+          padding-top: 37px;
+
+          .car-details {
+            width: 90%;
+            margin-top: 20px;
+            height: 150px;
+            margin: 11px auto;
+            padding: 20px 20px;
+
+            p {
+              &:first-child {
+                
+
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 140%;
+                /* 28px */
+              }
+
+              &:nth-child(2) {
+                font-size: 18px;
+                margin: 0;
+              }
+
+              &:nth-child(3) {
+                font-size: 15px;
+                margin: 0;
+              }
+
+              &:nth-child(4) {
+                font-size: 15px;
+              }
+            }
+          }
+
+          .experts-card-par {
+            width: 100%;
+
+            .card-details {
+              width: 97%;
+              margin: 11px auto;
+              padding: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contactus-experts-parent {
+    .contactus-experts-sub {
+      padding-top: 40px;
+
+      .container {
+        .contactus-experts-heading {
+          h5 {
+            font-size: 24px;
+          }
+        }
+
+        .input-parents {
+          padding-top: 0px;
+
+          .fields-parents {
+            width: 50% !important;
+
+            p {
+              font-size: 13px;
+            }
+
+            input {
+              width: 98%;
+              border-radius: 3px;
+            }
+          }
+        }
+
+        .fields-parents-msg {
+          p {
+            font-size: 13px;
+          }
+
+          input {
+            width: 98%;
+            border-radius: 3px;
+          }
+        }
+
+        .check-box-text-parent {
+          .check-box-parent {
+            width: 14px;
+            height: 14px;
+            margin-top: 25px;
+          }
+
+          .chexkbox-text {
+            p {
+              padding-top: 21px;
+              padding-left: 13px;
+            }
+          }
+        }
+
+        .crrers-submit-button {
+          padding-top: 3px;
+
+          button {
+            font-size: 13px;
+            line-height: 85%;
+          }
+        }
+
+        .carrer-det-parent {
+          padding-top: 37px;
+
+          .car-details {
+            width: 75% !important;
+            margin-bottom: 20px;
+            padding: 10px;
+
+            p {
+              &:first-child {
+                
+
+
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 140%;
+                /* 28px */
+              }
+
+              &:nth-child(2) {
+                font-size: 18px;
+                margin: 0;
+              }
+
+              &:nth-child(3) {
+                font-size: 14px;
+                margin: 0;
+              }
+
+              &:nth-child(4) {
+                font-size: 14px;
+              }
+            }
+          }
+
+          .experts-card-par {
+            width: 100%;
+            padding-top: 0px;
+
+            .card-details {
+              padding: 23px 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .contactus-experts-parent {
+    .contactus-experts-sub {
+      padding-top: 54px;
+
+      .container {
+        .contactus-experts-heading {
+          h5 {
+            font-size: 36px;
+          }
+        }
+
+        .input-parents {
+          padding-top: 20px;
+          border-radius: 10px;
+
+          .fields-parents {
+            width: 45% !important;
+
+            p {
+              
+
+              /* Text/Regular/Normal */
+
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 150%;
+              /* 24px */
+              margin: 0;
+            }
+
+            input {
+              
+              background: var(--White, #fff);
+
+              border-radius: 3px;
+            }
+          }
+        }
+
+        .fields-parents-msg {
+          p {
+            
+            /* Text/Regular/Normal */
+
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            /* 24px */
+            margin: 0;
+          }
+
+          input {
+            
+            background: var(--White, #fff);
+            display: flex;
+            padding: 12px;
+            align-items: flex-start;
+            align-self: stretch;
+            width: 75%;
+            border-radius: 3px;
+          }
+        }
+
+        .check-box-text-parent {
+          display: flex;
+
+          .check-box-parent {
+            
+            background: var(--White, #fff);
+            width: 18px;
+            height: 18px;
+            margin-top: 25px;
+          }
+
+          .chexkbox-text {
+            p {
+              padding-top: 22px;
+              padding-left: 16px;
+            }
+          }
+        }
+
+        .crrers-submit-button {
+          padding-top: 20px;
+
+          button {
+            border: 1px solid #c3921c;
+            background: #c3921c;
+            display: flex;
+            padding: 12px 24px;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            color: var(--White, #fff);
+
+            /* Text/Regular/Normal */
+
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            /* 24px */
+          }
+        }
+
+        .carrer-det-parent {
+          padding-top: 120px;
+
+          p {
+            &:first-child {
+              
+
+              /* Heading/H6 */
+
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 140%;
+              /* 28px */
+            }
+
+            &:nth-child(2) {
+              
+              /* Text/Regular/Normal */
+
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 150%;
+              /* 24px */
+            }
+
+            &:nth-child(3) {
+              
+              /* Text/Regular/Normal */
+
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 150%;
+              /* 24px */
+            }
+
+            &:nth-child(4) {
+              
+              /* Text/Regular/Normal */
+
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 150%;
+              /* 24px */
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,276 @@
+.PortfolioIndividualContent-parent {
+    .PortfolioIndividualContent-sub {
+        width: 90%;
+        margin: auto;
+        padding: 40px 0px;
+
+        .PortfolioIndividual-content-image-section {
+            .indi-port-sec {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                gap: 10px;
+                .PortfolioIndividual-content-image-left {
+                    height: 230px;
+    margin-top: -15px;
+    flex-grow: 1;
+    width: 46%;
+
+                    &:nth-child(even){
+                        margin-top: 2px;
+                    }
+                    img{
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+            }
+           
+
+            .PortfolioIndividual-content-image-left {
+                height: 230px;
+                margin-top: 15px;
+                width: 100%;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+
+            .PortfolioIndividual-content-image-right {
+                height: 200px;
+                margin-top: 15px;
+                width: 100%;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+
+        .PortfolioIndividual-content-section {
+            padding: 60px 40px 40px 40px;
+
+            .PortfolioIndividual-content-section-sub1 {
+                padding: 10px 40px;
+
+                button {
+                    background: none;
+                }
+
+                h1 {
+                    padding: 20px 0px;
+                }
+            }
+
+            .PortfolioIndividual-content-section-sub2 {
+                h3 {
+                    padding: 20px;
+                }
+
+                .PortfolioIndividual-content-section-sub2-sub {
+                    padding: 25px;
+                    background-image: url('projectdetailsbg.png');
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+
+                    .projectdetails-bg-below {
+                        background: #fff;
+                        padding: 10px 20px;
+
+                        .PortfolioIndividual-content-section-sub2-sub-time {
+                            align-items: center;
+                            display: flex;
+                            justify-content: space-between;
+                            border-bottom: 1px solid black;
+                            padding: 15px 0px;
+
+                            .PortfolioIndividual-content-section-sub2-sub-time-parent {
+                                display: flex;
+                                gap: 20px;
+                            }
+
+                            .portfolio-clock-image {
+                                height: 35px;
+                                width: 35px;
+
+                                img {
+                                    height: 100%;
+                                    width: 100%;
+                                    margin-top: 5px;
+                                }
+                            }
+                        }
+
+                        .no-border-section {
+                            border: none;
+                        }
+                    }
+                }
+
+                .PortfolioIndividual-content-section-bottom {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 20px;
+                    padding: 30px 0px;
+                    border-top: 1px solid black;
+
+                    .PortfolioIndividual-content-section-bottom-sub {
+                        display: flex;
+                        gap: 15px;
+
+                        p {
+                            margin-bottom: 5px;
+                        }
+
+                        .PortfolioIndividual-content-section-bottom-sub-image {
+                            height: 60px;
+                            width: 60px;
+
+                            img {
+                                height: 100%;
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                    .portfolio-arrow-icon {
+                        background: #C3921C;
+                        height: 40px;
+                        width: 40px;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .PortfolioIndividualContent-parent {
+        .PortfolioIndividualContent-sub {
+            width: 95%;
+            padding: 20px 0px 40px 0px;
+
+            .row:nth-child(1) {
+                flex-direction: column-reverse;
+            }
+
+            .PortfolioIndividual-content-section {
+                padding: 0px 5px;
+
+                .PortfolioIndividual-content-section-sub1 {
+                    padding: 10px 0px;
+
+                    p {
+                        text-align: justify;
+                    }
+                }
+
+                .PortfolioIndividual-content-section-sub2 {
+                    h3:nth-child(1) {
+                        padding: 0px 0px 15px 0px;
+                    }
+
+                    h3:nth-child(2) {
+                        padding: 8px;
+                    }
+
+                    .PortfolioIndividual-content-section-sub2-sub {
+                        padding: 10px;
+
+                        .projectdetails-bg-below {
+                            padding: 10px;
+
+                            .PortfolioIndividual-content-section-sub2-sub-time-parent {
+                                .portfolio-clock-image {
+                                    height: 25px;
+                                    width: 25px;
+                                }
+
+                                p {
+                                    margin: 0;
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+
+                    .PortfolioIndividual-content-section-bottom-sub {
+                        p {
+                            font-size: 13px;
+                        }
+
+                        h5 {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    .PortfolioIndividualContent-parent {
+        .PortfolioIndividualContent-sub {
+            .PortfolioIndividual-content-section {
+                padding: 40px 0px 0px;
+
+                .PortfolioIndividual-content-section-sub1 {
+                    padding: 10px 0px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .PortfolioIndividualContent-parent {
+        .PortfolioIndividualContent-sub {
+            .PortfolioIndividual-content-section {
+                padding: 40px 0px 0px;
+
+                .PortfolioIndividual-content-section-sub1 {
+                    padding: 10px 0px;
+                }
+            }
+
+            .PortfolioIndividual-content-image-section {
+                .PortfolioIndividual-content-image-left {
+                    height: 210px;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .PortfolioIndividualContent-parent {
+        .PortfolioIndividualContent-sub {
+            .PortfolioIndividual-content-section {
+                padding: 40px 0px 0px;
+
+                .PortfolioIndividual-content-section-sub1 {
+                    padding: 10px 20px;
+                }
+
+                .PortfolioIndividual-content-section-sub2 {
+                    padding: 10px 20px;
+
+                    h3 {
+                        padding: 0px 0px 15px;
+                    }
+                }
+            }
+        }
+    }
+}

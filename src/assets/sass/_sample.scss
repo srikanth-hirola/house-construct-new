@@ -1,0 +1,28 @@
+.banner-main{
+    background-color: red;
+    height: 500px;
+    .banner-sub{
+        background-color: green;
+        height: 400px;
+        .banner-sec-1{
+           p{
+            
+            font-size: 18px;
+            font-weight: 600;
+            &:first-child{
+                color: #fff;
+                @media screen and (max-width:768px){
+                    color: red;
+                
+                }
+            }
+            &:nth-child(2){
+                color: red;
+            }
+           }
+        }
+        .banner-sec-two{
+
+        }
+    }
+}

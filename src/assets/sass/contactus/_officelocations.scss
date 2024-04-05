@@ -1,0 +1,328 @@
+.contactus-officelocation {
+  .constactus-officelocations-sub {
+    padding-top: 55px;
+    padding-bottom: 30px;
+
+    .locations-container {
+      .constactus-officelocations-heading {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+
+        h5 {
+          color: #000;
+          font-size: 45px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+        }
+      }
+
+      .officelocartions-card-parent {
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+
+        .office-locations-cards {
+          box-shadow: rgb(149 157 165 / 19%) 0px 8px 24px;
+          width: 330px;
+          height: 350px;
+          flex-shrink: 0;
+          border-radius: 15px;
+          border: 2px solid rgba(0, 0, 0, 0.15);
+          background: #fff;
+          padding-top: 20px;
+          border: none;
+
+          h5 {
+            color: #000;
+
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+          }
+
+          hr {
+            background: #000;
+            width: 100%;
+            height: 1px;
+            flex-shrink: 0;
+            color: black;
+          }
+
+          .phone-call-parent {
+            display: flex;
+
+            img {
+              width: 20px;
+              height: 20px;
+            }
+
+            p {
+              color: #000;
+
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 24px;
+              /* 150% */
+              letter-spacing: -0.064px;
+              padding-left: 14px;
+            }
+          }
+
+          .email-parent {
+            display: flex;
+
+            img {
+              width: 20px;
+              height: 20px;
+              flex-shrink: 0;
+            }
+
+            p {
+              color: #000;
+
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 24px;
+              /* 150% */
+              letter-spacing: -0.064px;
+              padding-left: 14px;
+            }
+          }
+
+          .contact-details-par {
+            display: flex;
+
+            img {
+              width: 20px;
+              height: 20px;
+              flex-shrink: 0;
+            }
+
+            p {
+              color: #000;
+
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 24px;
+              /* 150% */
+              letter-spacing: -0.064px;
+              padding-left: 14px;
+              width: 70%;
+            }
+          }
+
+          .time-details-par {
+            display: flex;
+
+            img {
+              width: 20px;
+              height: 20px;
+              flex-shrink: 0;
+            }
+
+            p {
+              color: #000;
+
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 24px;
+              /* 150% */
+              letter-spacing: -0.064px;
+              padding-left: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .contactus-officelocation {
+    .constactus-officelocations-sub {
+      .locations-container {
+        .constactus-officelocations-heading {
+          h5 {
+            font-size: 24px;
+          }
+        }
+
+        .officelocartions-card-parent {
+          // padding-top: 15px;
+          // padding-left: 34px;
+          padding-left: 0;
+          width: 100%;
+          margin: auto;
+
+          .office-locations-cards {
+            width: 100%;
+            padding: 30px 10px 10px 36px;
+            margin: auto;
+
+            h5 {
+              font-size: 20px;
+            }
+
+            .phone-call-parent {
+              p {
+                font-size: 15px;
+              }
+            }
+
+            .email-parent {
+              display: flex;
+
+              img {
+                width: 20px;
+                height: 20px;
+                flex-shrink: 0;
+              }
+
+              p {
+                font-size: 15px;
+              }
+            }
+
+            .contact-details-par {
+              p {
+                font-size: 15px;
+              }
+            }
+
+            .time-details-par {
+              p {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contactus-officelocation {
+    .constactus-officelocations-sub {
+      .locations-container {
+        .constactus-officelocations-heading {
+          h5 {
+            font-size: 24px;
+          }
+        }
+
+        .officelocartions-card-parent {
+          padding-top: 15px;
+          padding-left: 14px;
+          width: 100%;
+          margin: auto;
+
+          .office-locations-cards {
+            width: 48%;
+            padding-top: 20px;
+
+            h5 {
+              font-size: 15px;
+            }
+
+            .phone-call-parent {
+              p {
+                font-size: 14px;
+              }
+            }
+
+            .email-parent {
+              display: flex;
+
+              img {
+                width: 20px;
+                height: 20px;
+                flex-shrink: 0;
+              }
+
+              p {
+                font-size: 14px;
+              }
+            }
+
+            .contact-details-par {
+              p {
+                font-size: 14px;
+              }
+            }
+
+            .time-details-par {
+              p {
+                font-size: 13px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .contactus-officelocation {
+    .constactus-officelocations-sub {
+      .locations-container {
+        .constactus-officelocations-heading {
+          h5 {
+            font-size: 40px;
+          }
+        }
+
+        .officelocartions-card-parent {
+          gap: 20px;
+          padding-left: 0px;
+          margin: auto;
+          display: flex;
+          justify-content: center;
+          padding-top: 30px;
+
+          .office-locations-cards {
+            width: 280px;
+            height: 375px;
+
+            h5 {
+              font-size: 22px;
+            }
+
+            .phone-call-parent {
+              p {
+                font-size: 16px;
+              }
+            }
+
+            .email-parent {
+              p {
+                font-size: 16px;
+              }
+            }
+
+            .contact-details-par {
+              p {
+                font-size: 16px;
+              }
+            }
+
+            .time-details-par {
+              p {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

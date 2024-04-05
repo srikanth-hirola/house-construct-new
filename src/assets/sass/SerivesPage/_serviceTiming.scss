@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+.service-timing-parent {
+    .service-timing-subparent {
+        padding: 30px 0 60px 0;
+
+        .container {
+            .row {
+                .col-md-7 {
+                    .row.counting {
+                        width: 90%;
+
+                        .col-md-6 {
+
+                            .countdown-service {
+                                display: flex;
+                                padding: 30px 25px; 
+                                justify-content: center;
+                                align-items: center;
+                                margin-bottom: 18px;
+                                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+                                div {
+                                    h2 {
+                                        color: #401408;
+                                        font-size: 50px;
+                                        font-weight: 600;
+                                        text-align: center;
+                                    }
+
+                                    p {
+            
+                                        font-size: 16px;
+                                        font-weight: 500;
+                                        text-align: center;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .col-md-5 {
+                    .timing-know {
+                        h6 {
+                            color: #000;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 600;
+                        }
+                        h1 {
+                            color: #2B0A01;
+                            font-size: 48px;
+                            font-weight: 600;
+                            line-height: 56px;
+                            padding: 11px 0;
+                        }
+                        p{
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 28px;
+                        }
+                        a {
+                            background: #C3921C;
+                            display: flex;
+                            width: 172px;
+                            padding: 15px 35px;
+                            justify-content: center;
+                            background: rgb(195, 146, 28); box-shadow: 0px 10px 15px 0px rgba(1, 115, 153, 0.2); border: none; 
+                            align-items: flex-start;
+                            color: white;
+                            text-decoration: none;
+                            margin: 20px 0;
+                            border-radius: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .service-timing-parent {
+        .service-timing-subparent {
+            padding: 30px 0 60px 0;
+
+            .container {
+                .row {
+                    display: flex;
+
+                    .col-md-7 {
+                        order: 2;
+
+                        .row.counting {
+                            width: 100%;
+
+                            .col-md-6 {
+                                padding: 0 4px;
+                                .countdown-service {
+                                    padding: 15px 6px;
+
+                                    div {
+                                        h2 {
+                                            font-size: 28px;
+                                        }
+
+                                        p {
+                                            font-size: 14px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .col-md-5 {
+                        order: 1;
+                        margin-bottom: 20px;
+
+                        .timing-know {
+                            h6 {
+                                line-height: 10px;
+                                font-size: 14px;
+                            }
+
+                            h1 {
+                                font-size: 22px;
+                                padding: 4px 0;
+                                line-height: 26px;
+                            }
+                            p{
+                                font-size: 13px;
+                                font-weight: 500;
+                                line-height: 23px;
+                               text-align: justify;
+                            }
+                            a {
+                                padding: 10px 14px;
+                                width: 140px;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .service-timing-parent {
+        .service-timing-subparent {
+            padding: 25px 0 50px 0;
+            .container {
+                .row {
+                    .col-md-7 {
+                        .row.counting {
+                            width: 100%;
+                            .col-md-6 {
+                                padding: 4px ;
+                                .countdown-service {
+                                    padding: 2px;
+                                    div {
+                                        h2 {
+                                            font-size: 28px;
+                                        }
+                                        p {
+                                            font-size: 14px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .col-md-5 {
+                        padding: 0;
+                        margin-bottom: 20px;
+                        .timing-know {
+                            h6{
+                                font-size: 14px;
+                            }
+                            h1 {
+                                font-size: 18px;
+                                padding:  0;
+                                line-height: 20px;
+                            }
+                            p{
+                                font-size: 12px;
+                                line-height: 22px;
+                                text-align: justify;
+                                margin: 0;
+                            }
+                            a {
+                                padding: 4px 10px;
+                                width: 110px;
+                                margin: 3px 0;
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .service-timing-parent {
+        .service-timing-subparent {
+            padding: 25px 0 50px 0;
+            .container {
+                .row {
+                    .col-md-7 {
+                        .row.counting {
+                            width: 100%;
+                            .col-md-6 {
+                                padding: 8px ;
+                                .countdown-service {
+                                    padding: 2px;
+                                    div {
+                                        h2 {
+                                            font-size: 28px;
+                                        }
+                                        p {
+                                            font-size: 14px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .col-md-5 {
+                        padding: 0;
+                        margin-bottom: 20px;
+                        .timing-know {
+                            h6{
+                                font-size: 14px;
+                            }
+                            h1 {
+                                font-size: 20px;
+                                padding:  0;
+                                line-height: 20px;
+                            }
+                            p{
+                                font-size: 13px;
+                                line-height: 22px;
+                                text-align: justify;
+                                margin: 0;
+                            }
+                            a {
+                                padding: 6px 10px;
+                                width: 110px;
+                                margin: 6px 0;
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1440px) {
+    .service-timing-parent {
+        .service-timing-subparent {
+            padding: 30px 0 60px 0;
+            .container {
+                .row {
+                    .col-md-7 {
+                        .row.counting {
+                            width: 100%;
+                            .col-md-6 {
+                                .countdown-service {
+                                    padding: 30px 4px;
+                                    div {
+                                        h2 {
+                                            font-size: 35px;
+                                        }
+                                        p {
+                                            font-size: 17px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .col-md-5 {
+                        margin-bottom: 20px;
+                        .timing-know {
+                           
+                            h1 {
+                                font-size: 32px;
+                                padding: 8px 0;
+                                line-height: 30px;
+                            }
+                            a {
+                                padding: 14px 28px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

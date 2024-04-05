@@ -1,0 +1,1163 @@
+{
+  "cities": [
+    {
+      "name": "Bengaluru",
+      "packages": [
+        {
+          "name": "Standard Package: 1699/sqft Inc.GST",
+          "features": [
+            {
+              "title": "Designs & Drawings",
+              "items": [
+                "2D Floor plans",
+                "Structural Design",
+                "3D Elevation",
+                "MEP Drawings",
+                "Visual site survey"
+              ]
+            },
+            {
+              "title": "Structure",
+              "items": [
+                "Steel –Sunvik or Kamadhenu Equivalent",
+                "Aggregates- 20mm & 40mm",
+                "Cement- ACC, Birla, Dalmia or Equivalent 43 or 53 Grade",
+                "Blocks- Solid Concrete blocks. 6inch & 4inch",
+                "RCC Design Mix- M-20/25",
+                "Ceiling Heights- 10.0 ft. (Finished Floor Level to Finished Floor Level)"
+              ]
+            },
+            {
+              "title": "Kitchen",
+              "items": [
+                "Ceramic Wall Tiles -Upto Rs. 50/- Sqft",
+                "Kitchen accessories- Upto Rs.4,000/- ISI Marked",
+                "Kitchen Sink- Granite Sink worth Rs. 5,000/-",
+                "Granite Kitchen tabletop of value Rs. 120/-"
+              ]
+            },
+            {
+              "title": "Bathroom",
+              "items": [
+                "Bathroom Ceramic Wall Tiles – Upto Rs. 50/- per Sqft",
+                "Sanitary Ware & CP Fittings- Up to Rs. 40,000/- of CERA make.",
+                "CPVC Pipe- Astral or Equivalent",
+                "Bathroom doors- Waterproof flush doors(with 10 years warranty)",
+                "Geyser provisions included"
+              ]
+            },
+            {
+              "title": "Doors & Windows",
+              "items": [
+                "Main Door- Teak wood frame and shutter of value – Rs.30,000/-",
+                "Internal Doors- Membrane Doors/ Flush Doors with laminates and fixtures.",
+                "Door frames of Sal Wood.",
+                "Windows- Basic UPVC Windows with Glass shutters and mesh Shutters (3 Track with 1 Mesh)",
+                "Pooja room door with polish."
+              ]
+            },
+            {
+              "title": "Painting",
+              "items": [
+                "Interior Painting- Primer coat+ Birla Putty + Latest Tractor Shyne Emulsion  ",
+                "External Painting- Asian Primer + Ace Exterior Emulsion Weather proof paint",
+                "Brand : Asian/Berger"              ]
+            },
+            {
+              "title": "Flooring",
+              "items": [
+                "Living and Dining Flooring- Marble finished Tiles of Value Up to Rs. 100/- per Sqft",
+                "Rooms and Kitchen Flooring- Tiles Up to Rs. 70/- per Sqft",
+                "Balcony and Open area flooring – Anti-Skid tiles of value Upto Rs. 50/- Sqft",
+                "Staircase Flooring- Granite of Value Up to Rs. 90/- per Sqft",
+                "Parking tiles- Anti-skid Tiles of value Up to Rs. 40/- per Sqft"
+              ]
+            },
+            {
+              "title": "Electricals",
+              "items": [
+                "Wires- Fireproof wires by Anchor/Polycab",
+                "Switches &Sockets- Anchor",
+                "External Electrification, AC provision ,UPS points included"
+              ]
+            },
+            {
+              "title": "Miscellaneous",
+              "items": [
+                "Overhead Tank – Sintex Double Layered 1500 Ltrs.",
+                "Underground Sump- 6000 Ltrs",
+                "Staircase Railing- MS Railing"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Classic Package: 1849/sqft Inc.GST",
+          "features": [
+            {
+              "title": "Designs & Drawings",
+              "items": [
+                "2D Floor plans",
+                "Structural Design",
+                "3D Elevation",
+                "MEP Drawings",
+                "Digital site survey"
+              ]
+            },
+            {
+              "title": "Structure",
+              "items": [
+                "Steel – Sunvik or Kamadhenu Equivalent",
+                "Aggregates - 20mm & 40mm",
+                "Cement - ACC, Birla, Dalmia or Equivalent 43 or 53 Grade",
+                "Blocks - Standard Solid Concrete blocks. 6inch & 4inch",
+                "RCC Design Mix - M-20/25",
+                "Ceiling Heights - 10.5 ft. (Finished Floor Level to Finished Floor Level)"
+              ]
+              
+            },
+            {
+              "title": "Kitchen",
+              "items": [
+                "Ceramic Wall Tiles - Upto Rs. 70/- Sqft",
+                "Kitchen accessories - Upto Rs. 5000/- ISI Marked",
+                "Kitchen Sink - Granite Sink worth Rs. 6,000/-",
+                "Granite Kitchen tabletop of value Rs. 160/-"
+              ]
+              
+            },
+            {
+              "title": "Bathroom",
+              "items": [
+                "Bathroom Ceramic Wall Tiles – Upto Rs. 70/- per Sqft",
+                "Sanitary Ware & CP Fittings - Up to Rs. 50,000/- of Jaquar make",
+                "CPVC Pipe - Astral or Equivalent",
+                "Bathroom doors - Waterproof flush doors (with 10 years warranty)",
+                "Geyser, solar provisions included"
+              ]
+              
+            },
+            {
+              "title": "Doors & Windows",
+              "items": [
+                "Main Door - Teak wood frame and shutter of value – Rs. 40,000/-",
+                "Internal Doors - Membrane Doors/ Flush Doors with Laminates including fixtures",
+                "Door frames of Sal Wood",
+                "Windows - UPVC/Sal Windows with Glass shutters and mesh Shutters (3 Track with 1 Mesh)",
+                "Pooja room door with polish worth Rs. 20,000/-"
+              ]
+              
+            },
+            {
+              "title": "Painting",
+              "items": [
+                "Interior Painting - Primer coat + Birla Putty + Latest Tractor Premium Emulsion",
+                "Painting - Asian Primer + Ace Exterior Emulsion Weather proof paint",
+                "Brand: Asian/Berger"
+              ]
+              
+            },
+            {
+              "title": "Flooring",
+              "items": [
+                "Living and Dining Flooring - Marble finished Tiles of Value Up to Rs. 120/- per Sqft",
+                "Rooms and Kitchen Flooring - Tiles Up to Rs. 100/- per Sqft",
+                "Balcony and Open area flooring - Anti-Skid tiles of value Up to Rs. 60/Sqft",
+                "Staircase Flooring - Granite of Value Up to Rs. 100/- per Sqft",
+                "Parking tiles - Anti-skid Tiles of value Up to Rs. 60/- per Sqft"
+              ]
+              
+            },
+            {
+              "title": "Electricals",
+              "items": [
+                "Wires - Fireproof wires by Finolex",
+                "Switches & Sockets - GM Modular",
+                "External Electrification provision, UPS points included"
+              ]
+              
+            },
+            {
+              "title": "Miscellaneous",
+              "items": [
+                "Overhead Tank - Sintex Double Layered 2000 Ltrs",
+                "Underground Sump - 8,000 Liters",
+                "Staircase Railing - S S Railing"
+              ]
+              
+            }
+          ]
+        },
+        {
+          "name": "Premium Package: 2149/sqft Inc.GST",
+          "features": [
+            {
+              "title": "Designs & Drawings",
+              "items": [
+                "2D Floor plans",
+                "Structural Design",
+                "3D Elevation",
+                "MEP Drawings",
+                "Digital site survey"
+              ]
+              
+            },
+            {
+              "title": "Structure",
+              "items": [
+                "Steel - JSW, Indus or Equivalent",
+                "Aggregates - 20mm & 40mm",
+                "Cement - UltraTech, Birla, or Equivalent 43 or 53 Grade",
+                "Blocks - Standard Solid Concrete blocks. 6inch & 4inch",
+                "RCC Design Mix - M-20/25",
+                "Ceiling Heights - 10.5 ft. (Finished Floor Level to Finished Floor Level)"
+              ]
+              
+            },
+            {
+              "title": "Kitchen",
+              "items": [
+                "Ceramic Wall Tiles - Upto Rs. 90/- Sqft",
+                "Kitchen accessories - Upto Rs. 6,000/- ISI Marked",
+                "Kitchen Sink - Granite Sink worth Rs. 8,000/-",
+                "Granite Kitchen tabletop of value Rs. 200/-"
+              ]
+              
+            },
+            {
+              "title": "Bathroom",
+              "items": [
+                "Bathroom Ceramic Wall Tiles – Upto Rs. 75/- per Sqft",
+                "Sanitary Ware & CP Fittings - Up to Rs. 80,000/- of Grohe make",
+                "CPVC Pipe - Ashirwad/Supreme or Equivalent",
+                "Bathroom doors - Waterproof flush doors (with 10 years warranty)",
+                "Geyser, Solar provisions included"
+              ]
+              
+            },
+            {
+              "title": "Doors & Windows",
+              "items": [
+                "Main Door - Teak wood frame and shutter of value – Rs. 60,000/-",
+                "Internal Doors - Membrane Doors/ Flush Doors with Venner including fixtures",
+                "Door frames of Honne Wood",
+                "Windows - Premium UPVC/Honne Windows with Glass shutters and mesh Shutters (3 Track with 1 Mesh)",
+                "Pooja room door with polish worth Rs. 30,000"
+              ]
+              
+            },
+            {
+              "title": "Painting",
+              "items": [
+                "Interior Painting - Primer coat + Birla Putty + Latest Apcolite Emulsion",
+                "External Painting - Asian Primer + Apex Exterior Emulsion Weather proof paint",
+                "Brand: Asian/Berger"
+              ]
+              
+            },
+            {
+              "title": "Flooring",
+              "items": [
+                "Living and Dining Flooring - Marble finished Tiles of Value Up to Rs. 200/- per Sqft",
+                "Rooms and Kitchen Flooring - Tiles Up to Rs. 140/- per Sqft",
+                "Balcony and Open area flooring - Anti-Skid tiles of value Up to Rs. 90/Sqft",
+                "Staircase Flooring - Granite of Value Up to Rs. 140/- per Sqft",
+                "Parking tiles - Anti-skid Tiles of value Up to Rs. 95/- per Sqft"
+              ]
+              
+            },
+            {
+              "title": "Electricals",
+              "items": [
+                "Wires - Fireproof wires by Finolex/Havells",
+                "Switches & Sockets - Legrand/GM Modular",
+                "External Electrification, AC provision, UPS points included"
+              ]
+              
+            },
+            {
+              "title": "Miscellaneous",
+              "items":[
+                "Overhead Tank - Sintex Double Layered 2500 Ltrs",
+                "Underground Sump - 10,000 Ltrs",
+                "Staircase Railing - SS Railing with Glass"
+              ]
+              
+            }
+          ]
+        },
+        {
+          "name": "Elite Package: 2399/sqft Inc.GST",
+          "features": [
+            {
+              "title": "Designs & Drawings",
+              "items": [
+                "2D Floor plans",
+                "Structural Design",
+                "3D Elevation",
+                "MEP Drawings",
+                "Digital site survey"
+              ]
+              
+              
+            },
+            {
+              "title": "Structure",
+              "items": [
+                "Steel - JSW, Indus or Equivalent",
+                "Aggregates - 20mm & 40mm",
+                "Cement - UltraTech, Birla, or Equivalent 43 or 53 Grade",
+                "Blocks - Standard Solid Concrete blocks. 6inch & 4inch",
+                "RCC Design Mix - M-25",
+                "Ceiling Heights - 10.5 ft. (Finished Floor Level to Finished Floor Level)"
+              ]
+              
+            },
+            {
+              "title": "Kitchen",
+              "items": [
+                "Ceramic Wall Tiles - Upto Rs. 100/- Sqft",
+                "Kitchen accessories - Upto Rs. 7,000/- ISI Marked",
+                "Kitchen Sink - Granite Sink worth Rs. 10,000/-",
+                "Granite Kitchen tabletop of value Rs. 250/-"
+              ]
+              
+            },
+            {
+              "title": "Bathroom",
+              "items": [
+                "Bathroom Ceramic Wall Tiles – Upto Rs. 100/- per Sqft",
+                "Sanitary Ware & CP Fittings - Up to Rs. 1,00,000/- of Kohler make",
+                "CPVC Pipe - Ashirwad/Supreme or Equivalent",
+                "Bathroom doors - Waterproof flush doors (with 10 years warranty)",
+                "Geyser, Solar provisions included"
+              ]
+              
+            },
+            {
+              "title": "Doors & Windows",
+              "items": [
+                "Main Door - Teak wood frame and shutter of value – Rs. 75,000/-",
+                "Internal Doors - Membrane Doors/ Flush Doors with Veneer including fixtures",
+                "Door frames of Honne Wood",
+                "Windows - Premium UPVC/Honne Windows with Glass shutters and mesh Shutters (3 Track with 1 Mesh)",
+                "Pooja room door with polish worth Rs. 40,000"
+              ]
+              
+            },
+            {
+              "title": "Painting",
+              "items": [
+                "Interior Painting - Primer coat + Birla Putty + Royal Emulsion",
+                "Exterior Painting - Asian Primer + Apex Exterior Emulsion Weatherproof Paint",
+                "Brand: Asian/Berger"
+              ]
+              
+            },
+            {
+              "title": "Flooring",
+              "items": [
+                "Living and Dining Flooring - Marble finished Tiles of Value Up to Rs. 250/- per Sqft",
+                "Rooms and Kitchen Flooring - Tiles Up to Rs. 180/- per Sqft",
+                "Balcony and Open area flooring - Anti-Skid tiles of value Up to Rs. 100/Sqft",
+                "Staircase Flooring - Granite of Value Up to Rs. 150/- per Sqft",
+                "Parking tiles - Anti-skid Tiles of value Up to Rs. 90/- per Sqft"
+              ]
+            },
+            {
+              "title": "Electricals",
+              "items": [
+                "Wires - Fireproof wires by Finolex/Havells",
+                "Switches & Sockets - Legrand/Schneider",
+                "External Electrification, AC provision, UPS points included"
+              ]
+
+            },
+            {
+              "title": "Miscellaneous",
+              "items": [
+                "Overhead Tank - Sintex Double Layered 2500 Ltrs",
+                "Underground Sump - 10,000 Ltrs",
+                "Staircase Railing - SS Railing with Glass"
+              ]
+              
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chennai",
+      "packages": [
+        {
+          "name": "Standard Package: 1499/sqft Inc.GST",
+          "features": [
+            {
+              "title": "Designs & Drawings",
+              "items": [
+                "2D Floor plans",
+                "Structural Design",
+                "3D Elevation",
+                "MEP Drawings",
+                "Visual site survey"
+              ]
+            },
+            {
+              "title": "Structure",
+              "items": [
+                "Steel –Sunvik or Kamadhenu Equivalent",
+                "Aggregates- 20mm & 40mm",
+                "Cement- ACC, Birla, Dalmia or Equivalent 43 or 53 Grade",
+                "Blocks- Solid Concrete blocks. 6inch & 4inch",
+                "RCC Design Mix- M-20/25",
+                "Ceiling Heights- 10.0 ft. (Finished Floor Level to Finished Floor Level)"
+              ]
+            },
+            {
+              "title": "Kitchen",
+              "items": [
+                "Ceramic Wall Tiles -Upto Rs. 50/- Sqft",
+                "Kitchen accessories- Upto Rs.4,000/- ISI Marked",
+                "Kitchen Sink- Granite Sink worth Rs. 5,000/-",
+                "Granite Kitchen tabletop of value Rs. 120/-"
+              ]
+            },
+            {
+              "title": "Bathroom",
+              "items": [
+                "Bathroom Ceramic Wall Tiles – Upto Rs. 50/- per Sqft",
+                "Sanitary Ware & CP Fittings- Up to Rs. 40,000/- of CERA make.",
+                "CPVC Pipe- Astral or Equivalent",
+                "Bathroom doors- Waterproof flush doors(with 10 years warranty)",
+                "Geyser provisions included"
+              ]
+            },
+            {
+              "title": "Doors & Windows",
+              "items": [
+                "Main Door- Teak wood frame and shutter of value – Rs.30,000/-",
+                "Internal Doors- Membrane Doors/ Flush Doors with laminates and fixtures.",
+                "Door frames of Sal Wood.",
+                "Windows- Basic UPVC Windows with Glass shutters and mesh Shutters (3 Track with 1 Mesh)",
+                "Pooja room door with polish."
+              ]
+            },
+            {
+              "title": "Painting",
+              "items": [
+                "Interior Painting- Primer coat+ Birla Putty + Latest Tractor Shyne Emulsion  ",
+                "External Painting- Asian Primer + Ace Exterior Emulsion Weather proof paint",
+                "Brand : Asian/Berger"              ]
+            },
+            {
+              "title": "Flooring",
+              "items": [
+                "Living and Dining Flooring- Marble finished Tiles of Value Up to Rs. 100/- per Sqft",
+                "Rooms and Kitchen Flooring- Tiles Up to Rs. 70/- per Sqft",
+                "Balcony and Open area flooring – Anti-Skid tiles of value Upto Rs. 50/- Sqft",
+                "Staircase Flooring- Granite of Value Up to Rs. 90/- per Sqft",
+                "Parking tiles- Anti-skid Tiles of value Up to Rs. 40/- per Sqft"
+              ]
+            },
+            {
+              "title": "Electricals",
+              "items": [
+                "Wires- Fireproof wires by Anchor/Polycab",
+                "Switches &Sockets- Anchor",
+                "External Electrification, AC provision ,UPS points included"
+              ]
+            },
+            {
+              "title": "Miscellaneous",
+              "items": [
+                "Overhead Tank – Sintex Double Layered 1500 Ltrs.",
+                "Underground Sump- 6000 Ltrs",
+                "Staircase Railing- MS Railing"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Classic Package: 1699/sqft Inc.GST",
+          "features": [
+            {
+              "title": "Designs & Drawings",
+              "items": [
+                "2D Floor plans",
+                "Structural Design",
+                "3D Elevation",
+                "MEP Drawings",
+                "Digital site survey"
+              ]
+            },
+            {
+              "title": "Structure",
+              "items": [
+                "Steel – Sunvik or Kamadhenu Equivalent",
+                "Aggregates - 20mm & 40mm",
+                "Cement - ACC, Birla, Dalmia or Equivalent 43 or 53 Grade",
+                "Blocks - Standard Solid Concrete blocks. 6inch & 4inch",
+                "RCC Design Mix - M-20/25",
+                "Ceiling Heights - 10.5 ft. (Finished Floor Level to Finished Floor Level)"
+              ]
+              
+            },
+            {
+              "title": "Kitchen",
+              "items": [
+                "Ceramic Wall Tiles - Upto Rs. 70/- Sqft",
+                "Kitchen accessories - Upto Rs. 5000/- ISI Marked",
+                "Kitchen Sink - Granite Sink worth Rs. 6,000/-",
+                "Granite Kitchen tabletop of value Rs. 160/-"
+              ]
+              
+            },
+            {
+              "title": "Bathroom",
+              "items": [
+                "Bathroom Ceramic Wall Tiles – Upto Rs. 70/- per Sqft",
+                "Sanitary Ware & CP Fittings - Up to Rs. 50,000/- of Jaquar make",
+                "CPVC Pipe - Astral or Equivalent",
+                "Bathroom doors - Waterproof flush doors (with 10 years warranty)",
+                "Geyser, solar provisions included"
+              ]
+              
+            },
+            {
+              "title": "Doors & Windows",
+              "items": [
+                "Main Door - Teak wood frame and shutter of value – Rs. 40,000/-",
+                "Internal Doors - Membrane Doors/ Flush Doors with Laminates including fixtures",
+                "Door frames of Sal Wood",
+                "Windows - UPVC/Sal Windows with Glass shutters and mesh Shutters (3 Track with 1 Mesh)",
+                "Pooja room door with polish worth Rs. 20,000/-"
+              ]
+              
+            },
+            {
+              "title": "Painting",
+              "items": [
+                "Interior Painting - Primer coat + Birla Putty + Latest Tractor Premium Emulsion",
+                "Painting - Asian Primer + Ace Exterior Emulsion Weather proof paint",
+                "Brand: Asian/Berger"
+              ]
+              
+            },
+            {
+              "title": "Flooring",
+              "items": [
+                "Living and Dining Flooring - Marble finished Tiles of Value Up to Rs. 120/- per Sqft",
+                "Rooms and Kitchen Flooring - Tiles Up to Rs. 100/- per Sqft",
+                "Balcony and Open area flooring - Anti-Skid tiles of value Up to Rs. 60/Sqft",
+                "Staircase Flooring - Granite of Value Up to Rs. 100/- per Sqft",
+                "Parking tiles - Anti-skid Tiles of value Up to Rs. 60/- per Sqft"
+              ]
+              
+            },
+            {
+              "title": "Electricals",
+              "items": [
+                "Wires - Fireproof wires by Finolex",
+                "Switches & Sockets - GM Modular",
+                "External Electrification provision, UPS points included"
+              ]
+              
+            },
+            {
+              "title": "Miscellaneous",
+              "items": [
+                "Overhead Tank - Sintex Double Layered 2000 Ltrs",
+                "Underground Sump - 8,000 Liters",
+                "Staircase Railing - S S Railing"
+              ]
+              
+            }
+          ]
+        },
+        {
+          "name": "Premium Package: 2549/sqft Inc.GST",
+          "features": [
+            {
+              "title": "Designs & Drawings",
+              "items": [
+                "2D Floor plans",
+                "Structural Design",
+                "3D Elevation",
+                "MEP Drawings",
+                "Digital site survey"
+              ]
+              
+            },
+            {
+              "title": "Structure",
+              "items": [
+                "Steel - JSW, Indus or Equivalent",
+                "Aggregates - 20mm & 40mm",
+                "Cement - UltraTech, Birla, or Equivalent 43 or 53 Grade",
+                "Blocks - Standard Solid Concrete blocks. 6inch & 4inch",
+                "RCC Design Mix - M-20/25",
+                "Ceiling Heights - 10.5 ft. (Finished Floor Level to Finished Floor Level)"
+              ]
+              
+            },
+            {
+              "title": "Kitchen",
+              "items": [
+                "Ceramic Wall Tiles - Upto Rs. 90/- Sqft",
+                "Kitchen accessories - Upto Rs. 6,000/- ISI Marked",
+                "Kitchen Sink - Granite Sink worth Rs. 8,000/-",
+                "Granite Kitchen tabletop of value Rs. 200/-"
+              ]
+              
+            },
+            {
+              "title": "Bathroom",
+              "items": [
+                "Bathroom Ceramic Wall Tiles – Upto Rs. 75/- per Sqft",
+                "Sanitary Ware & CP Fittings - Up to Rs. 80,000/- of Grohe make",
+                "CPVC Pipe - Ashirwad/Supreme or Equivalent",
+                "Bathroom doors - Waterproof flush doors (with 10 years warranty)",
+                "Geyser, Solar provisions included"
+              ]
+              
+            },
+            {
+              "title": "Doors & Windows",
+              "items": [
+                "Main Door - Teak wood frame and shutter of value – Rs. 60,000/-",
+                "Internal Doors - Membrane Doors/ Flush Doors with Venner including fixtures",
+                "Door frames of Honne Wood",
+                "Windows - Premium UPVC/Honne Windows with Glass shutters and mesh Shutters (3 Track with 1 Mesh)",
+                "Pooja room door with polish worth Rs. 30,000"
+              ]
+              
+            },
+            {
+              "title": "Painting",
+              "items": [
+                "Interior Painting - Primer coat + Birla Putty + Latest Apcolite Emulsion",
+                "External Painting - Asian Primer + Apex Exterior Emulsion Weather proof paint",
+                "Brand: Asian/Berger"
+              ]
+              
+            },
+            {
+              "title": "Flooring",
+              "items": [
+                "Living and Dining Flooring - Marble finished Tiles of Value Up to Rs. 200/- per Sqft",
+                "Rooms and Kitchen Flooring - Tiles Up to Rs. 140/- per Sqft",
+                "Balcony and Open area flooring - Anti-Skid tiles of value Up to Rs. 90/Sqft",
+                "Staircase Flooring - Granite of Value Up to Rs. 140/- per Sqft",
+                "Parking tiles - Anti-skid Tiles of value Up to Rs. 95/- per Sqft"
+              ]
+              
+            },
+            {
+              "title": "Electricals",
+              "items": [
+                "Wires - Fireproof wires by Finolex/Havells",
+                "Switches & Sockets - Legrand/GM Modular",
+                "External Electrification, AC provision, UPS points included"
+              ]
+              
+            },
+            {
+              "title": "Miscellaneous",
+              "items":[
+                "Overhead Tank - Sintex Double Layered 2500 Ltrs",
+                "Underground Sump - 10,000 Ltrs",
+                "Staircase Railing - SS Railing with Glass"
+              ]
+              
+            }
+          ]
+        },
+        {
+          "name": "Elite Package: 2899/sqft Inc.GST",
+          "features": [
+            {
+              "title": "Designs & Drawings",
+              "items": [
+                "2D Floor plans",
+                "Structural Design",
+                "3D Elevation",
+                "MEP Drawings",
+                "Digital site survey"
+              ]
+              
+              
+            },
+            {
+              "title": "Structure",
+              "items": [
+                "Steel - JSW, Indus or Equivalent",
+                "Aggregates - 20mm & 40mm",
+                "Cement - UltraTech, Birla, or Equivalent 43 or 53 Grade",
+                "Blocks - Standard Solid Concrete blocks. 6inch & 4inch",
+                "RCC Design Mix - M-25",
+                "Ceiling Heights - 10.5 ft. (Finished Floor Level to Finished Floor Level)"
+              ]
+              
+            },
+            {
+              "title": "Kitchen",
+              "items": [
+                "Ceramic Wall Tiles - Upto Rs. 100/- Sqft",
+                "Kitchen accessories - Upto Rs. 7,000/- ISI Marked",
+                "Kitchen Sink - Granite Sink worth Rs. 10,000/-",
+                "Granite Kitchen tabletop of value Rs. 250/-"
+              ]
+              
+            },
+            {
+              "title": "Bathroom",
+              "items": [
+                "Bathroom Ceramic Wall Tiles – Upto Rs. 100/- per Sqft",
+                "Sanitary Ware & CP Fittings - Up to Rs. 1,00,000/- of Kohler make",
+                "CPVC Pipe - Ashirwad/Supreme or Equivalent",
+                "Bathroom doors - Waterproof flush doors (with 10 years warranty)",
+                "Geyser, Solar provisions included"
+              ]
+              
+            },
+            {
+              "title": "Doors & Windows",
+              "items": [
+                "Main Door - Teak wood frame and shutter of value – Rs. 75,000/-",
+                "Internal Doors - Membrane Doors/ Flush Doors with Veneer including fixtures",
+                "Door frames of Honne Wood",
+                "Windows - Premium UPVC/Honne Windows with Glass shutters and mesh Shutters (3 Track with 1 Mesh)",
+                "Pooja room door with polish worth Rs. 40,000"
+              ]
+              
+            },
+            {
+              "title": "Painting",
+              "items": [
+                "Interior Painting - Primer coat + Birla Putty + Royal Emulsion",
+                "Exterior Painting - Asian Primer + Apex Exterior Emulsion Weatherproof Paint",
+                "Brand: Asian/Berger"
+              ]
+              
+            },
+            {
+              "title": "Flooring",
+              "items": [
+                "Living and Dining Flooring - Marble finished Tiles of Value Up to Rs. 250/- per Sqft",
+                "Rooms and Kitchen Flooring - Tiles Up to Rs. 180/- per Sqft",
+                "Balcony and Open area flooring - Anti-Skid tiles of value Up to Rs. 100/Sqft",
+                "Staircase Flooring - Granite of Value Up to Rs. 150/- per Sqft",
+                "Parking tiles - Anti-skid Tiles of value Up to Rs. 90/- per Sqft"
+              ]
+            },
+            {
+              "title": "Electricals",
+              "items": [
+                "Wires - Fireproof wires by Finolex/Havells",
+                "Switches & Sockets - Legrand/Schneider",
+                "External Electrification, AC provision, UPS points included"
+              ]
+
+            },
+            {
+              "title": "Miscellaneous",
+              "items": [
+                "Overhead Tank - Sintex Double Layered 2500 Ltrs",
+                "Underground Sump - 10,000 Ltrs",
+                "Staircase Railing - SS Railing with Glass"
+              ]
+              
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mysore",
+      "packages": [
+        {
+          "name": "Standard Package: 1399/sqft Inc.GST",
+          "features": [
+            {
+              "title": "Designs & Drawings",
+              "items": [
+                "2D Floor plans",
+                "Structural Design",
+                "3D Elevation",
+                "MEP Drawings",
+                "Visual site survey"
+              ]
+            },
+            {
+              "title": "Structure",
+              "items": [
+                "Steel –Sunvik or Kamadhenu Equivalent",
+                "Aggregates- 20mm & 40mm",
+                "Cement- ACC, Birla, Dalmia or Equivalent 43 or 53 Grade",
+                "Blocks- Solid Concrete blocks. 6inch & 4inch",
+                "RCC Design Mix- M-20/25",
+                "Ceiling Heights- 10.0 ft. (Finished Floor Level to Finished Floor Level)"
+              ]
+            },
+            {
+              "title": "Kitchen",
+              "items": [
+                "Ceramic Wall Tiles -Upto Rs. 50/- Sqft",
+                "Kitchen accessories- Upto Rs.4,000/- ISI Marked",
+                "Kitchen Sink- Granite Sink worth Rs. 5,000/-",
+                "Granite Kitchen tabletop of value Rs. 120/-"
+              ]
+            },
+            {
+              "title": "Bathroom",
+              "items": [
+                "Bathroom Ceramic Wall Tiles – Upto Rs. 50/- per Sqft",
+                "Sanitary Ware & CP Fittings- Up to Rs. 40,000/- of CERA make.",
+                "CPVC Pipe- Astral or Equivalent",
+                "Bathroom doors- Waterproof flush doors(with 10 years warranty)",
+                "Geyser provisions included"
+              ]
+            },
+            {
+              "title": "Doors & Windows",
+              "items": [
+                "Main Door- Teak wood frame and shutter of value – Rs.30,000/-",
+                "Internal Doors- Membrane Doors/ Flush Doors with laminates and fixtures.",
+                "Door frames of Sal Wood.",
+                "Windows- Basic UPVC Windows with Glass shutters and mesh Shutters (3 Track with 1 Mesh)",
+                "Pooja room door with polish."
+              ]
+            },
+            {
+              "title": "Painting",
+              "items": [
+                "Interior Painting- Primer coat+ Birla Putty + Latest Tractor Shyne Emulsion  ",
+                "External Painting- Asian Primer + Ace Exterior Emulsion Weather proof paint",
+                "Brand : Asian/Berger"              ]
+            },
+            {
+              "title": "Flooring",
+              "items": [
+                "Living and Dining Flooring- Marble finished Tiles of Value Up to Rs. 100/- per Sqft",
+                "Rooms and Kitchen Flooring- Tiles Up to Rs. 70/- per Sqft",
+                "Balcony and Open area flooring – Anti-Skid tiles of value Upto Rs. 50/- Sqft",
+                "Staircase Flooring- Granite of Value Up to Rs. 90/- per Sqft",
+                "Parking tiles- Anti-skid Tiles of value Up to Rs. 40/- per Sqft"
+              ]
+            },
+            {
+              "title": "Electricals",
+              "items": [
+                "Wires- Fireproof wires by Anchor/Polycab",
+                "Switches &Sockets- Anchor",
+                "External Electrification, AC provision ,UPS points included"
+              ]
+            },
+            {
+              "title": "Miscellaneous",
+              "items": [
+                "Overhead Tank – Sintex Double Layered 1500 Ltrs.",
+                "Underground Sump- 6000 Ltrs",
+                "Staircase Railing- MS Railing"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Classic Package: 1949/sqft Inc.GST",
+          "features": [
+            {
+              "title": "Designs & Drawings",
+              "items": [
+                "2D Floor plans",
+                "Structural Design",
+                "3D Elevation",
+                "MEP Drawings",
+                "Digital site survey"
+              ]
+            },
+            {
+              "title": "Structure",
+              "items": [
+                "Steel – Sunvik or Kamadhenu Equivalent",
+                "Aggregates - 20mm & 40mm",
+                "Cement - ACC, Birla, Dalmia or Equivalent 43 or 53 Grade",
+                "Blocks - Standard Solid Concrete blocks. 6inch & 4inch",
+                "RCC Design Mix - M-20/25",
+                "Ceiling Heights - 10.5 ft. (Finished Floor Level to Finished Floor Level)"
+              ]
+              
+            },
+            {
+              "title": "Kitchen",
+              "items": [
+                "Ceramic Wall Tiles - Upto Rs. 70/- Sqft",
+                "Kitchen accessories - Upto Rs. 5000/- ISI Marked",
+                "Kitchen Sink - Granite Sink worth Rs. 6,000/-",
+                "Granite Kitchen tabletop of value Rs. 160/-"
+              ]
+              
+            },
+            {
+              "title": "Bathroom",
+              "items": [
+                "Bathroom Ceramic Wall Tiles – Upto Rs. 70/- per Sqft",
+                "Sanitary Ware & CP Fittings - Up to Rs. 50,000/- of Jaquar make",
+                "CPVC Pipe - Astral or Equivalent",
+                "Bathroom doors - Waterproof flush doors (with 10 years warranty)",
+                "Geyser, solar provisions included"
+              ]
+              
+            },
+            {
+              "title": "Doors & Windows",
+              "items": [
+                "Main Door - Teak wood frame and shutter of value – Rs. 40,000/-",
+                "Internal Doors - Membrane Doors/ Flush Doors with Laminates including fixtures",
+                "Door frames of Sal Wood",
+                "Windows - UPVC/Sal Windows with Glass shutters and mesh Shutters (3 Track with 1 Mesh)",
+                "Pooja room door with polish worth Rs. 20,000/-"
+              ]
+              
+            },
+            {
+              "title": "Painting",
+              "items": [
+                "Interior Painting - Primer coat + Birla Putty + Latest Tractor Premium Emulsion",
+                "Painting - Asian Primer + Ace Exterior Emulsion Weather proof paint",
+                "Brand: Asian/Berger"
+              ]
+              
+            },
+            {
+              "title": "Flooring",
+              "items": [
+                "Living and Dining Flooring - Marble finished Tiles of Value Up to Rs. 120/- per Sqft",
+                "Rooms and Kitchen Flooring - Tiles Up to Rs. 100/- per Sqft",
+                "Balcony and Open area flooring - Anti-Skid tiles of value Up to Rs. 60/Sqft",
+                "Staircase Flooring - Granite of Value Up to Rs. 100/- per Sqft",
+                "Parking tiles - Anti-skid Tiles of value Up to Rs. 60/- per Sqft"
+              ]
+              
+            },
+            {
+              "title": "Electricals",
+              "items": [
+                "Wires - Fireproof wires by Finolex",
+                "Switches & Sockets - GM Modular",
+                "External Electrification provision, UPS points included"
+              ]
+              
+            },
+            {
+              "title": "Miscellaneous",
+              "items": [
+                "Overhead Tank - Sintex Double Layered 2000 Ltrs",
+                "Underground Sump - 8,000 Liters",
+                "Staircase Railing - S S Railing"
+              ]
+              
+            }
+          ]
+        },
+        {
+          "name": "Premium Package: 2049/sqft Inc.GST",
+          "features": [
+            {
+              "title": "Designs & Drawings",
+              "items": [
+                "2D Floor plans",
+                "Structural Design",
+                "3D Elevation",
+                "MEP Drawings",
+                "Digital site survey"
+              ]
+              
+            },
+            {
+              "title": "Structure",
+              "items": [
+                "Steel - JSW, Indus or Equivalent",
+                "Aggregates - 20mm & 40mm",
+                "Cement - UltraTech, Birla, or Equivalent 43 or 53 Grade",
+                "Blocks - Standard Solid Concrete blocks. 6inch & 4inch",
+                "RCC Design Mix - M-20/25",
+                "Ceiling Heights - 10.5 ft. (Finished Floor Level to Finished Floor Level)"
+              ]
+              
+            },
+            {
+              "title": "Kitchen",
+              "items": [
+                "Ceramic Wall Tiles - Upto Rs. 90/- Sqft",
+                "Kitchen accessories - Upto Rs. 6,000/- ISI Marked",
+                "Kitchen Sink - Granite Sink worth Rs. 8,000/-",
+                "Granite Kitchen tabletop of value Rs. 200/-"
+              ]
+              
+            },
+            {
+              "title": "Bathroom",
+              "items": [
+                "Bathroom Ceramic Wall Tiles – Upto Rs. 75/- per Sqft",
+                "Sanitary Ware & CP Fittings - Up to Rs. 80,000/- of Grohe make",
+                "CPVC Pipe - Ashirwad/Supreme or Equivalent",
+                "Bathroom doors - Waterproof flush doors (with 10 years warranty)",
+                "Geyser, Solar provisions included"
+              ]
+              
+            },
+            {
+              "title": "Doors & Windows",
+              "items": [
+                "Main Door - Teak wood frame and shutter of value – Rs. 60,000/-",
+                "Internal Doors - Membrane Doors/ Flush Doors with Venner including fixtures",
+                "Door frames of Honne Wood",
+                "Windows - Premium UPVC/Honne Windows with Glass shutters and mesh Shutters (3 Track with 1 Mesh)",
+                "Pooja room door with polish worth Rs. 30,000"
+              ]
+              
+            },
+            {
+              "title": "Painting",
+              "items": [
+                "Interior Painting - Primer coat + Birla Putty + Latest Apcolite Emulsion",
+                "External Painting - Asian Primer + Apex Exterior Emulsion Weather proof paint",
+                "Brand: Asian/Berger"
+              ]
+              
+            },
+            {
+              "title": "Flooring",
+              "items": [
+                "Living and Dining Flooring - Marble finished Tiles of Value Up to Rs. 200/- per Sqft",
+                "Rooms and Kitchen Flooring - Tiles Up to Rs. 140/- per Sqft",
+                "Balcony and Open area flooring - Anti-Skid tiles of value Up to Rs. 90/Sqft",
+                "Staircase Flooring - Granite of Value Up to Rs. 140/- per Sqft",
+                "Parking tiles - Anti-skid Tiles of value Up to Rs. 95/- per Sqft"
+              ]
+              
+            },
+            {
+              "title": "Electricals",
+              "items": [
+                "Wires - Fireproof wires by Finolex/Havells",
+                "Switches & Sockets - Legrand/GM Modular",
+                "External Electrification, AC provision, UPS points included"
+              ]
+              
+            },
+            {
+              "title": "Miscellaneous",
+              "items":[
+                "Overhead Tank - Sintex Double Layered 2500 Ltrs",
+                "Underground Sump - 10,000 Ltrs",
+                "Staircase Railing - SS Railing with Glass"
+              ]
+              
+            }
+          ]
+        },
+        {
+          "name": "Elite Package: 2699/sqft Inc.GST",
+          "features": [
+            {
+              "title": "Designs & Drawings",
+              "items": [
+                "2D Floor plans",
+                "Structural Design",
+                "3D Elevation",
+                "MEP Drawings",
+                "Digital site survey"
+              ]
+              
+              
+            },
+            {
+              "title": "Structure",
+              "items": [
+                "Steel - JSW, Indus or Equivalent",
+                "Aggregates - 20mm & 40mm",
+                "Cement - UltraTech, Birla, or Equivalent 43 or 53 Grade",
+                "Blocks - Standard Solid Concrete blocks. 6inch & 4inch",
+                "RCC Design Mix - M-25",
+                "Ceiling Heights - 10.5 ft. (Finished Floor Level to Finished Floor Level)"
+              ]
+              
+            },
+            {
+              "title": "Kitchen",
+              "items": [
+                "Ceramic Wall Tiles - Upto Rs. 100/- Sqft",
+                "Kitchen accessories - Upto Rs. 7,000/- ISI Marked",
+                "Kitchen Sink - Granite Sink worth Rs. 10,000/-",
+                "Granite Kitchen tabletop of value Rs. 250/-"
+              ]
+              
+            },
+            {
+              "title": "Bathroom",
+              "items": [
+                "Bathroom Ceramic Wall Tiles – Upto Rs. 100/- per Sqft",
+                "Sanitary Ware & CP Fittings - Up to Rs. 1,00,000/- of Kohler make",
+                "CPVC Pipe - Ashirwad/Supreme or Equivalent",
+                "Bathroom doors - Waterproof flush doors (with 10 years warranty)",
+                "Geyser, Solar provisions included"
+              ]
+              
+            },
+            {
+              "title": "Doors & Windows",
+              "items": [
+                "Main Door - Teak wood frame and shutter of value – Rs. 75,000/-",
+                "Internal Doors - Membrane Doors/ Flush Doors with Veneer including fixtures",
+                "Door frames of Honne Wood",
+                "Windows - Premium UPVC/Honne Windows with Glass shutters and mesh Shutters (3 Track with 1 Mesh)",
+                "Pooja room door with polish worth Rs. 40,000"
+              ]
+              
+            },
+            {
+              "title": "Painting",
+              "items": [
+                "Interior Painting - Primer coat + Birla Putty + Royal Emulsion",
+                "Exterior Painting - Asian Primer + Apex Exterior Emulsion Weatherproof Paint",
+                "Brand: Asian/Berger"
+              ]
+              
+            },
+            {
+              "title": "Flooring",
+              "items": [
+                "Living and Dining Flooring - Marble finished Tiles of Value Up to Rs. 250/- per Sqft",
+                "Rooms and Kitchen Flooring - Tiles Up to Rs. 180/- per Sqft",
+                "Balcony and Open area flooring - Anti-Skid tiles of value Up to Rs. 100/Sqft",
+                "Staircase Flooring - Granite of Value Up to Rs. 150/- per Sqft",
+                "Parking tiles - Anti-skid Tiles of value Up to Rs. 90/- per Sqft"
+              ]
+            },
+            {
+              "title": "Electricals",
+              "items": [
+                "Wires - Fireproof wires by Finolex/Havells",
+                "Switches & Sockets - Legrand/Schneider",
+                "External Electrification, AC provision, UPS points included"
+              ]
+
+            },
+            {
+              "title": "Miscellaneous",
+              "items": [
+                "Overhead Tank - Sintex Double Layered 2500 Ltrs",
+                "Underground Sump - 10,000 Ltrs",
+                "Staircase Railing - SS Railing with Glass"
+              ]
+              
+            }
+          ]
+        }
+      ]
+    }
+    
+  ]
+}

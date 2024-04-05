@@ -1,0 +1,91 @@
+.our-story-main{
+    padding-top: 90px;
+    padding-bottom: 100px;
+    @media only screen and (max-width:767px){
+        padding-top: 5px;
+        padding-bottom: 30px;
+    }
+    @media only screen and (min-width:768px) and (max-width:991px){
+        padding-top: 25px;
+    }
+
+    .container{
+        .row{
+            justify-content: space-around;
+            .col1{
+                .title{
+                    font-size: 60px;
+                    line-height: 1.2;
+                    padding-bottom: 20px;
+
+                    @media only screen and (min-width: 315px) and (max-width: 553px){
+                        font-size: 26px;
+                        line-height: 1;
+                        line-height: 30px;
+                        font-weight: 600;
+                        padding-bottom: 12px;
+                    }
+                    @media only screen and (min-width: 554px) and (max-width: 767px){
+                            font-size: 40px;
+                            line-height: 1;
+                            padding-bottom: 12px;
+                    }
+                    @media only screen and (min-width:768px) and (max-width:1199px){
+                        font-size: 32px;
+                        font-weight: 600;
+                    } 
+                }
+                .description{
+                    color: black;
+                    font-size: 18px;
+                    line-height: 1.8;
+
+                    @media only screen and (min-width: 315px) and (max-width: 553px){
+                        font-size: 15px;
+                        line-height: 1.8;
+                    }
+                    @media only screen and (min-width: 554px) and (max-width: 767px){
+                        font-size: 16px;
+                        line-height: 1.5;
+                    }
+                    @media only screen and (min-width:768px) and (max-width:991px){
+                        font-size: 16px;
+                    }
+                }
+                .our-story-button{
+                    margin-top: 30px;
+                    padding:  20px 40px 20px 40px;
+                    background: rgba(195, 146, 28, 1);
+                    box-shadow: 0px 10px 15px 0px rgba(1, 115, 153, 0.2);
+                    color: white;
+                    border: none;
+
+                  @media only screen and (max-width:767px){
+                    padding: 6px 18px;
+                    font-size: 16px;
+                    margin-top: 10px;
+                  }
+                  @media only screen and (min-width:768px) and (max-width:1199px){
+                    font-size: 16px;
+                    padding: 8px 20px;
+                  }
+                }
+            }
+            .col2{
+
+                @media only screen and (min-width: 315px) and (max-width: 553px){
+                    padding-top: 20px;
+                }
+                @media only screen and (min-width: 554px) and (max-width: 767px){
+                    padding-top: 20px;
+                }
+                .our-story-image{
+                    width: 100%;
+                    height: 100%;
+                    transform: rotateY(180deg);
+                    box-shadow: 4px 10px 30px 0px rgb(0 0 0 / 44%);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,488 @@
+.best-home-parent {
+  .best-home-sub {
+    .container {
+      padding: 70px 0;
+
+      .clsss-dsuj {
+        width: 100%;
+        margin: 0;
+
+        .besthome-section-one {
+
+          .best-home-card-parent1 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            gap: 20px;
+
+            .besthome-card1 {
+              box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+              width: 48%;
+              padding: 26px 21px;
+
+              .best-home-sec1-img2 {
+                img {
+                  margin: auto;
+                  display: flex;
+                  align-items: center;
+                  padding-top: 0;
+                }
+              }
+
+              .best-home-sec1-text1 {
+
+                h5 {
+                  text-align: center;
+                  font-size: 20px;
+                  font-weight: 700;
+                  line-height: 28px;
+                  padding: 16px 0;
+                  margin: 0;
+                }
+
+                p {
+                  text-align: center;
+                  font-size: 16px;
+                  line-height: 22px;
+                }
+              }
+
+              .best-home-sec1-sub-img {
+                display: flex;
+                justify-content: center;
+
+                div {
+                  border: 1px solid #D7DBDE;
+                  border-radius: 50%;
+                  padding: 9px 10px;
+
+                  img {
+                    width: 28px;
+                    height: 28px;
+                    position: relative;
+                    left: 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .best-home-section2 {
+          margin: 0;
+
+          .besthome-indus-dess {
+            width: 84%;
+            margin: auto;
+
+            .besthome-sec2-paragraph {
+              h6 {
+                font-size: 16px;
+                font-weight: 500;
+                padding: 10px 0;
+              }
+
+              h2 {
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 52px;
+                padding: 8px 0;
+              }
+
+              p {
+                font-size: 16px;
+                padding: 5px 0;
+                font-weight: 400;
+                line-height: 28px;
+              }
+            }
+
+            .besthome-sec2-button {
+              .button-page {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 9.68px;
+                width: fit-content;
+                padding: 10px 20px;
+                border-radius: 25px;
+                border: 2px solid #C3921C;
+              a{
+                text-decoration: none;color: #000;
+              }
+                button {
+                  border: none;
+                  background-color: white;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .best-home-parent .best-home-sub .container .clsss-dsuj .besthome-section-one .best-home-card-parent1 .besthome-card1 {
+    width: 90% !important;
+    margin: auto !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .best-home-parent {
+    .best-home-sub {
+      .container {
+        padding: 60px 0;
+        margin: auto;
+        width: 100%;
+
+        .clsss-dsuj {
+
+          .besthome-section-one {
+            padding: 0;
+
+            .best-home-card-parent1 {
+              margin: auto;
+
+              .besthome-card1 {
+                width: 47%;
+                margin: auto;
+                padding: 14px 6px;
+
+                .best-home-sec1-text1 {
+                  width: 100%;
+                  margin: auto;
+                  gap: 12px;
+
+                  h5 {
+                    font-size: 16px;
+                    padding: 6px 0;
+                    margin: 0;
+                  }
+
+                  p {
+                    font-size: 17px !important;
+    line-height: 28px;
+    width: 89%;
+    margin: auto;
+    padding-bottom: 22px;
+    text-align: justify;
+                  }
+                }
+
+                .best-home-sec1-sub-img {
+                  div {
+                    border: 1px solid #D7DBDE;
+                    border-radius: 50%;
+                    padding: 7px 10px;
+
+                    img {
+                      width: 100%;
+                      height: 100%;
+                      left: 5px;
+                      top: -1px;
+                      object-fit: contain;
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          .best-home-section2 {
+            padding: 0 10px;
+
+            .besthome-indus-dess {
+              width: 97%;
+              margin: auto;
+
+              .besthome-sec2-paragraph {
+                padding-top: 20px;
+
+                h6 {
+                  font-size: 14px;
+                  font-weight: 500;
+                  padding: 10px 0;
+                  margin: 0;
+                }
+
+                h2 {
+                  font-size: 24px;
+                  line-height: 30px;
+                  padding: 0;
+                }
+
+                p {
+                  padding: 0;
+                  font-size: 17px !important;
+                  line-height: 33px;
+                  text-align: justify;
+                }
+              }
+
+              .besthome-sec2-button {
+                .button-page {
+                  padding: 8px 12px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .best-home-parent {
+    .best-home-sub {
+      .container {
+        padding: 50px 0;
+        margin: auto;
+        width: 100%;
+
+        .clsss-dsuj {
+
+          .besthome-section-one {
+            padding: 0;
+
+            .best-home-card-parent1 {
+              margin: auto;
+
+              .besthome-card1 {
+                width: 46%;
+                margin: auto;
+                padding: 10px 5px;
+
+                .best-home-sec1-text1 {
+                  width: 100%;
+                  margin: auto;
+
+                  h5 {
+                    font-size: 16px;
+                    padding:  0;
+                    margin: 0;
+                  }
+
+                  p {
+                    font-size: 13px;
+                    line-height: 20px;
+                  }
+                }
+
+                .best-home-sec1-sub-img {
+                  display: flex;
+                  justify-content: center;
+
+                  div {
+                    border: 1px solid #D7DBDE;
+                    border-radius: 50%;
+                    padding: 7px 10px;
+
+                    img {
+                      width: 100%;
+                      height: 100%;
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          .best-home-section2 {
+            padding: 0 5px;
+
+            .besthome-indus-dess {
+              width: 97%;
+              margin: auto;
+
+              .besthome-sec2-paragraph {
+                padding-top: 30px;
+
+                h6 {
+                  font-size: 14px;
+                  font-weight: 500;
+                  padding: 6px 0;
+                  margin: 0;
+                }
+
+                h2 {
+                  font-size: 24px;
+                  font-weight: 700;
+                  line-height: 41px;
+                  padding: 0;
+                }
+
+                p {
+                  padding: 0;
+                  font-size: 13px;
+                  line-height: 22px;
+                }
+              }
+
+              .besthome-sec2-button {
+                .button-page {
+                  padding: 5px 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .best-home-parent {
+    .best-home-sub {
+      .container {
+        padding: 60px 0;
+        margin: auto;
+        width: 100%;
+
+        .clsss-dsuj {
+
+          .besthome-section-one {
+            padding: 0;
+
+            .best-home-card-parent1 {
+              margin: auto;
+
+              .besthome-card1 {
+                width: 46%;
+                margin: auto;
+                padding: 8px 6px;
+
+                .best-home-sec1-img2 {
+                  img {
+                    padding: 2px 0;
+                  }
+                }
+
+                .best-home-sec1-text1 {
+                  width: 100%;
+                  margin: auto;
+
+                  h5 {
+                    font-size: 16px;
+                    padding: 5px 0;
+                    margin: 0;
+                  }
+
+                  p {
+                    font-size: 14px;
+                    line-height: 20px;
+                  }
+                }
+
+                .best-home-sec1-sub-img {
+                  div {
+                    border: 1px solid #D7DBDE;
+                    border-radius: 50%;
+                    padding: 7px 10px;
+
+                    img {
+                      width: 100%;
+                      height: 100%;
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          .best-home-section2 {
+            padding: 0 5px;
+
+            .besthome-indus-dess {
+              width: 90%;
+              margin: auto;
+
+              .besthome-sec2-paragraph {
+
+                h6 {
+                  font-size: 16px;
+                  font-weight: 500;
+                  padding: 10px 0;
+                  margin: 0;
+                }
+
+                h2 {
+                  font-size: 28px;
+                  font-weight: 700;
+                  line-height: 41px;
+                  padding: 0;
+                }
+
+                p {
+                  padding: 0;
+                }
+              }
+
+              .besthome-sec2-button {
+                .button-page {
+                  padding: 10px 15px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width:1201px) and (max-width:1440px) {
+  .best-home-parent {
+    .best-home-sub {
+      .container {
+        padding: 60px 0;
+        margin: auto;
+        width: 100%;
+
+        .clsss-dsuj {
+
+          .besthome-section-one {
+            padding: 0;
+
+            .best-home-card-parent1 {
+              margin: auto;
+
+              .besthome-card1 {
+                width: 46%;
+                margin: auto;
+                padding: 10px 8px;
+
+                .best-home-sec1-img2 {
+                  img {
+                    padding: 2px 0;
+                  }
+                }
+
+                .best-home-sec1-text1 {
+                  width: 100%;
+                  margin: auto;
+
+                  h5 {
+                    font-size: 18px;
+                    padding: 8px 0;
+                    margin: 0;
+                  }
+
+                  p {
+                    font-size: 15px;
+                    line-height: 22px;
+                  }
+                }
+
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

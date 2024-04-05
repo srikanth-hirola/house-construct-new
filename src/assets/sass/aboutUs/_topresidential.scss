@@ -1,0 +1,72 @@
+.topresidential-main{
+    padding-top: 55px;
+    padding-bottom: 60px;
+    background: url('/images/about-pb2.webp');
+    @media only screen and (max-width:575px){
+        margin-top: -50px;
+    }
+    .container{
+        .first-row{
+            padding-bottom: 50px;
+            @media only screen and (min-width: 315px) and (max-width: 553px){
+                padding-bottom: 20px;
+            }
+            @media only screen and (min-width:554px) and (max-width:767px) {
+                padding-bottom: 20px;
+            }
+            .title{
+                color: white;
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 1.25);
+                -webkit-text-stroke-width: 1;
+                -webkit-text-stroke-color: #000;
+                font-family: "Titillium Web";
+                font-size: 46px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+
+                @media only screen and (min-width: 315px) and (max-width: 553px){
+                    font-size: 24px;
+                }
+                @media only screen and (min-width: 554px) and (max-width: 767px){
+                    font-size: 26px;
+                }
+                @media only screen and (min-width: 768px) and (max-width: 991px){
+                    font-size: 32px;
+                }
+            }
+        }
+        .second-row{
+            .col-md-6{
+                padding-bottom: 20px;
+                .row{
+                    img{
+                        width: 15%;
+                        padding-bottom: 20px;
+                    }
+                    .title{
+                        padding-bottom: 20px;
+                        color: white;
+                    }
+                    .description{
+                        color: #fff;
+                        text-align: justify;
+                        padding-right: 135px;
+
+                        @media only screen and (min-width: 315px) and (max-width: 553px){
+                            padding-right: 15px;
+                            font-size: 15px;
+                        }
+                        @media only screen and (min-width: 554px) and (max-width: 767px){
+                            padding-right: 15px;
+                            font-size: 15px;
+                        }
+                        @media only screen and (min-width: 768px) and (max-width: 992px){
+                            padding-right: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

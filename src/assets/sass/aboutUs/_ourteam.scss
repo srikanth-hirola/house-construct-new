@@ -1,0 +1,59 @@
+.our-team-main{
+    padding-top: 80px;
+    @media only screen and (max-width:767px){
+        padding-top: 35px;
+    }
+    .container{
+        .row{
+            padding-bottom: 70px;
+            @media only screen and (max-width:767px){
+                padding-bottom: 20px;   
+            }
+            @media only screen and (min-width:768px) and (max-width:991px){
+                padding-bottom: 20px;    
+            }
+            .title{
+                padding-bottom: 20px;
+                @media only screen and (max-width:767px){
+                    padding-bottom: 0px;
+                    font-size: 26px;
+                    font-weight: 600; 
+                }
+            }
+            .subtitle{
+                font-family: "Titillium Web";
+                @media only screen and (max-width:767px){
+                    font-size: 18px;
+                }
+            }
+        }
+        .swiper-div{
+            .swiper{
+                .swiper-slider{
+                    .team-card{
+                        .team-image{
+                            width: 100%;
+                            border-radius: 20px;
+                        }
+                    }
+                    .title-card {
+                        border-radius: 10px;
+                        position: relative;
+                        top: -101px;
+                        padding: 10px;
+                        margin: 0px 12px;
+                        background: white;
+
+                        .name{
+                            text-decoration: underline;
+                        }
+                        .designation{
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+}
