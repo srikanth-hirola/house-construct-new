@@ -1,172 +1,62 @@
-@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
 
 .housecontruct-page {
-  padding-top: 40px;
-
+  padding-top: 60px;
+ background:  #f4f7f9;
+ padding-bottom: 40px;
   .housecontruct-page-sub {
     .housecontruct-page-heading {
       h2 {
-        color: var(--preview-themeforest-net-cod-gray, #1a1a1a);
-        text-align: center;
+        color: #000;
+        text-align: left;
         font-family: "Jost", sans-serif;
-        font-size: 45px;
+        font-size: 40px;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 700;
         line-height: 58px;
-        /* 120.833% */
         text-transform: capitalize;
+        padding: 20px 0px 20px;
+      }
+      p{
+        font-size: 16px;
+        padding: 0px 0px 0px;
       }
     }
-
+    .house-const-card {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 20px 0px 0px;
+      .house-const-card-img {
+        width: 60px;
+        height: 60px;
+        margin: 15px 0px;
+        img {
+          width: 100%;
+          height: 100%;
+      }
+    }
+    .house-const-card-text{
+      h3{
+        font-size: 22px;
+        font-weight: 700;
+        margin: 14px 0px;
+      }
+      p{
+        font-size: 18px;
+        font-weight: 400;
+        width: 91%;
+        margin: auto;
+      }
+    }
+  }
     .container-fluid {
       width: 90%;
       margin: auto;
       padding-top: 50px;
-
-      .row {
-        .card1 {
-          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-          min-height: 200px;
-          width: 89%;
-          padding: 20px 20px 20px 20px;
-          margin-bottom: 20px;
-          position: relative;
-          left: 50px;
-
-          h4 {
-            font-size: 18px;
-            font-family: "Jost", sans-serif;
-            font-weight: 700;
-          }
-          p{
-            font-size: 16px;
-            font-weight: 500;
-            font-family: "Jost", sans-serif;
-          }
-        }
-
-        .card2 {
-          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-          min-height: 200px;
-          width: 89%;
-          padding: 20px 20px 20px 20px;
-          margin-bottom: 20px;
-
-          h4 {
-            font-size: 18px;
-            font-family: "Jost", sans-serif;
-            font-weight: 700;
-          }
-          p{
-            font-size: 16px;
-            font-weight: 500;
-            font-family: "Jost", sans-serif;
-          }
-        }
-
-        .card3 {
-
-          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-          min-height: 200px;
-          width: 89%;
-          padding: 20px 20px 20px 20px;
-          margin-bottom: 20px;
-          position: relative;
-          left: 50px;
-
-          h4 {
-            font-size: 18px;
-            font-family: "Jost", sans-serif;
-            font-weight: 700;
-          }
-          p{
-            font-size: 16px;
-            font-weight: 500;
-            font-family: "Jost", sans-serif;
-          }
-        }
-
-        .card4 {
-          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-          min-height: 200px;
-          width: 89%;
-          padding: 20px 20px 20px 20px;
-          margin-bottom: 20px;
-
-          // position: relative;
-          // left: 60px;
-          h4 {
-            font-size: 18px;
-            font-family: "Jost", sans-serif;
-            font-weight: 700;
-          }
-          p{
-            font-size: 16px;
-            font-weight: 500;
-            font-family: "Jost", sans-serif;
-          }
-        }
-
-        .card5 {
-          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-          min-height: 200px;
-          width: 89%;
-          padding: 20px 20px 20px 20px;
-          margin-bottom: 20px;
-          position: relative;
-          left: 50px;
-
-          h4 {
-            font-size: 18px;
-            font-family: "Jost", sans-serif;
-            font-weight: 700;
-          }
-          p{
-            font-size: 16px;
-            font-weight: 500;
-            font-family: "Jost", sans-serif;
-          }
-        }
-
-        .card6 {
-          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-          min-height: 200px;
-          width: 89%;
-          padding: 20px 20px 20px 20px;
-          margin-bottom: 20px;
-
-          h4 {
-            font-size: 18px;
-            font-family: "Jost", sans-serif;
-            font-weight: 700;
-          }
-          p{
-            font-size: 16px;
-            font-weight: 500;
-            font-family: "Jost", sans-serif;
-          }
-        }
-
-        .house-contruct-image-parent {
-          display: flex;
-          align-items: center;
-          height: 370px;
-          width: 100%;
-
-          img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-          }
-        }
-
-        .house-contruct-image-parent-1 {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-      }
+     
+    
     }
   }
 }

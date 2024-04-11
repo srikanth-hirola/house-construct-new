@@ -15,12 +15,14 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
+import VerticalStepperForm from './Sample';
 const App = () => {
   return (
     <>
     <Router>
       <Routes>
         <Route path='/' exact element={<Home/>}/>
+        <Route path='/test' exact element={<VerticalStepperForm/>}/>
         <Route path='/about' exact element={<About/>}/>
         <Route path='/blogs' exact element={<Blogs/>}/>
         <Route path='/portfolio' exact element={<Portfolio/>}/>

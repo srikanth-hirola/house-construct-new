@@ -64,9 +64,9 @@ const Home = () => {
     <Header/>
       <Banner/>
       <Houseconstruct />
+      
       <DeliveryThings/>
-      <MarqueeText/>
-      <Modal
+    <Modal
                     title=""
                     visible={visibleModal}
                     onOk={handleModalClose}
