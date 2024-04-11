@@ -64,6 +64,7 @@ const Home = () => {
     <Header/>
       <Banner/>
       <Houseconstruct />
+      
       <DeliveryThings/>
       <Modal
                     title=""
