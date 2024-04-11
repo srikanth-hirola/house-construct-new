@@ -10,6 +10,7 @@ import ServiceTiming from '../components/Services/ServiceTiming'
 import Footer from '../components/home/Footer'
 import WhoWeAre from '../components/about/WhoWeAre'
 import { Modal } from 'antd'
+import ServiceOfficePage from './ServiceOfficePage'
 
 const ServicePage = () => {
   const [visibleModal, setVisibleModal] = useState(false);
@@ -76,8 +77,9 @@ const ServicePage = () => {
                 </Modal>
         <Header />
         <ServicesBanner />
-        <Trustedpartners />
-        <WhoWeAre />
+        <ServiceOfficePage/>
+        {/* <Trustedpartners />
+        <WhoWeAre /> */}
         <ServiceShowcase />
         <ServiceTiming/>
         <Ourservices />

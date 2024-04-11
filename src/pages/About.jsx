@@ -12,6 +12,12 @@ import Header from '../components/home/Header'
 import Footer from '../components/home/Footer'
 import { Modal } from 'antd'
 import MarqueeText from '../components/home/MarqueeText'
+import BannerBelowSection from '../components/about/BannerBelowSection'
+import WhoweareAbout from '../components/about/WhoweareAbout'
+import AboutHouseConstruct from '../components/about/AboutHouseConstruct'
+
+
+
 
 const About = () => {
   const [visibleModal, setVisibleModal] = useState(false);
@@ -76,16 +82,19 @@ const About = () => {
                     {/* <strong id='scam-tt' >Hirola Infotech Solutions</strong> */}
                 </Modal>
     <Header/>
-
     <Aboutbanner />
-    <WhoWeAre />
+    <BannerBelowSection/>
+    <WhoweareAbout/>
+    <AboutHouseConstruct/>
+    <TopResidential />
+    <VMsec />
+    <Location />
+    {/* <WhoWeAre />
     <SectionThree />
     <MarqueeText/>
     <OurStory />
-    <VMsec />
-    <OurTeam />
-    <TopResidential />
-    <Location />
+    <OurTeam /> */}
+
     <Footer/>
     </>
   )

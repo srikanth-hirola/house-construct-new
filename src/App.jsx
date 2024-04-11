@@ -15,6 +15,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
+import ConstructionandDesign from './components/blogSingle/ConstructionandDesign';
+import ArchitecturalDesign from './components/blogSingle/ArchitecturalDesign';
 const App = () => {
   return (
     <>
@@ -26,8 +28,11 @@ const App = () => {
         <Route path='/portfolio' exact element={<Portfolio/>}/>
         <Route path='/portfolio/:id' exact element={<PortfolioIndividual/>}/>
         <Route path='/services' exact element={<ServicePage/>}/>
-        <Route path='/blogs/:slug' exact element={<Blogspage />}/>
         <Route path='/contact-us' exact element={<Contactus />}/>
+
+        <Route path='/how-to-choose-the-right-floor-plan-for-your-dream-home' exact element={<Blogspage />}/>
+        <Route path='/the-top-trends-in-home-construction-and-design-for-2023' exact element={<ConstructionandDesign />}/>
+        <Route path='/the-role-of-architectural-design-in-creating-sustainable-homes' exact element={<ArchitecturalDesign />}/>
       </Routes>
     </Router>
     </>

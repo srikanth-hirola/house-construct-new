@@ -1,7 +1,4 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/no-unknown-property */
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Ourservices = () => {
   return (
@@ -29,8 +26,7 @@ const Ourservices = () => {
 
             <div className="row card-first-row">
               <div className="col-md-4 col-sm-6 col-6">
-               <div className="card-for-service-page">
-               <Link to='/contact-us'>
+                <div className="card-for-service-page NO1">
                   <div className="number-count">
                     <h6>01.</h6>
                   </div>
@@ -51,18 +47,16 @@ const Ourservices = () => {
                     <div className="card-body-text">
                       <h4 className="card-text">Residential Construction</h4>
                       <div className="card-text-img-parent">
-                        <Link to='/contact-us' className="card-text1">View More</Link>
+                        <h6 className="card-text1">View More</h6>
                         <img src="/serimg/Icon.svg" />
                       </div>
                     </div>
                   </div>
 
-               </Link>
                 </div>
               </div>
               <div className="col-md-4 col-sm-6 col-6">
-                <div className="card-for-service-page">
-                <Link to='/contact-us'>
+                <div className="card-for-service-page NO2">
                   <div className="number-count">
                     <h6>02.</h6>
                   </div>
@@ -84,18 +78,16 @@ const Ourservices = () => {
                     <div className="card-body-text">
                       <h4 className="card-text">Commercial Construction</h4>
                       <div className="card-text-img-parent">
-                        <Link to='/contact-us' className="card-text1">View More</Link>
+                        <h6 className="card-text1">View More</h6>
                         <img src="/serimg/Icon.svg" />
                       </div>
                     </div>
                   </div>
-                </Link>
 
                 </div>
               </div>
               <div className="col-md-4 col-sm-6 col-6">
-                <div className="card-for-service-page">
-                <Link to='/contact-us'>
+                <div className="card-for-service-page NO3">
                   <div className="number-count">
                     <h6>03.</h6>
                   </div>
@@ -122,18 +114,16 @@ const Ourservices = () => {
                     <div className="card-body-text">
                       <h4 className="card-text">Interior Designing</h4>
                       <div className="card-text-img-parent">
-                        <Link to='/contact-us' className="card-text1">View More</Link>
+                        <h6 className="card-text1">View More</h6>
                         <img src="/serimg/Icon.svg" />
                       </div>
                     </div>
                   </div>
 
-                </Link>
                 </div>
               </div>
               <div className="col-md-4 col-sm-6 col-6">
-               <div className="card-for-service-page">
-               <Link to='/contact-us'>
+                <div className="card-for-service-page NO4">
                   <div className="number-count">
                     <h6>04.</h6>
                   </div>
@@ -157,18 +147,16 @@ const Ourservices = () => {
                     <div className="card-body-text">
                       <h4 className="card-text">Plan Approvals</h4>
                       <div className="card-text-img-parent">
-                        <Link to='/contact-us' className="card-text1">View More</Link>
+                        <h6 className="card-text1">View More</h6>
                         <img src="/serimg/Icon.svg" />
                       </div>
                     </div>
                   </div>
 
-               </Link>
                 </div>
               </div>
               <div className="col-md-4 col-sm-6 col-6">
-                <div className="card-for-service-page">
-                <Link to='/contact-us'>
+                <div className="card-for-service-page NO5">
                   <div className="number-count">
                     <h6>05.</h6>
                   </div>
@@ -197,18 +185,16 @@ const Ourservices = () => {
                     <div className="card-body-text">
                       <h4 className="card-text">Rennovation</h4>
                       <div className="card-text-img-parent">
-                        <Link to='/contact-us' className="card-text1">View More</Link>
+                        <h6 className="card-text1">View More</h6>
                         <img src="/serimg/Icon.svg" />
                       </div>
                     </div>
                   </div>
 
-                </Link>
                 </div>
               </div>
               <div className="col-md-4 col-sm-6 col-6">
-               <div className="card-for-service-page">
-               <Link to='/contact-us'>
+                <div className="card-for-service-page NO6">
                   <div className="number-count">
                     <h6>06.</h6>
                   </div>
@@ -226,18 +212,16 @@ const Ourservices = () => {
                     <div className="card-body-text">
                       <h4 className="card-text">Architecture/ Structural</h4>
                       <div className="card-text-img-parent">
-                        <Link to='/contact-us' className="card-text1">View More</Link>
+                        <h6 className="card-text1">View More</h6>
                         <img src="/serimg/Icon.svg" />
                       </div>
                     </div>
                   </div>
 
-               </Link>
                 </div>
               </div>
               <div className="col-md-4 col-sm-6 col-6">
-            <div className="card-for-service-page">
-            <Link to='/contact-us'>
+                <div className="card-for-service-page NO7">
                   <div className="number-count">
                     <h6>07.</h6>
                   </div>
@@ -262,18 +246,16 @@ const Ourservices = () => {
                     <div className="card-body-text">
                       <h4 className="card-text">Eco-Friendly Houses</h4>
                       <div className="card-text-img-parent">
-                        <Link to='/contact-us' className="card-text1">View More</Link>
+                        <h6 className="card-text1">View More</h6>
                         <img src="/serimg/Icon.svg" />
                       </div>
                     </div>
                   </div>
 
-            </Link>
                 </div>
               </div>
               <div className="col-md-4 col-sm-6 col-6">
-               <div className="card-for-service-page">
-               <Link to=''>
+                <div className="card-for-service-page NO8">
                   <div className="number-count">
                     <h6>08.</h6>
                   </div>
@@ -295,18 +277,16 @@ const Ourservices = () => {
                     <div className="card-body-text">
                       <h4 className="card-text">Extension Projects</h4>
                       <div className="card-text-img-parent">
-                        <Link to='/contact-us' className="card-text1">View More</Link>
+                        <h6 className="card-text1">View More</h6>
                         <img src="/serimg/Icon.svg" />
                       </div>
                     </div>
                   </div>
 
-               </Link>
                 </div>
               </div>
               <div className="col-md-4 col-sm-6 col-6">
-            <div className="card-for-service-page">
-            <Link to='/contact-us'>
+                <div className="card-for-service-page NO9">
                   <div className="number-count">
                     <h6>09.</h6>
                   </div>
@@ -330,13 +310,12 @@ const Ourservices = () => {
                     <div className="card-body-text">
                       <h4 className="card-text">Consultation</h4>
                       <div className="card-text-img-parent">
-                        <Link to='/contact-us' className="card-text1">View More</Link>
+                        <h6 className="card-text1">View More</h6>
                         <img src="/serimg/Icon.svg" />
                       </div>
                     </div>
                   </div>
 
-            </Link>
                 </div>
               </div>
 

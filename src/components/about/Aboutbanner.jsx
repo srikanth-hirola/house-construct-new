@@ -9,7 +9,7 @@ const Aboutbanner = () => {
         <div className="about-us-banner-background">
             <div className="row">
                 <div className="col-md-5 about-us-banner-left-section">
-                    <div className="about-us-banner-subtitle d-flex gap-2">
+                    <div className="about-us-banner-subtitle d-flex gap-3">
                         <p>Home</p>
                         <p>. About Us</p>
                     </div>

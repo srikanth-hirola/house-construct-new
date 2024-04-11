@@ -1,92 +1,141 @@
 import React from "react";
-
-const Locations = () => {
+import "../../assets/sass/aboutUs/_location.scss";
+import { MapPin, Mail, Clock, PhoneCall } from "react-feather";
+const Location = () => {
   return (
-    <>
-      <div className="contactus-officelocation">
-        <div className="constactus-officelocations-sub">
-          <div className="container locations-container">
-            <div className="constactus-officelocations-heading">
-              <h5>Our Office Locations</h5>
+    <div className="location-main-contactus">
+      {/* <div className="row first-row p-0 m-0">
+        <p>GET IN TOUCH WITH US</p>
+        <h1 className="title">
+          Our Office Locations
+        </h1>
+      </div> */}
+      <div className="location-cards">
+        <div className="col-md-12 col-lg-10">
+          <div className="row main-row">
+            <div className=" col-md-4 col-sm-4">
+              <h3 className="location-type">Our Corporate Office​</h3>
+              <hr />
+              <div className="row">
+              <div className="row flex-nowrap">
+                  {/* <img className="icons" src="/images/map-pin.svg" alt="" /> */}
+                  <div className="feather-icons-parent">
+                    <MapPin />
+                  </div>
+                  <p className="address">
+                    #73, 3rd Floor, Shreelekha Complex, WOC Road, Mahalaxmipuram,
+                    Bangalore, Karnataka 560086.
+                  </p>
+                </div>
+                <div className="row flex-nowrap">
+                  {/* <img className="icons" src="/images/phone-call.svg" alt="" /> */}
+                  <div className="feather-icons-parent">
+                    <PhoneCall />
+                  </div>
+                  <p className="number">+91 9110658440</p>
+                </div>
+                <div className="row flex-nowrap">
+                  {/* <img className="icons" src="/images/mail.svg" alt="" /> */}
+                  <div className="feather-icons-parent">
+                    <Mail />
+                  </div>
+                  <p className="email">care@houseconstruct.in</p>
+                </div>
+                <div className="row flex-nowrap">
+                  {/* <img className="icons" src="/images/clock.svg" alt="" /> */}
+                  <div className="feather-icons-parent">
+                    <Clock />
+                  </div>
+
+                  <p className="timings">MON – SAT10 AM to 7 PM</p>
+                </div>
+              </div>
+              <hr />
             </div>
-            <div className="row officelocartions-card-parent">
-              <div className="col-md-4 office-locations-cards">
-                <h5>Our Corporate Office ​</h5>
-                <hr />
-                <div className="phone-call-parent">
-                  <img src="/footers-images/phone-call.png" alt="" />
-                  <p>+91 9110658440​</p>
-                </div>
-                <div className="email-parent">
-                  <img src="/footers-images/mail.png" alt="" />
-                  <p>care@houseconstruct.in</p>
-                </div>
-                <div className="contact-details-par">
-                  <img src="/footers-images/user-check.png" alt="" />
-                  <p>
-                    #73, 3rd Floor, Shreelekha Complex, WOC Road,
-                    Mahalaxmipuram, Bangalore, Karnataka 560086.
+            <div className="col-md-4 col-sm-4">
+              <h3 className="location-type">Our Branch Office</h3>
+              <hr />
+              <div className="row">
+              <div className="row flex-nowrap">
+                  {/* <img className="icons" src="/images/map-pin.svg" alt="" /> */}
+                  <div className="feather-icons-parent">
+                    <MapPin />
+                  </div>
+                  <p className="address">
+                    #73, 3rd Floor, Shreelekha Complex, WOC Road, Mahalaxmipuram,
+                    Bangalore, Karnataka 560086.
                   </p>
                 </div>
-                <div className="time-details-par">
-                  <img src="/footers-images/pie-chart.png" alt="" />
-                  <p>MON – SAT 10 AM to 7 PM</p>
+                <div className="row flex-nowrap">
+                  {/* <img className="icons" src="/images/phone-call.svg" alt="" /> */}
+                  <div className="feather-icons-parent">
+                    <PhoneCall />
+                  </div>
+                  <p className="number">+91 9110658440</p>
                 </div>
-              </div>
+                <div className="row flex-nowrap">
+                  {/* <img className="icons" src="/images/mail.svg" alt="" /> */}
+                  <div className="feather-icons-parent">
+                    <Mail />
+                  </div>
+                  <p className="email">care@houseconstruct.in</p>
+                </div>
+                
+                <div className="row flex-nowrap">
+                  {/* <img className="icons" src="/images/clock.svg" alt="" /> */}
+                  <div className="feather-icons-parent">
+                    <Clock />
+                  </div>
 
-              <div className="col-md-4 office-locations-cards">
-                <h5>Our Branch Office  ​</h5>
-                <hr />
-                <div className="phone-call-parent">
-                  <img src="/footers-images/phone-call.png" alt="" />
-                  <p>+91 9110658440​</p>
-                </div>
-                <div className="email-parent">
-                  <img src="/footers-images/mail.png" alt="" />
-                  <p>care@houseconstruct.in</p>
-                </div>
-                <div className="contact-details-par">
-                  <img src="/footers-images/user-check.png" alt="" />
-                  <p>
-                    #73, 3rd Floor, Shreelekha Complex, WOC Road,
-                    Mahalaxmipuram, Bangalore, Karnataka 560086.
-                  </p>
-                </div>
-                <div className="time-details-par">
-                  <img src="/footers-images/pie-chart.png" alt="" />
-                  <p>MON – SAT 10 AM to 7 PM</p>
+                  <p className="timings">MON – SAT10 AM to 7 PM</p>
                 </div>
               </div>
+              <hr />
+            </div>
+            <div className="col-md-4 col-sm-4">
+              <h3 className="location-type">Our Branch Office​</h3>
+              <hr />
+              <div className="row">
+              <div className="row flex-nowrap">
+                  {/* <img className="icons" src="/images/map-pin.svg" alt="" /> */}
+                  <div className="feather-icons-parent">
+                    <MapPin />
+                  </div>
+                  <p className="address">
+                    #73, 3rd Floor, Shreelekha Complex, WOC Road, Mahalaxmipuram,
+                    Bangalore, Karnataka 560086.
+                  </p>
+                </div>
+                <div className="row flex-nowrap">
+                  {/* <img className="icons" src="/images/phone-call.svg" alt="" /> */}
+                  <div className="feather-icons-parent">
+                    <PhoneCall />
+                  </div>
+                  <p className="number">+91 9110658440</p>
+                </div>
+                <div className="row flex-nowrap">
+                  {/* <img className="icons" src="/images/mail.svg" alt="" /> */}
+                  <div className="feather-icons-parent">
+                    <Mail />
+                  </div>
+                  <p className="email">care@houseconstruct.in</p>
+                </div>
+                <div className="row flex-nowrap">
+                  {/* <img className="icons" src="/images/clock.svg" alt="" /> */}
+                  <div className="feather-icons-parent">
+                    <Clock />
+                  </div>
 
-              <div className="col-md-4 office-locations-cards">
-                <h5>Our Branch Office ​ ​</h5>
-                <hr />
-                <div className="phone-call-parent">
-                  <img src="/footers-images/phone-call.png" alt="" />
-                  <p>+91 9110658440​</p>
-                </div>
-                <div className="email-parent">
-                  <img src="/footers-images/mail.png" alt="" />
-                  <p>care@houseconstruct.in</p>
-                </div>
-                <div className="contact-details-par">
-                  <img src="/footers-images/user-check.png" alt="" />
-                  <p>
-                    #73, 3rd Floor, Shreelekha Complex, WOC Road,
-                    Mahalaxmipuram, Bangalore, Karnataka 560086.
-                  </p>
-                </div>
-                <div className="time-details-par">
-                  <img src="/footers-images/pie-chart.png" alt="" />
-                  <p>MON – SAT 10 AM to 7 PM</p>
+                  <p className="timings">MON – SAT10 AM to 7 PM</p>
                 </div>
               </div>
+              <hr />
             </div>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
-export default Locations;
+export default Location;

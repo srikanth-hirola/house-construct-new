@@ -1,4 +1,7 @@
 .Homepage-header-parent {
+  a{
+    text-decoration: none;
+  }
     .Homepage-header-subParent {
         .row {
             margin: 0;
@@ -19,7 +22,7 @@
                         }
 
                         .collapse.navbar-collapse {
-                            justify-content: center;
+                            justify-content: space-between;
                             ul {
                                 margin: auto;
 
@@ -30,20 +33,18 @@
                                         color: var(--Button-Primary-Normal, #022C22);
                                         text-align: center;
                                         font-size: 16px;
-                                        font-weight: 600;
-
                                     }
                                 }
                             }
 
                             .header-log-in-button {
                                 a {
-                                    border-radius: 200px;
-                                    border: 1px solid #C3921C;
-                                    padding: 12px 20px;
-                                    margin: 0 10px;
-                                    text-decoration: none;
-                                    color: #1D1F1E;
+                                  border-radius: 5px;
+                                  padding: 9px 24px;
+                                  margin: 0 10px;
+                                  text-decoration: none;
+                                  color: #ffffff;
+                                  background: #000;
                                 }
                             }
 
@@ -56,6 +57,18 @@
                                     color: white;
                                     text-decoration: none;
                                 }
+                            }
+                            .getintouch-parent{
+                              display: flex;
+                              gap: 15px;
+                              padding-left: 15px;
+                              p{
+                                color: #000;
+                                margin: 0;
+                              }
+                              svg{
+                                color: #000;
+                              }
                             }
                         }
                     }
@@ -288,4 +301,30 @@
 :where(.css-42nv3w).ant-menu-dark .ant-menu-item a{
   color: #000 !important;
   font-weight: 600 !important;
+}
+
+@media screen and (min-width:1200px) and (max-width:1399px){
+
+    ul.ant-menu.ant-menu-root.ant-menu-vertical.ant-menu-dark.css-dev-only-do-not-override-42nv3w {
+      background: #fff !important;
+      li{
+        padding: 0px 5px;
+          a{
+              color: #000 !important;
+              font-weight: 500;
+          }
+      }
+  }
+  .mobile-menu{
+      svg{
+          position: absolute;
+          top: 40px;
+          right: 37px;
+      
+        }
+  }
+  :where(.css-dev-only-do-not-override-42nv3w).ant-layout-header {
+    padding: 0 0px;
+
+}
 }

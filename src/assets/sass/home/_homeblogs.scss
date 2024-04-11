@@ -1,18 +1,66 @@
 .HomeBlogs-parent {
-    padding: 0px 0px 80px;
-.HomeBlogs-title{
-    text-align: center;
-    p{
-        font-weight: 600;
-        color: #000;
-        font-size: 17px;
+    padding: 0px;
+
+    .HomeBlogs-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+
+        p {
+            font-weight: 600;
+            color: #000;
+            font-size: 17px;
+        }
+
+        h2 {
+            font-weight: 600;
+            font-size: 45px;
+            padding-bottom: 20px;
+        }
+        
+        .WhoweraeAbout-sub-viewmore-button {
+            display: flex;
+            gap: 10px;
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 0.22px;
+            fill: #000000;
+            color: #000000;
+            background-color: #02010100;
+            border-style: solid;
+            border-width:3px;
+            border-color: #E1E4E6;
+            border-radius: 25px;
+            padding: 12px 30px;
+            transition: all 0.1s linear;
+            svg{
+                color: #c3921c;
+                height: 20px;
+                width: 20px;
+            }
+            a{
+                text-decoration: none;
+                color: #000000;
+                font-size: 14px;
+            }
+            svg{
+                font-size: 14px !important;
+            }
+            &:hover{
+                border-color: #c3921c;
+                background: #c3921c;
+                a{
+                    color: #fff;
+                }
+                svg{
+                    color: #fff;
+                }
+            }
+        }
     }
-    h2{
-        font-weight: 600;
-        font-size: 45px;
-        padding-bottom: 20px;
-    }
-}
+
     .ant-pagination .ant-pagination-item-active:hover {
         border: none !important;
     }
@@ -30,40 +78,9 @@
 
     .row {
         position: relative;
-
-        .col-md-4 {
-            z-index: 9;
-        }
-
-        .Home-blogs-absolute-images-main-paren {
-            position: absolute;
-            right: 0;
-        }
-
-        .Home-blogs-absolute-images-parent {
-            position: relative;
-            width: 100%;
-            top: 120px;
-            z-index: 0;
-
-            .Home-blogs-absolute-images1,
-            .Home-blogs-absolute-images2,
-            .Home-blogs-absolute-images3 {
-                position: absolute;
-                height: 80px;
-                width: 600px;
-                right: -104px;
-
-            }
-
-            .Home-blogs-absolute-images1 {
-                top: -36px;
-            }
-
-            .Home-blogs-absolute-images3 {
-                top: 14px;
-            }
-        }
+        padding: 5px 0 40px 0px;
+        width: 90%;
+        margin: auto;
     }
 
     .HomeBlogs-parent-title {
@@ -77,19 +94,16 @@
     }
 
     .HomeBlogs-sub {
-        a{
-            text-decoration: none;
-            color:#000
-        }
         padding: 20px;
         border-radius: 6px;
-        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px;
-        margin-top: 15px;
+        height: 440px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;        margin-top: 15px;
 
         p:nth-child(2) {
             font-weight: 600;
             font-size: 18px;
-            color: #C3921C;
+            margin-top: 10px;
+            color: #000;
         }
 
         .Blogs-desc {
@@ -104,15 +118,21 @@
             margin-bottom: 7px;
 
             h1 {
-                font-size: 24px;
-                font-weight: 600;
+                font-size: 28px;
+                font-weight: 700;
+                color: #000;
+                &:hover{
+                    color: #C3921C;
+                }
             }
 
             .HomeBlogs-card-arrow {
                 height: 25px;
                 width: 25px;
             }
-            h5{
+
+            h5 {
+
                 font-weight: 600;
             }
         }
@@ -159,56 +179,94 @@
 }
 
 // media queries for blogs component
+@media only screen and (max-width:575px){
+    .HomeBlogs-parent{
+        .row{
+            .col-md-4{
+                padding: 0;
+            }
+        }
+    }   
+}
 @media only screen and (max-width:767px) {
-    .HomeBlogs-parent {
-        padding: 0px 0px 40px;
-    .HomeBlogs-title{
-            h2 {
-                font-size: 24px;
-                padding-bottom: 0px;
-            }
-            p{
-                font-size: 14px;
-                margin-bottom: 10px;
+    .HomeBlogs-parent{
+        .row{
+            .col-md-4{
+                .HomeBlogs-sub{
+                    height: 320px;
+                    p{
+                        font-weight: 400;
+                        font-size: 15px;
+                    }
+                    .HomeBlogs-sub-image{
+                        height: 160px;
+                    }
+                    .HomeBlogs-presentations{
+                        h1{
+                            font-size:17px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+                
             }
         }
-        padding-top: 0;
-
-        .Blogs-desc {
-            font-size: 14px !important;
-        }
     }
-    .HomeBlogs-parent .HomeBlogs-sub .HomeBlogs-presentations h1{
-        font-size: 20px;
-    }
-    
- 
+  
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
-    .HomeBlogs-parent {
-        padding-top: 10px;
-        .HomeBlogs-title{
-            h2{
-                font-size: 34px;
-            }
-            p{
-                margin-bottom: 2px;
-                font-size: 15px;
+    .HomeBlogs-parent{
+        .row{
+            .col-md-4{
+                padding: 7px;
+                .HomeBlogs-sub{
+                    height: 330px;
+                    padding: 20px 10px;
+                    p{
+                        font-weight: 400;
+                        font-size: 15px;
+                    }
+                    .HomeBlogs-sub-image{
+                        height: 160px;
+                    }
+                    .HomeBlogs-presentations{
+                        h1{
+                            font-size:17px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+                
             }
         }
+    }
 
-        .Blogs-desc {
-            font-size: 14px !important;
-        }
-    }
-    .HomeBlogs-parent .HomeBlogs-sub .HomeBlogs-presentations h1{
-        font-size: 20px;
-    }
-    
 }
-@media only screen and (min-width:992px) and (max-width:1200px) {
-    .HomeBlogs-parent .HomeBlogs-sub .HomeBlogs-presentations h1{
-        font-size: 22px;
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .HomeBlogs-parent{
+        .row{
+            .col-md-4{
+                .HomeBlogs-sub{
+                    height: 400px;
+                    padding: 20px;
+                    p{
+                        font-weight: 400;
+                        font-size: 15px;
+                    }
+                    .HomeBlogs-sub-image{
+                        height: 200px;
+                    }
+                    .HomeBlogs-presentations{
+                        h1{
+                            font-size:20px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+                
+            }
+        }
     }
 }

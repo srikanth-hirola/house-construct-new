@@ -1,11 +1,10 @@
-// eslint-disable-next-line no-unused-vars
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Autoplay, FreeMode, Pagination } from 'swiper/modules';
+import { Autoplay, Navigation } from 'swiper/modules';
 import { Link } from 'react-router-dom';
 const ServiceShowcase = () => {
     return (
@@ -14,63 +13,138 @@ const ServiceShowcase = () => {
                 <div className="service-showcase-subparent">
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-5">
-                                <div className='work-space-line'>
+                            <div className="col-md-6">
+                                <div className='work-space-rich'>
+                                    <h6>WHAT WE DO</h6>
                                     <h1>Works Showcase</h1>
+                                    <p>With a rich history of successful projects, House Construct has excelled in constructing homes and
+                                        commercial spaces, while also leading the way in architectural and structural design. Our expertise extends to interior
+                                        planning, ensuring your spaces are both functional and aesthetically pleasing. We’ve built a legacy of turning
+                                        visions into reality, one project at a time.</p>
+                                    <div className="button-style">
+                                        <div className="button-page">
+                                            <button>View More</button>
+                                            <img src="/serimg/Icon.svg" />
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="col-md-7">
-                                <div className='work-space-rich'>
-                                    <p>With a rich history of successful projects, House Construct has excelled in constructing homes and commercial spaces, while also leading the way in architectural and structural design. Our expertise extends to interior planning, ensuring your spaces are both functional and aesthetically pleasing. We’ve built a legacy of turning visions into reality, one project at a time.</p>
+                            <div className='col-md-6'>
+                                <div className='showcase-slide-images'>
+                                    <>
+                                        <Swiper
+                                            slidesPerView={2}
+                                            centeredSlides={true}
+                                            spaceBetween={30}
+                                            freeMode={true}
+                                            autoplay={true}
+                                            delay={3000}
+                                            navigation={true}
+                                            modules={[Autoplay, Navigation]}
+                                            className="mySwiper"
+                                        >
+                                            <SwiperSlide><div>
+                                                <img src="../servicepage/banner-section9.jpeg" alt="" />
+                                                <div className='Construction-details-page'>
+                                                    <h6>Construction</h6>
+                                                    <h1>Pradeep’s Farm Villa</h1>
+                                                    <div className="button-style">
+                                                        <div className="button-page">
+                                                            <button>View More</button>
+                                                            <img src="/serimg/Icon.svg" width={20} height={20} />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div></SwiperSlide>
+                                            <SwiperSlide><div>
+                                                <img src="../servicepage/banner-section1.jpeg" alt="" />
+                                                <div className='Construction-details-page'>
+                                                    <h6>Construction</h6>
+                                                    <h1>AK House</h1>
+                                                    <div className="button-style">
+                                                        <div className="button-page">
+                                                            <button>View More</button>
+                                                            <img src="/serimg/Icon.svg" width={20} height={20} />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div></SwiperSlide>
+                                            <SwiperSlide><div><img src="../servicepage/banner-section2.jpeg" alt="" />
+                                                <div className='Construction-details-page'>
+                                                    <h6>Construction</h6>
+                                                    <h1>Aniket’s Residency</h1>
+                                                    <div className="button-style">
+                                                        <div className="button-page">
+                                                            <button>View More</button>
+                                                            <img src="/serimg/Icon.svg" width={20} height={20} />
+                                                        </div>
+                                                    </div>
+                                                </div></div></SwiperSlide>
+                                            <SwiperSlide><div><img src="../servicepage/banner-section3.jpeg" alt="" />
+                                                <div className='Construction-details-page'>
+                                                    <h6>Construction</h6>
+                                                    <h1>Abhisheak’s Residency</h1>
+                                                    <div className="button-style">
+                                                        <div className="button-page">
+                                                            <button>View More</button>
+                                                            <img src="/serimg/Icon.svg" width={20} height={20} />
+                                                        </div>
+                                                    </div>
+                                                </div></div></SwiperSlide>
+                                            <SwiperSlide><div><img src="../servicepage/banner-section4.jpeg" alt="" />
+                                                <div className='Construction-details-page'>
+                                                    <h6>Construction</h6>
+                                                    <h1>Rahul Clayton</h1>
+                                                    <div className="button-style">
+                                                        <div className="button-page">
+                                                            <button>View More</button>
+                                                            <img src="/serimg/Icon.svg" width={20} height={20} />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div></SwiperSlide>
+                                            <SwiperSlide><div><img src="../servicepage/banner-section5.jpeg" alt="" />
+                                                <div className='Construction-details-page'>
+                                                    <h6>Construction</h6>
+                                                    <h1>DNN Corner House</h1>
+                                                    <div className="button-style">
+                                                        <div className="button-page">
+                                                            <button>View More</button>
+                                                            <img src="/serimg/Icon.svg" width={20} height={20} />
+                                                        </div>
+                                                    </div>
+                                                </div></div></SwiperSlide>
+                                            <SwiperSlide><div><img src="../servicepage/banner-section8.jpeg" alt="" />
+                                                <div className='Construction-details-page'>
+                                                    <h6>Construction</h6>
+                                                    <h1>Anup’s Contemporary City Residence</h1>
+                                                    <div className="button-style">
+                                                        <div className="button-page">
+                                                            <button>View More</button>
+                                                            <img src="/serimg/Icon.svg" width={20} height={20} />
+                                                        </div>
+                                                    </div>
+                                                </div></div></SwiperSlide>
+                                            <SwiperSlide><div><img src="../servicepage/banner-section7.jpeg" alt="" />
+                                                <div className='Construction-details-page'>
+                                                    <h6>Construction</h6>
+                                                    <h1>Rashmi Residency</h1>
+                                                    <div className="button-style">
+                                                        <div className="button-page">
+                                                            <button>View More</button>
+                                                            <img src="/serimg/Icon.svg" width={20} height={20} />
+                                                        </div>
+                                                    </div>
+                                                </div></div></SwiperSlide>
+                                        </Swiper>
+                                    </>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className='slider-images'>
-                        <Swiper
-                            slidesPerView={5}
-                            spaceBetween={40}
-                            freeMode={true}
-                            autoplay={true}
-                            pagination={{
-                                clickable: true,
-                            }}
-                            breakpoints={{
-                                220: {
-                                    slidesPerView: 2,
-                                    spaceBetween: 5,
-                                    centeredSlides:true,
-                                },
-                                540: {
-                                    slidesPerView: 3,
-                                    spaceBetween: 15,
-                                    centeredSlides:true,
-                                },
-                                768: {
-                                    slidesPerView: 4,
-                                    spaceBetween: 20,
-                                },
-                                1024: {
-                                    slidesPerView: 5,
-                                    spaceBetween: 30,
-                                },
-                            }}
-                            modules={[Autoplay, FreeMode, Pagination]}
-                            className="mySwiper"
-                        >
-                            <SwiperSlide><div><Link to=""><img src="servicepage/showcase1.png" alt="" /></Link></div></SwiperSlide>
-                            <SwiperSlide><div><Link to=""><img src="servicepage/showcase2.png" alt="" /></Link></div></SwiperSlide>
-                            <SwiperSlide><div><Link to=""><img src="servicepage/showcase3.png" alt="" /></Link></div></SwiperSlide>
-                            <SwiperSlide><div><Link to=""><img src="servicepage/showcase4.png" alt="" /></Link></div></SwiperSlide>
-                            <SwiperSlide><div><Link to=""><img src="servicepage/showcase5.png" alt="" /></Link></div></SwiperSlide>
-                            <SwiperSlide><div><Link to=""><img src="servicepage/showcase1.png" alt="" /></Link></div></SwiperSlide>
-                            <SwiperSlide><div><Link to=""><img src="servicepage/showcase2.png" alt="" /></Link></div></SwiperSlide>
-                            <SwiperSlide><div><Link to=""><img src="servicepage/showcase3.png" alt="" /></Link></div></SwiperSlide>
-                            <SwiperSlide><div><Link to=""><img src="servicepage/showcase4.png" alt="" /></Link></div></SwiperSlide>
-                        </Swiper>
-                    </div>
                 </div>
             </div>
+
         </>
     )
 }

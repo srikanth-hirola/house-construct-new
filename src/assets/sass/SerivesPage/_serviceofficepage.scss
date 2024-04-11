@@ -1,0 +1,87 @@
+.service-parent-offer {
+    .service-offer-sub-parent {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: initial;
+        overflow-x: hidden;
+        height: 580px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .row {
+            .col-md-7 {
+                .serivice-offer {
+                    width: 80%;
+                    margin: 0 auto 0 30px;
+
+                    h6 {
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 20px;
+                        padding: 5px 0;
+                    }
+
+                    h1 {
+                        font-size: 42px;
+                        font-weight: 600;
+                        line-height: 55px;
+                        padding: 7px 0;
+                    }
+
+                    p {
+                        font-size: 20px;
+                        line-height: 35px;
+                        padding: 7px 0;
+                        font-size: 20px;
+                        font-weight: 500;
+                    }
+
+                    .button-style {
+                        .button-page {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 9.68px;
+                            width: fit-content;
+                            padding: 14px 35px;
+                            border-radius: 30px;
+                            border: 3px solid #e1e4e6;
+
+                            button {
+                                border: none;
+                                background-color: transparent;
+                            }
+
+                        }
+
+                        & :hover {
+                            background-color: #C3921C;
+                            border: 3px solid #C3921C;
+                           button{
+                            color: white;
+                           }
+                           img{
+                            filter: brightness(95.5);
+                           }
+
+                        }
+                    }
+                }
+            }
+
+            .col-md-5 {
+                .service-offer-iamge {
+                    width: 100%;
+                    height: 380px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+}

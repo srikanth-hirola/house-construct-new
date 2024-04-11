@@ -65,7 +65,6 @@ const Home = () => {
       <Banner/>
       <Houseconstruct />
       <DeliveryThings/>
-      <MarqueeText/>
       <Modal
                     title=""
                     visible={visibleModal}
@@ -101,15 +100,15 @@ const Home = () => {
     <HomeOffers/>
     {/* <MyStepper/> */}
       <HomePackages/>
-    <HomeFeatures/>
+    {/* <HomeFeatures/> */}
     <Highquality />
-    <Trustedpartners />
        
         <Whatwedo />
         <UTube/>
     <HomeBlogs/>
         
-       
+    <Trustedpartners />
+
         <Footer/>
         {/* <Ourservices /> */}
       {/* <Besthome /> */}

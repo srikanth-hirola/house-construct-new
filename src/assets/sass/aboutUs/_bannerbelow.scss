@@ -1,0 +1,106 @@
+.BannerBelowsection-parent {
+    padding: 35px 0px 25px 0px;
+    background-image: url('/images/about-pb3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .BannerBelow-title {
+        h1 {
+            font-size: 57px;
+            line-height: 72px;
+            font-weight: 700;
+            padding-bottom: 30px;
+
+            @media only screen and (max-width:575px) {
+                font-size: 28px;
+                line-height: 38px;
+                padding-bottom: 18px;
+            }
+            @media only screen and (min-width:576px) and (max-width:767px){
+                font-size: 36px;
+                line-height: 34px;
+            }
+            @media only screen and (min-width:768px) and (max-width:991px){
+                font-size: 42px;
+            }
+        }
+    }
+
+    .container-fluid {
+        .row {
+            gap: 10px;
+            @media only screen and (min-width:576px) and (max-width:767px){
+                gap: 6px;
+            }
+
+            .col-md-6 {
+                background: #fff;
+                padding: 40px;
+                width: 49.2%;
+                position: relative;
+
+                @media only screen and (max-width:575px) {
+                    width: 100%;
+                }
+                @media only screen and (min-width:576px) and (max-width:767px){
+                    padding: 15px;
+                }
+
+                .absolute-image {
+                    width: 15px;
+                    height: 15px;
+                    position: absolute;
+                    right: 1px;
+                    top: 1px;
+                    background-color: #c3921c;
+                    clip-path: polygon(0 0, 100% 0, 100% 100%);
+                }
+
+                .banner-below-image-parent {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 25px;
+
+                    .banner-below-image-parent-sub {
+                        height: 300px;
+                        width: 230px;
+                        @media only screen and (min-width:576px) and (max-width:767px){
+                            height: 280px;
+                        }
+
+                        img {
+                            height: 100%;
+                            width: 100%;
+                            border-radius: 50%;
+                        }
+                    }
+
+                    .banner-below-image-parent-content {
+                        text-align: center;
+
+                        h3 {
+                            font-size: 30px;
+                            font-weight: 700;
+                            letter-spacing: 0px;
+
+                            &:hover {
+                                color: #c3921c;
+                            }
+                        }
+
+                        p {
+                            font-size: 12px;
+                            letter-spacing: 0.2em;
+                            @media only screen and (min-width:576px) and (max-width:767px){
+                                font-size: 12px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

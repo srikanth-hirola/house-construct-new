@@ -5,16 +5,19 @@ import Careers from "../components/contactus/Careers";
 import Experts from "../components/contactus/Experts";
 import Header from '../components/home/Header'
 import Footer from "../components/home/Footer";
-import Location from "../components/about/Location";
+
+import Maps from "../components/contactus/Maps";
+import Location from "../components/contactus/Locations";
 const Contactus = () => {
   return (
     <>
     <Header />
       <Banner />
-      <Experts />
+      {/* <Experts /> */}
       {/* <Locations /> */}
-      <Location />
+      <Location/>
       <Careers />
+      <Maps/>
       <Footer />
     </>
   );

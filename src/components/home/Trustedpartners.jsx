@@ -25,10 +25,7 @@ const Trustedpartners = () => {
                         <h2>Our Trusted Partners</h2>
                         <p>Achieving victorious designs through successful collaborations.</p>
                     </div>
-                    </div>
-                </div>
-
-                <Marquee velocity={100}>
+                    <Marquee velocity={100}>
                     {images.map((image, index) => (
                         <div className="col-md-2" key={index}>
                             <div className='trustedpartners-brandlogos'>
@@ -37,6 +34,10 @@ const Trustedpartners = () => {
                         </div>
                     ))}
                 </Marquee>
+                    </div>
+                </div>
+
+                
 
             </div>
    

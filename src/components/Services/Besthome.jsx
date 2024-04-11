@@ -1,17 +1,15 @@
-/* eslint-disable no-unused-vars */
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Besthome = () => {
   return (
     <>
       <div className="best-home-parent">
-        <div className="best-home-sub">
+        <div className="best-home-sub" style={{ backgroundImage: "url('/servicepage/bg-bannner-image.png')" }}>
           <div className="container">
             <div className="row clsss-dsuj">
               <div className="col-md-12 col-lg-6 besthome-section-one">
                 <div className="best-home-card-parent1 row">
-                  <div className="col-md-6 col-sm-6 col-12 besthome-card1">
+                  <div className="col-md-6 col-sm-6 col-12 besthome-card1 no1">
                     <div className="best-home-sec1-img2">
                       <img src="/serimg/h1.svg" />
                     </div>
@@ -29,7 +27,7 @@ const Besthome = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-6 col-sm-6 col-12 besthome-card1">
+                  <div className="col-md-6 col-sm-6 col-12 besthome-card1 no2">
                     <div className="best-home-sec1-img2">
                       <img src="/serimg/h2.svg" />
                     </div>
@@ -48,7 +46,7 @@ const Besthome = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-6 col-sm-6 col-12 besthome-card1">
+                  <div className="col-md-6 col-sm-6 col-12 besthome-card1 no3">
                     <div className="best-home-sec1-img2">
                       <img src="/serimg/img1.svg" />
                     </div>
@@ -66,7 +64,7 @@ const Besthome = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-6 col-sm-6 col-12 besthome-card1">
+                  <div className="col-md-6 col-sm-6 col-12 besthome-card1 no4">
                     <div className="best-home-sec1-img2">
                       <img src="/serimg/h1.svg" />
                     </div>
@@ -109,7 +107,7 @@ const Besthome = () => {
                   </div>
                   <div className="besthome-sec2-button">
                     <div className="button-page">
-                      <Link to='/contact-us'>View More</Link>
+                      <button>View More</button>
                       <img src="/serimg/Icon.svg" />
 
                     </div>

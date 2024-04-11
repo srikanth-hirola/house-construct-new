@@ -51,7 +51,10 @@ export default function UTube() {
                                 slidesPerView: 3,
                             },
                             900: {
-                                slidesPerView: 4,
+                                slidesPerView: 3,
+                            },
+                            1200: {
+                                slidesPerView: 3,
                             },
                         }}
                         modules={[Autoplay,FreeMode, Pagination]}

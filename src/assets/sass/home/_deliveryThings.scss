@@ -3,65 +3,70 @@
         padding: 60px 0 0px; 
 
         .section-width {
-            width: 90%;
+            width: 98%;
             margin: auto;
             padding: 20px 0;
+            color: #fff;
 
             .row {
-                .col-md-6.datapage {
-                    .delivery-iamges-section {
-                        position: relative;
+                .datapage{
+                    width: 85%;
+                    padding-left: 35px;
+                    h2{
+                        font-size: 13px;
+                        letter-spacing: 3px;
+                    }
+                    h3{
+                        font-size: 38px;
+                        font-weight: 700;
+                        padding: 10px 0px 35px;
+                    }
+                }
+                .datapage-counter-sec {
+                    padding-bottom: 35px;
+                    .datapage-count {
                         display: flex;
-                        justify-content: end;
-
-                        .behind-image {
-                            position: absolute;
-                            bottom: -140px;
-                            left: 0;
-                            width: 53%;
-                            height: 400px;
-                            border: 10px solid white;
-
-                            img {
-                                width: 100%;
-                                height: 100%;
+                        justify-content: flex-start;
+                        gap: 30px;
+                        border-bottom: 2px solid #C3921C;
+                        .datapage-counter-main{
+                            width: 60px;height: 60px;
+                            svg{
+                                width: 100%;height: 100%;fill: #C3921C;
                             }
-                        }
-
-                        .d-flex {
-                            .year-experience-data {
-                                transform: rotate(270deg);
-                                height: fit-content;
-                                padding: 30px 0;
-                                position: relative;
-                                top: 25px;
-                                width: 220px;
-
-                                h1 {
-                                    font-size: 50px;
-                                    font-weight: 800;
-                                }
-
-                                h6 {
-                                    font-size: 25px;
-                                    font-weight: 600;
-                                    // width: 150px;
-                                }
+                          }
+            
+                            .datapage-counter-count h4 {
+                                color: #C3921C;
+                                font-size:50px;
+                                font-weight: 700;
                             }
-
-                            .imagepage-1 {
-                                width: 83%;
-                                height: 500px;
-
-                                img {
-                                    width: 100%;
-                                    height: 100%;
-
-                                }
+                            
+                            .datapage-counter-count strong {
+                                color: #fff;
+                                font-size: 18px;
                             }
+                            
+                            .datapage-counter-count {
+                                padding-bottom: 37px;
+                                
+                            }
+                            
+                            .datapage-counter-desc p {
+                                color: #fff;
+                                margin-top: 28px;
+                            }
+                           
+                    }
+                    .datapage-counter-desc{
+                        p{
+                            color: #fff;
+                            padding-top: 20px;
                         }
                     }
                 }
+              
+                
             }
 
             .datavisible {
@@ -75,22 +80,21 @@
                     padding: 10px 0;
 
                     h6 {
-                        color: #C3921C;
-                        font-family: "Archivo", sans-serif;
-                        font-size: 16px;
+                        color: #fff;
+                        font-size: 14px;
                         font-weight: 600;
                         margin: 0;
-                        /* 100% */
+                        letter-spacing: 2px;
                     }
                 }
 
                 .delivering-data {
                     h1 {
-                        color: var(--reactheme-com-cod-gray, #0C0A0A);
-                        font-size: 40px;
-                        width: 92%;
-                        font-weight: 600;
-                        padding: 8px 0;
+                        color: #fff;
+                        font-size: 34px;
+                        width: 100%;
+                        font-weight: 700;
+                        padding: 6px 0;
                         line-height: 54px;
                     }
                 }
@@ -98,9 +102,8 @@
                 .house-warming-page {
 
                     p {
-                        color: #000;
+                        color: #fff;
                         font-size: 17px;
-                        color: var(--reactheme-com-rolling-stone, #000);
                         font-size: 16px;
                         font-weight: 400;
                         padding: 6px 0;
@@ -109,8 +112,8 @@
                 }
 
                 .see-project-button {
-                    border-radius: 5px;
-                    border: 1px solid #C3921C;
+                    border-radius: 48px;
+                    border: 2px solid #ffffff;
                     display: flex;
                     padding: 7px 17px 7px 21px;
                     align-items: center;
@@ -119,7 +122,7 @@
                     margin: 30px 0;
 
                     a {
-                        color: var(--reactheme-com-cod-gray, #0C0A0A);
+                        color: #fff;
                         text-align: center;
                         font-size: 16px;
                         font-weight: 700;
@@ -127,10 +130,16 @@
                     }
 
                     .up-arrow-icon {
-                        background: #C3921C;
+                        // background: #C3921C;
+                       
                         display: flex;
                         padding: 10px 11.19px;
                         align-items: flex-start;
+                        svg{
+                            path{
+                                color: #C3921C;
+                            }
+                        }
                     }
                 }
             }
@@ -147,33 +156,7 @@
                 padding: 20px 0 0px 0px;
 
                 .row {
-                    .col-md-6.datapage {
-                        .delivery-iamges-section {
-                            .behind-image {
-                                bottom: -10px;
-                                height: 180px;
-                            }
-
-                            .d-flex {
-                                .imagepage-1 {
-                                    height: 300px;
-                                }
-
-                                .year-experience-data {
-                                    top: -34px;
-
-                                    h1 {
-                                        font-size: 28px;
-                                    }
-
-                                    h6 {
-                                        font-size: 16px;
-                                    }
-                                }
-                            }
-
-                        }
-                    }
+                   
                 }
 
                 .datavisible {
@@ -209,35 +192,7 @@
                 padding: 20px 0 0px 0px;
 
                 .row {
-                    .col-md-6.datapage {
-                        .delivery-iamges-section {
-                            .behind-image {
-                                bottom: -10px;
-                                height: 210px;
-                                left: 50px;
-                                width: 40%;
-                            }
-
-                            .d-flex {
-                                .imagepage-1 {
-                                    height: 410px;
-                                }
-
-                                .year-experience-data {
-                                    top: 10px;
-
-                                    h1 {
-                                        font-size: 28px;
-                                    }
-
-                                    h6 {
-                                        font-size: 19px;
-                                    }
-                                }
-                            }
-
-                        }
-                    }
+                    
                 }
 
                 .datavisible {
@@ -272,37 +227,7 @@
                 padding: 20px 0 0px 0px;
 
                 .row {
-                    .col-md-6.datapage {
-                        .delivery-iamges-section {
-                            .behind-image {
-                                bottom: 20px;
-                                height: 250px;
-                                left: 10px;
-                                width: 55%;
-                            }
-
-                            .d-flex {
-                                .imagepage-1 {
-                                    height: 470px;
-                                    width: 230px;
-                                }
-
-                                .year-experience-data {
-                                    top: 10px;
-                                    right: -55px;
-
-                                    h1 {
-                                        font-size: 28px;
-                                    }
-
-                                    h6 {
-                                        font-size: 19px;
-                                    }
-                                }
-                            }
-
-                        }
-                    }
+                    
                 }
 
                 .datavisible {
@@ -337,37 +262,7 @@
                 padding: 20px 0 0px 0px;
 
                 .row {
-                    .col-md-6.datapage {
-                        .delivery-iamges-section {
-                            .behind-image {
-                                bottom: 20px;
-                                height: 250px;
-                                left: 10px;
-                                width: 55%;
-                            }
-
-                            .d-flex {
-                                .imagepage-1 {
-                                    height: 470px;
-                                    width: 230px;
-                                }
-
-                                .year-experience-data {
-                                    top: 10px;
-                                    right: -55px;
-
-                                    h1 {
-                                        font-size: 28px;
-                                    }
-
-                                    h6 {
-                                        font-size: 19px;
-                                    }
-                                }
-                            }
-
-                        }
-                    }
+                    
                 }
 
                 .datavisible {

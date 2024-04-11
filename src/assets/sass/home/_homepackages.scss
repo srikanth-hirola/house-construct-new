@@ -1,5 +1,5 @@
 .home-packages {
-    padding: 40px 0px 20px;
+    padding: 10px 0px 20px;
     .main-packages {
         display: flex;
         flex-wrap: wrap;
@@ -25,7 +25,7 @@
         }
     }
     .main-package {
-        width: calc(23.33% - 20px);
+    width: calc(24.33% - 15px);
     margin: 30px 10px;
     box-shadow: rgb(149 157 165 / 11%) 0px 8px 24px;
     padding: 10px 4px 40px;
@@ -70,10 +70,10 @@
         position: absolute;
         top: 1px;
         right: 20px;
-        font-size: 30px;
+        font-size: 25px;
     }
     h4{
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 600;
     }
             }

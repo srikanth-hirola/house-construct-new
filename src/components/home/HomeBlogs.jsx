@@ -1,7 +1,9 @@
 /* eslint-disable no-unused-vars */
 
 import React, { useState } from 'react';
-import BlogPage from './BlogPage';
+import Blogscontentcards from '../Blogs/Blogscontentcards';
+import { ArrowUpRight } from 'react-feather';
+import { Link } from 'react-router-dom';
 const HomeBlogs = () => {
   const currentBlogData = [
     {
@@ -33,14 +35,21 @@ const HomeBlogs = () => {
   return (
     <>
       <div className='HomeBlogs-parent'>
-        <div className="container-lg container-xl container-xxl">
+        <div className="">
           <div className='HomeBlogs-title'>
-            <p>FROM OUR BLOG</p>
-            <h2>Resources and Insights</h2>
+            <div>
+              <p>FROM OUR BLOG</p>
+              <h2>Recent Posts</h2>
+            </div>
+            <div className='Home-blogs-viewmorebutton'>
+              <button className='WhoweraeAbout-sub-viewmore-button'>
+                <Link to="">View More</Link>
+                <ArrowUpRight />
+              </button>
+            </div>
           </div>
-         <BlogPage/>
+          <Blogscontentcards />
         </div>
-
       </div>
     </>
   );

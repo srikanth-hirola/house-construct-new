@@ -61,7 +61,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Layout, Menu, Button, Drawer } from 'antd';
-import {MenuOutlined} from '@ant-design/icons'
+import { MenuOutlined } from '@ant-design/icons'
+import { PhoneCall } from 'react-feather';
 const { Header } = Layout;
 
 const CustomHeader = () => {
@@ -79,9 +80,9 @@ const CustomHeader = () => {
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
               <div className="container overflow-hidden">
                 <div className='main-logo-image col-md-3'>
-                 <Link to='/'>
-                 <img src="/mainLogo.png" alt="" />
-                 </Link>
+                  <Link to='/'>
+                    <img src="/mainLogo.png" alt="" />
+                  </Link>
                 </div>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon"></span>
@@ -97,9 +98,9 @@ const CustomHeader = () => {
                     <li className="nav-item">
                       <Link className="nav-link active" to="/services">Services</Link>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                       <Link className="nav-link active" to="/portfolio">Portfolio</Link>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
                       <Link className="nav-link active" to="/blogs">Blogs</Link>
                     </li>
@@ -109,13 +110,20 @@ const CustomHeader = () => {
                   </ul>
                 </div>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                                         <div className='header-log-in-button'>
-                                             <Link >Lets Build</Link>
-                                         </div>
-                                         <div className='header-log-in-button-two'>
-                                         <Link to='/contact-us' >Get In Touch</Link>
-                                         </div>
-                                     </div>
+                  <div className='header-log-in-button'>
+                    <Link >Lets Build</Link>
+                  </div>
+                 
+                    <Link to='/contact-us' >
+                      <div className='getintouch-parent'>
+                        <div className='phonecall-icon'>
+                        <PhoneCall/>
+                        </div>
+                        <p>+91 7557557857​</p>
+                      </div>
+                    </Link>
+                  
+                </div>
               </div>
             </nav>
           </div>
@@ -125,7 +133,7 @@ const CustomHeader = () => {
       {/* Drawer for mobile */}
       <div className="mobile-menu">
         {/* <Button type="primary" className="button"> */}
-        <MenuOutlined  onClick={() => setDrawerVisible(true)} style={{ fontSize: '24px', color: '#000' }} />
+        <MenuOutlined onClick={() => setDrawerVisible(true)} style={{ fontSize: '24px', color: '#000' }} />
         {/* </Button> */}
         <Drawer
           title="Menu"

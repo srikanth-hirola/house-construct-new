@@ -1,0 +1,112 @@
+.AboutHouseConstruct-parent {
+    padding: 35px 0px;
+    @media only screen and (min-width:576px) and (max-width:767px){
+        padding: 20px;
+    }
+
+    .row {
+        align-items: center;
+
+        .col-md-6 {
+            .WhoweraeAbout-sub {
+                padding-left: 20px;
+                @media only screen and (max-width:575px){
+                    padding-left: 3px;
+                }
+
+                h5 {
+                    font-size: 12px;
+                    font-weight: 500;
+                    letter-spacing: 2.3px;
+                }
+
+                h3 {
+                    font-size: 57px;
+                    line-height: 72px;
+                    font-weight: 700;
+
+                    @media only screen and (max-width:575px) {
+                        font-size: 25px;
+                        line-height: 41px;
+                        font-weight: 600;
+                    }
+                    @media only screen and (min-width:576px) and (max-width:767px){
+                        font-size: 36px;
+                    }
+                    @media only screen and (min-width:768px) and (max-width:991px){
+                        font-size: 40px;
+                    }
+                }
+
+                p {
+                    font-size: 16px;
+                    line-height: 28px;
+                    font-weight: 400;
+                    padding: 10px 15px 25px 0px;
+                    @media only screen and (max-width:575px){
+                        padding: 0;
+                        font-size: 15px !important;
+                        text-align: justify;
+                    }
+                }
+                
+
+                .WhoweraeAbout-sub-viewmore-button {
+                    display: flex;
+                    gap: 10px;
+                    font-size: 12px;
+                    font-weight: 500;
+                    letter-spacing: 0.22px;
+                    fill: #000000;
+                    color: #000000;
+                    background-color: #02010100;
+                    border-style: solid;
+                    border-width: 3px 3px 3px 3px;
+                    border-color: #E1E4E6;
+                    border-radius: 25px;
+                    padding: 12px 30px;
+                    transition: all 0.1s linear;
+                    svg{
+                        color: #c3921c;
+                        height: 20px;
+                        width: 20px;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: #000000;
+                        font-size: 14px;
+                    }
+                    svg{
+                        font-size: 14px !important;
+                    }
+                    &:hover{
+                        border-color: #c3921c;
+                        background: #c3921c;
+                        a{
+                            color: #fff;
+                        }
+                        svg{
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+
+        .col-md-6 {
+            .WhoweraeAbout-sub-2 {
+                height: 500px;
+                background-image: url(./images/about-rightt.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                @media only screen and (max-width:575px){
+                    height: 300px;
+                    background-size: cover;
+                }
+                @media only screen and (min-width:576px) and (max-width:767px){
+                    height: 320px;
+                }
+            }
+        }
+    }
+}
