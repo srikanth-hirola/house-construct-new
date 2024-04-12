@@ -7,7 +7,7 @@
 
     .whatwego-heading {
       margin: auto;
-      width: 80%;
+      width: 88%;
 
       .WhoweraeAbout-sub-viewmore-button {
         display: flex;
@@ -58,7 +58,7 @@
       .whatwedo-paragraph {
         h4 {
 
-          font-size: 60px;
+          font-size: 56px;
           font-weight: 600;
           line-height: 58px;
           padding: 20px 0px;
@@ -80,7 +80,7 @@
 
     .reviews-data {
       .text-parent {
-        .container {
+        .swiper-page-date {
           .swiper {
             
             .swiper-wrapper {
@@ -138,10 +138,197 @@
   }
 }
 
-@media only screen and (max-width:575px) {}
+@media only screen and (max-width:767px) {
+  .whatwedo-parent {
+    padding: 50px 0;
 
-@media only screen and (min-width:576px) and (max-width:767px) {}
+    .whatwedo-sub {
 
-@media only screen and (min-width:768px) and (max-width:991px) {}
+      .whatwego-heading {
+        width: 92%;
 
-@media only screen and (min-width:992px) and (max-width:1199px) {}
+        .WhoweraeAbout-sub-viewmore-button {
+          display: flex;
+          gap: 10px;
+          font-size: 12px;
+          padding: 12px 30px;
+
+          svg {
+            color: #c3921c;
+            height: 20px;
+            width: 20px;
+          }
+
+          a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 14px;
+          }
+
+          svg {
+            font-size: 14px !important;
+          }
+        }
+
+        .whatwedo-paragraph {
+          h4 {
+            font-size: 32px;
+            line-height: 45px;
+            padding: 10px 0;
+          }
+
+          p {
+            font-size: 15px;
+            line-height: 30px;
+          }
+        }
+      }
+
+      .reviews-data {
+        .text-parent {
+          .swiper-page-date {
+            padding: 20px 0;
+            .swiper {
+              width: 95%;
+              .swiper-wrapper {
+                .swiper-slide {
+                  padding: 0px;
+                  background-color: #fff;
+
+                  .whatwedo-sec2-text {
+                    p {
+                      padding: 60px 30px 20px 30px;
+
+                      font-size: 16px;
+                    }
+                  }
+
+                  .profilecontent {
+                    display: flex;
+                    align-items: center;
+                    padding: 10px 30px;
+                  }
+
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+  .whatwedo-parent {
+    padding: 50px 0;
+
+    .whatwedo-sub {
+
+      .whatwego-heading {
+        width: 92%;
+
+        .WhoweraeAbout-sub-viewmore-button {
+          display: flex;
+          gap: 10px;
+          font-size: 12px;
+          padding: 10px 30px;
+
+          svg {
+            color: #c3921c;
+            height: 20px;
+            width: 20px;
+          }
+
+          a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 14px;
+          }
+
+          svg {
+            font-size: 14px !important;
+          }
+        }
+
+        .whatwedo-paragraph {
+          h4 {
+            font-size: 32px;
+            line-height: 45px;
+            padding: 10px 0;
+          }
+
+          p {
+            font-size: 15px;
+            line-height: 30px;
+          }
+        }
+      }
+
+      .reviews-data {
+        .text-parent {
+          .swiper-page-date {
+            .swiper {
+              .swiper-wrapper {
+                .swiper-slide {
+                  padding: 0px;
+                  background-color: #fff;
+
+                  .whatwedo-sec2-text {
+                    p {
+                      padding: 60px 30px 20px 30px;
+
+                      font-size: 16px;
+                    }
+                  }
+
+                  .profilecontent {
+                    display: flex;
+                    align-items: center;
+                    padding: 10px 30px;
+                  }
+
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+  .whatwedo-parent {
+    padding: 50px 0;
+
+    .whatwedo-sub {
+
+      .whatwego-heading {
+        width: 92%;
+
+        .WhoweraeAbout-sub-viewmore-button {
+          display: flex;
+          gap: 10px;
+          font-size: 12px;
+          padding: 10px 30px;
+        }
+
+        .whatwedo-paragraph {
+          h4 {
+            font-size: 34px;
+            line-height: 45px;
+            padding: 10px 0;
+          }
+
+          p {
+            font-size: 15px;
+            line-height: 30px;
+          }
+        }
+      }
+
+    }
+  }
+}

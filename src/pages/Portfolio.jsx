@@ -7,6 +7,7 @@ import PortfolioMain from '../components/portfolio/PortfolioMain'
 import Banner from '../components/contactus/Banner'
 import PortfolioBanner from '../components/PortfolioIndividual/PortfolioBanner'
 import { Modal } from 'antd'
+import PortfolioGallery from '../components/PortfolioIndividual/PortfolioGallery'
 
 const Portfolio = () => {
   const [visibleModal, setVisibleModal] = useState(false);

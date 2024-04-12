@@ -1,7 +1,6 @@
-/* eslint-disable no-unused-vars */
 import React from 'react';
 import projectData from '../../assets/data/projects.json';
-import { Navigation, Scrollbar, A11y,Autoplay } from 'swiper/modules';
+import { Navigation, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -11,19 +10,17 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { Link } from 'react-router-dom';
-
-// SwiperCore.use([Autoplay, Pagination]);
-
-const HomeOffers = () => {
-    const data = projectData.slice(0, 6); // Slice to get the first 6 items from projectData
-
+const PortfolioRelatedProjects = () => {
+    const data = projectData
     return (
-        <div className='Home-WorksWeOffer-parent' style={{ backgroundImage: `url(/images/test-bg.webp)` }}>
+        <>
+            <div className='Home-WorksWeOffer-parent'>
+                <div className="container-lg container-xl container-xxl">
                 <div className='Home-WorksWeOffer-title'>
                     <div className="row p-0 m-0">
                         <div className="col-md-6">
-                            <h2>Works Showcase</h2>
-                            <h6>Works We Offer</h6>
+                            <h6>MORE PROJECTS</h6>
+                            <h2>Related Projects</h2>
                         </div>
                     </div>
                 </div>
@@ -34,11 +31,13 @@ const HomeOffers = () => {
                         spaceBetween={10}
                         freeMode={true}
                         autoplay={true}
-                        loop={true}
+                        navigation={{
+                            clickable: true,
+                        }}
                         pagination={{
                             clickable: true,
                         }}
-                        modules={[Navigation, Scrollbar, A11y,Autoplay]}
+                        modules={[Navigation, Scrollbar, A11y, Autoplay]}
                         breakpoints={{
                             220: {
                                 slidesPerView: 2,
@@ -55,7 +54,7 @@ const HomeOffers = () => {
                                 spaceBetween: 20,
                             },
                             1024: {
-                                slidesPerView: 5,
+                                slidesPerView: 4,
                                 spaceBetween: 10,
                             },
                         }}
@@ -79,8 +78,11 @@ const HomeOffers = () => {
                         ))}
                     </Swiper>
                 </div>
-        </div>
-    );
+                </div>
+            </div>
+        </>
+
+    )
 }
 
-export default HomeOffers;
+export default PortfolioRelatedProjects

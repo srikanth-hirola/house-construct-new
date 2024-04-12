@@ -3,49 +3,31 @@
     background-position: center;
     background-size: contain;
 
-
     .Home-WorksWeOffer-title {
         text-align: center;
-        color: #fff;
         padding: 20px 0px 45px;
         font-weight: 600;
         .row{
-            align-items: center;justify-content: space-between;
+            
             .col-md-6{
                 &:last-child{
                     text-align: right;
-                    padding-left: 70px;
                 }
             }
         }
         h2{
             font-size: 45px;
-            color: #fff !important;
             text-align: left;
             font-weight: 600;
             padding-bottom: 5px;
+            color: #000;
         }
         h6{
+            color: #000;
             font-weight: 600;
-            color: #fff !important;
             text-align: left;
-            font-size: 18px;
-        }
-        a{
-            border: none;
-            padding: 11px 24px;
-            border-radius: 2px;
-            background: #c3921c;
-            color: var(--reactheme-com-nero, #fff);
-            text-align: center;
-            font-family: "Titillium Web";
-            font-size: 15px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 16px;
-            letter-spacing: 0.8px;
-            text-transform: uppercase;
-            text-decoration: none;
+            font-size: 13px;
+            letter-spacing: 2px;
         }
     }
 

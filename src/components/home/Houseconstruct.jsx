@@ -59,7 +59,7 @@
 
 //             <div className="row">
           
-//            <div className="col-md-4">
+//            <div className="col-md-4 p-0">
 //            <animated.div 
 //              style={isInViewport ? fadeAnimation : {}}
 //                   className={isInViewport ? "fade-in" : ""}
@@ -75,7 +75,7 @@
 //             </div>
 //             </animated.div>
 //            </div>
-//            <div className="col-md-4">
+//            <div className="col-md-4 p-0">
 //             <animated.div 
 //               style={isInViewport ? fadeAnimation : {}}
 //                   className={isInViewport ? "fade-in" : ""}
@@ -91,7 +91,7 @@
 //             </div>
 //             </animated.div>
 //            </div>
-//            <div className="col-md-4">
+//            <div className="col-md-4 p-0">
 //            <animated.div 
 //              style={isInViewport ? fadeAnimation : {}}
 //                   className={isInViewport ? "fade-in" : ""}
@@ -107,7 +107,7 @@
 //             </div>
 //             </animated.div>
 //            </div>
-//            <div className="col-md-4">
+//            <div className="col-md-4 p-0">
 //            <animated.div 
 //              style={isInViewport ? fadeAnimation : {}}
 //                   className={isInViewport ? "fade-in" : ""}
@@ -123,7 +123,7 @@
 //             </div>
 //             </animated.div>
 //            </div>
-//            <div className="col-md-4">
+//            <div className="col-md-4 p-0">
 //            <animated.div 
 //              style={isInViewport ? fadeAnimation : {}}
 //                   className={isInViewport ? "fade-in" : ""}
@@ -139,7 +139,7 @@
 //             </div>
 //             </animated.div>
 //            </div>
-//            <div className="col-md-4">
+//            <div className="col-md-4 p-0">
 //            <animated.div 
 //              style={isInViewport ? fadeAnimation : {}}
 //                   className={isInViewport ? "fade-in" : ""}
@@ -226,7 +226,7 @@ const Houseconstruct = () => {
               </p>
             </div>
             <div className="row">
-              <div className="col-md-4">
+              <div className="col-md-4 p-0">
                 <animated.div style={fadeSlideAnimation}>
                   <div className="house-const-card" ref={ref}>
                     <div className="house-const-card-img">
@@ -246,101 +246,91 @@ const Houseconstruct = () => {
                   </div>
                 </animated.div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 p-0">
                 <animated.div style={fadeSlideAnimation}>
                   <div className="house-const-card" ref={ref}>
                     <div className="house-const-card-img">
                       <img
-                        src="/images/card-1.png"
+                        src="/images/card-2.png"
                         alt="Why Choose House Construct"
                       />
                     </div>
                     <div className="house-const-card-text">
-                      <h3>No Subcontracting</h3>
+                      <h3>Micro Payment System</h3>
                       <p>
-                        We believe in hands-on quality. That's why we don't
-                        subcontract our work. Every nail, every beam, every
-                        detail is overseen by our experienced team.
+                      Paying for your dream home is made easy with our micro payment system, ensuring you have full control of your finances throughout the project.
                       </p>
                     </div>
                   </div>
                 </animated.div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 p-0">
                 <animated.div style={fadeSlideAnimation}>
                   <div className="house-const-card" ref={ref}>
                     <div className="house-const-card-img">
                       <img
-                        src="/images/card-1.png"
+                        src="/images/card-3.png"
                         alt="Why Choose House Construct"
                       />
                     </div>
                     <div className="house-const-card-text">
-                      <h3>No Subcontracting</h3>
+                      <h3>No Delays Policy</h3>
                       <p>
-                        We believe in hands-on quality. That's why we don't
-                        subcontract our work. Every nail, every beam, every
-                        detail is overseen by our experienced team.
+                      With our "No Delay" policy, your project stays on track. Your time is precious, and we respect it by keeping things on schedule.
                       </p>
                     </div>
                   </div>
                 </animated.div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 p-0">
                 <animated.div style={fadeSlideAnimation}>
                   <div className="house-const-card" ref={ref}>
                     <div className="house-const-card-img">
                       <img
-                        src="/images/card-1.png"
+                        src="/images/card-4.png"
                         alt="Why Choose House Construct"
                       />
                     </div>
                     <div className="house-const-card-text">
-                      <h3>No Subcontracting</h3>
+                      <h3>410+ Unique Quality Checks</h3>
                       <p>
-                        We believe in hands-on quality. That's why we don't
-                        subcontract our work. Every nail, every beam, every
-                        detail is overseen by our experienced team.
+                      We believe in hands-on quality. That's why we don't subcontract our work. Every nail, every beam, every detail is overseen by our experienced team.
                       </p>
                     </div>
                   </div>
                 </animated.div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 p-0">
                 <animated.div style={fadeSlideAnimation}>
                   <div className="house-const-card" ref={ref}>
                     <div className="house-const-card-img">
                       <img
-                        src="/images/card-1.png"
+                        src="/images/card-5.png"
                         alt="Why Choose House Construct"
                       />
                     </div>
                     <div className="house-const-card-text">
-                      <h3>No Subcontracting</h3>
+                      <h3>10-Year Warranty</h3>
                       <p>
-                        We believe in hands-on quality. That's why we don't
-                        subcontract our work. Every nail, every beam, every
-                        detail is overseen by our experienced team.
+                      We stand by our work. That's why we offer a 10-year warranty with lifetime service assistance, ensuring your peace of mind for the long haul.
                       </p>
                     </div>
                   </div>
                 </animated.div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 p-0">
                 <animated.div style={fadeSlideAnimation}>
                   <div className="house-const-card" ref={ref}>
                     <div className="house-const-card-img">
                       <img
-                        src="/images/card-1.png"
+                        src="/images/card-6.png"
                         alt="Why Choose House Construct"
                       />
                     </div>
                     <div className="house-const-card-text">
-                      <h3>No Subcontracting</h3>
+                      <h3>Full Transparency</h3>
                       <p>
-                        We believe in hands-on quality. That's why we don't
-                        subcontract our work. Every nail, every beam, every
-                        detail is overseen by our experienced team.
+                      We take pride in our unwavering commitment to transparency. We believe in clear communication, and open collaboration with our clients.
                       </p>
                     </div>
                   </div>
