@@ -8,7 +8,7 @@ const Highquality = () => {
           className="ourservicepage-sub"
           style={{ backgroundColor: "#f4f7f9" }}
         >
-          <div className="container service-page-container">
+          <div className=" container-xl container-xxl service-page-container">
             <div className="ourservice-page-text1">
               <h6>what we offer</h6>
               <h2>Our Services</h2>
@@ -18,7 +18,7 @@ const Highquality = () => {
             </div>
 
             <div className="row card-first-row">
-              <div className="col-md-3 col-sm-6 col-6">
+              <div className="col-md-3 col-sm-6 col-12">
                 <div className="card-for-service-page NO1">
                   <Link to='/contact-us'>
                     <div className="number-count">
@@ -50,7 +50,7 @@ const Highquality = () => {
                   </Link>
                 </div>
               </div>
-              <div className="col-md-3 col-sm-6 col-6">
+              <div className="col-md-3 col-sm-6 col-12">
                 <div className="card-for-service-page NO2">
                   <Link to='/contact-us'>
                     <div className="number-count">
@@ -83,7 +83,7 @@ const Highquality = () => {
 
                 </div>
               </div>
-              <div className="col-md-3 col-sm-6 col-6">
+              <div className="col-md-3 col-sm-6 col-12">
                 <div className="card-for-service-page NO3">
                   <Link to='/contact-us'>
                     <div className="number-count">
@@ -121,7 +121,7 @@ const Highquality = () => {
                   </Link>
                 </div>
               </div>
-              <div className="col-md-3 col-sm-6 col-6">
+              <div className="col-md-3 col-sm-6 col-12">
                 <div className="card-for-service-page NO4">
                   <Link to='/contact-us'>
                     <div className="number-count">

@@ -1,6 +1,6 @@
 .delivery-Things-parent {
     .delivery-Things-subparent {
-        padding: 60px 0 0px; 
+        padding: 60px 0 0px;
 
         .section-width {
             width: 98%;
@@ -9,64 +9,77 @@
             color: #fff;
 
             .row {
-                .datapage{
+                margin: 0;
+                padding: 0;
+
+                .datapage {
                     width: 85%;
                     padding-left: 35px;
-                    h2{
+
+                    h2 {
                         font-size: 13px;
                         letter-spacing: 3px;
                     }
-                    h3{
+
+                    h3 {
                         font-size: 38px;
                         font-weight: 700;
                         padding: 10px 0px 35px;
                     }
                 }
+
                 .datapage-counter-sec {
                     padding-bottom: 35px;
+
                     .datapage-count {
                         display: flex;
                         justify-content: flex-start;
                         gap: 30px;
                         border-bottom: 2px solid #C3921C;
-                        .datapage-counter-main{
-                            width: 60px;height: 60px;
-                            svg{
-                                width: 100%;height: 100%;fill: #C3921C;
+
+                        .datapage-counter-main {
+                            width: 60px;
+                            height: 60px;
+
+                            svg {
+                                width: 100%;
+                                height: 100%;
+                                fill: #C3921C;
                             }
-                          }
-            
-                            .datapage-counter-count h4 {
-                                color: #C3921C;
-                                font-size:50px;
-                                font-weight: 700;
-                            }
-                            
-                            .datapage-counter-count strong {
-                                color: #fff;
-                                font-size: 18px;
-                            }
-                            
-                            .datapage-counter-count {
-                                padding-bottom: 37px;
-                                
-                            }
-                            
-                            .datapage-counter-desc p {
-                                color: #fff;
-                                margin-top: 28px;
-                            }
-                           
+                        }
+
+                        .datapage-counter-count h4 {
+                            color: #C3921C;
+                            font-size: 48px;
+                            font-weight: 700;
+                        }
+
+                        .datapage-counter-count strong {
+                            color: #fff;
+                            font-size: 18px;
+                        }
+
+                        .datapage-counter-count {
+                            padding-bottom: 37px;
+
+                        }
+
+                        .datapage-counter-desc p {
+                            color: #fff;
+                            margin-top: 28px;
+                        }
+
                     }
-                    .datapage-counter-desc{
-                        p{
+
+                    .datapage-counter-desc {
+                        p {
                             color: #fff;
                             padding-top: 20px;
                         }
                     }
                 }
-              
-                
+
+
             }
 
             .datavisible {
@@ -131,12 +144,13 @@
 
                     .up-arrow-icon {
                         // background: #C3921C;
-                       
+
                         display: flex;
                         padding: 10px 11.19px;
                         align-items: flex-start;
-                        svg{
-                            path{
+
+                        svg {
+                            path {
                                 color: #C3921C;
                             }
                         }
@@ -155,12 +169,81 @@
             .section-width {
                 padding: 20px 0 0px 0px;
 
-                // .row {
-                   
-                // }
+                .row {
+                    .datapage {
+                        width: 95%;
+                        padding-left: 10px;
+
+                        h2 {
+                            font-size: 12px;
+                        }
+
+                        h3 {
+                            font-size: 26px;
+                        }
+                    }
+
+                    .datapage-counter-sec {
+                        padding-bottom: 35px;
+
+                        .datapage-count {
+                            display: flex;
+                            justify-content: flex-start;
+                            gap: 30px;
+                            border-bottom: 2px solid #C3921C;
+
+                            .datapage-counter-main {
+                                width: 60px;
+                                height: 60px;
+
+                                svg {
+                                    width: 100%;
+                                    height: 100%;
+                                    fill: #C3921C;
+                                }
+                            }
+
+                            .datapage-counter-count h4 {
+                                color: #C3921C;
+                                font-size: 42px;
+                                font-weight: 700;
+                            }
+
+                            .datapage-counter-count strong {
+                                color: #fff;
+                                font-size: 18px;
+                            }
+
+                            .datapage-counter-count {
+                                padding-bottom: 37px;
+
+                            }
+
+                            .datapage-counter-desc p {
+                                color: #fff;
+                                margin-top: 28px;
+                            }
+
+                        }
+
+                        .datapage-counter-desc {
+                            p {
+                                color: #fff;
+                                padding-top: 20px;
+                            }
+                        }
+                    }
+
+                }
 
                 .datavisible {
                     padding: 10px 15px;
+
+                    .d-flex-forline {
+                        h6 {
+                            font-size: 14px;
+                        }
+                    }
 
                     .house-warming-page {
                         p {
@@ -172,7 +255,7 @@
 
                     .delivering-data {
                         h1 {
-                            font-size: 22px;
+                            font-size: 26px;
                             width: 100%;
                             line-height: 26px;
                         }
@@ -191,25 +274,95 @@
             .section-width {
                 padding: 20px 0 0px 0px;
 
-                // .row {
-                    
-                // }
+                .row {
+                    .datapage {
+                        width: 98%;
+                        padding-left: 10px;
+
+                        h2 {
+                            font-size: 12px;
+                        }
+
+                        h3 {
+                            font-size: 32px;
+                        }
+                    }
+
+                    .datapage-counter-sec {
+                        padding-bottom: 35px;
+
+                        .datapage-count {
+                            display: flex;
+                            justify-content: flex-start;
+                            gap: 30px;
+                            border-bottom: 2px solid #C3921C;
+
+                            .datapage-counter-main {
+                                width: 60px;
+                                height: 60px;
+
+                                svg {
+                                    width: 100%;
+                                    height: 100%;
+                                    fill: #C3921C;
+                                }
+                            }
+
+                            .datapage-counter-count h4 {
+                                color: #C3921C;
+                                font-size: 40px;
+                                font-weight: 700;
+                            }
+
+                            .datapage-counter-count strong {
+                                color: #fff;
+                                font-size: 15px;
+                            }
+
+                            .datapage-counter-count {
+                                padding-bottom: 37px;
+
+                            }
+
+                            .datapage-counter-desc p {
+                                color: #fff;
+                                margin-top: 28px;
+                            }
+
+                        }
+
+                        .datapage-counter-desc {
+                            p {
+                                color: #fff;
+                                padding-top: 20px;
+                            }
+                        }
+                    }
+
+                }
 
                 .datavisible {
                     padding: 10px 15px;
 
+                    .d-flex-forline {
+                        h6 {
+                            font-size: 14px;
+                        }
+                    }
+
                     .house-warming-page {
                         p {
-                            font-size: 15px;
+                            font-size: 14px;
                             text-align: justify;
+                            line-height: 28px;
                         }
                     }
 
                     .delivering-data {
                         h1 {
                             font-size: 26px;
-                            width: 75%;
-                            line-height: 35px;
+                            width: 100%;
+                            line-height: 26px;
                         }
                     }
                 }
@@ -226,18 +379,89 @@
             .section-width {
                 padding: 20px 0 0px 0px;
 
-                // .row {
-                    
-                // }
+                .row {
+                    .datapage {
+                        width: 98%;
+                        padding-left: 10px;
+
+                        h2 {
+                            font-size: 12px;
+                        }
+
+                        h3 {
+                            font-size: 30px;
+                        }
+                    }
+
+                    .datapage-counter-sec {
+                        padding-bottom: 30px;
+
+                        .datapage-count {
+                            display: flex;
+                            justify-content: flex-start;
+                            gap: 10px;
+                            border-bottom: 2px solid #C3921C;
+
+                            .datapage-counter-main {
+                                width: 60px;
+                                height: 60px;
+
+                                svg {
+                                    width: 100%;
+                                    height: 100%;
+                                    fill: #C3921C;
+                                }
+                            }
+
+                            .datapage-counter-count h4 {
+                                color: #C3921C;
+                                font-size: 30px;
+                                font-weight: 700;
+                            }
+
+                            .datapage-counter-count strong {
+                                color: #fff;
+                                font-size: 12px;
+                            }
+
+                            .datapage-counter-count {
+                                padding-bottom: 20px;
+
+                            }
+
+                            .datapage-counter-desc p {
+                                color: #fff;
+                                margin-top: 28px;
+                            }
+
+                        }
+
+                        .datapage-counter-desc {
+                            p {
+                                color: #fff;
+                                padding-top: 12px;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+
+                }
 
                 .datavisible {
-                    padding: 10px 15px;
+                    padding: 0px 15px;
+
+                    .d-flex-forline {
+                        h6 {
+                            font-size: 14px;
+                            padding: 0;
+                        }
+                    }
 
                     .house-warming-page {
                         p {
-                            font-size: 15px;
-                            margin: 0;
+                            font-size: 14px;
                             text-align: justify;
+                            line-height: 22px;
                         }
                     }
 
@@ -245,15 +469,20 @@
                         h1 {
                             font-size: 24px;
                             width: 100%;
-                            line-height: 35px;
+                            line-height: 32px;
                         }
+                    }
+                    .see-project-button {
+                        margin: 15px 0;
+                        padding: 5px 17px 5px 21px;
                     }
                 }
             }
         }
     }
 }
-@media only screen and (min-width:992px) and (max-width:1199px){
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
     .delivery-Things-parent {
         .delivery-Things-subparent {
             padding: 30px 0px 0px 0px;
@@ -261,9 +490,25 @@
             .section-width {
                 padding: 20px 0 0px 0px;
 
-                // .row {
-                    
-                // }
+                .row {
+                    .datapage-counter-sec {
+                        padding-bottom: 30px;
+
+                        .datapage-count {
+
+                            .datapage-counter-count h4 {
+                                color: #C3921C;
+                                font-size: 30px;
+                                font-weight: 700;
+                            }
+                            
+                            .datapage-counter-count strong {
+                                color: #fff;
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
 
                 .datavisible {
                     padding: 10px 15px;
@@ -279,7 +524,7 @@
                         h1 {
                             font-size: 26px;
                             width: 100%;
-                            line-height:36px;
+                            line-height: 36px;
                         }
                     }
                 }

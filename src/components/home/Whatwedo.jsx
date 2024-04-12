@@ -13,7 +13,7 @@ const Whatwedo = () => {
   return (
     <>
       <div className="whatwedo-parent" style={{ backgroundImage: `url(/images/test-bg.webp)` }}>
-        <div className="whatwedo-sub container" >
+        <div className="whatwedo-sub container-lg container-xl container-xxl" >
 
           <div className="row">
             <div className="col-md-6">
@@ -37,7 +37,7 @@ const Whatwedo = () => {
             </div>
             <div className="col-md-6 reviews-data">
               <div className="text-parent">
-                <div className="container">
+                <div className="container-lg container-xl container-xxl swiper-page-date">
                   <Swiper
                     slidesPerView={2}
                     // centeredSlides={true}
@@ -48,6 +48,23 @@ const Whatwedo = () => {
                     }}
                     modules={[Pagination]}
                     className="mySwiper"
+                    breakpoints={{
+                      0: {
+                          slidesPerView: 1,
+                      },
+                      640: {
+                          slidesPerView: 1,
+                      },
+                      768: {
+                          slidesPerView: 1,
+                      },
+                      900: {
+                          slidesPerView: 1,
+                      },
+                      1200: {
+                          slidesPerView: 1,
+                      },
+                  }}
                   >
                     <br />
                     <br />

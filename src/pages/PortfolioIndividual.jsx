@@ -25,6 +25,8 @@ import PortfolioIndividualContent from '../components/PortfolioIndividual/Portfo
 import Footer from '../components/home/Footer';
 import projectData from '../assets/data/projects.json'; // Import project data
 import { Modal } from 'antd';
+import PortfolioGallery from '../components/PortfolioIndividual/PortfolioGallery';
+import PortfolioRelatedProjects from '../components/PortfolioIndividual/PortfolioRelatedProjects';
 
 const PortfolioIndividual = () => {
   const [visibleModal, setVisibleModal] = useState(false);
@@ -95,6 +97,8 @@ console.log("selectedProject",selectedProject)
       <PortfolioBanner  project={selectedProject} />
       {/* Pass the selected project as props to PortfolioIndividualContent */}
       <PortfolioIndividualContent project={selectedProject} />
+      <PortfolioGallery/>
+      <PortfolioRelatedProjects/>
       <Footer />
     </>
   );

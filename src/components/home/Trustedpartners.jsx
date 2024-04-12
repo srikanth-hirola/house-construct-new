@@ -20,7 +20,7 @@ const Trustedpartners = () => {
     return (
         <div className="trusted-partners-parent">
             <div className="trusted-partners-sub">
-                <div className="container">
+                <div className="container-lg container-xl container-xxl trusted-conatiner">
                     <div className="trustes-partners-heading">
                         <h2>Our Trusted Partners</h2>
                         <p>Achieving victorious designs through successful collaborations.</p>
