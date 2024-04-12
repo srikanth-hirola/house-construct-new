@@ -48,79 +48,70 @@
             }
 
             .col-md-6 {
-                .row.counting {
-                    width: 86%;
-                    margin:30px auto;
+                .datapage {
+                    width: 85%;
+                    padding: 30px 25px;
 
-                    .timing-know {
-
-                        .what-we-do {
-
-                            h6 {
-                                font-size: 16px;
-                                font-weight: 600;
-                                line-height: 20px;
-                                padding: 0px 0;
-                            }
-
-                            h1 {
-                                font-size: 42px;
-                                font-weight: 700;
-                                line-height: 55px;
-                                padding: 7px 0;
-                            }
-                        }
+                    h2 {
+                        font-size: 13px;
+                        letter-spacing: 3px;
                     }
 
-                    .col-md-6 {
+                    h3 {
+                        font-size: 34px;
+                        font-weight: 700;
+                        padding: 10px 0px 35px;
+                    }
+                }
 
-                        .countdown-service {
-                            padding: 15px 25px;
+                .datapage-counter-sec {
+                    padding-bottom: 35px;
 
-                            .svg-counter {
-                                display: flex;
-                                gap: 20px;
-                                
+                    .datapage-count {
+                        display: flex;
+                        justify-content: flex-start;
+                        gap: 23px;
+                        border-bottom: 1px solid #8b8a8a;
 
-                                svg {
-                                    display: flex;
-                                    margin-top: 12px;
-                                }
+                        .datapage-counter-main {
+                            width: 60px;
+                            height: 60px;
 
-                                h2 {
-                                    color: #401408;
-                                    font-size: 65px;
-                                    font-weight: 700;
-                                    margin: 0;
-                                    padding: 0;
-                                }
-
-                                div {
-                                    display: flex;
-                                    flex-direction: column;
-
-                                    h3 {
-                                        padding: 5px 0;
-                                        font-size: 18px;
-                                        font-weight: 700;
-                                    }
-                                }
+                            svg {
+                                width: 100%;
+                                height: 100%;
+                                fill: #C3921C;
                             }
+                        }
 
+                        .datapage-counter-count h4 {
+                            color: #000;
+                            font-size: 36px;
+                            font-weight: 700;
+                        }
 
+                        .datapage-counter-count strong {
+                            color: #000;
+                            font-size: 15px;
+                            font-weight: 400;
+                        }
 
-                            .hr-width {
-                                width: 90%;
-                                margin: a
-                            }
+                        .datapage-counter-count {
+                            padding-bottom: 37px;
 
-                            p {
+                        }
 
-                                font-size: 16px;
-                                font-weight: 500;
-                                line-height: 25px;
-                                text-align: start;
-                            }
+                        .datapage-counter-desc p {
+                            color: #000;
+                            margin-top: 28px;
+                        }
+
+                    }
+
+                    .datapage-counter-desc {
+                        p {
+                            color: #000;
+                            padding-top: 20px;
                         }
                     }
                 }
@@ -131,10 +122,334 @@
     }
 }
 
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width:575px) {
+    .service-timing-parent {
+        .service-timing-subparent {
+            height: fit-content;
+            margin-top: 40px;
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {}
+            .row {
+                .col-md-6 {
+                    .datapage {
+                        width: 90%;
+                        margin: auto;
+                        padding-left: 10px;
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+                        h2 {
+                            font-size: 12px;
+                        }
 
-@media only screen and (min-width: 1201px) and (max-width: 1440px) {}
+                        h3 {
+                            font-size: 20px;
+                        }
+                    }
+
+                    .datapage-counter-sec {
+                        padding-bottom: 28px;
+
+                        .datapage-count {
+                            display: flex;
+                            justify-content: flex-start;
+
+
+                            .datapage-counter-main {
+                                width: 60px;
+                                height: 60px;
+                            }
+
+                            .datapage-counter-count h4 {
+                                color: #C3921C;
+                                font-size: 35px;
+                                font-weight: 700;
+                                margin: 0;
+                            }
+
+                            .datapage-counter-count strong {
+                                font-size: 16px;
+                            }
+
+                            .datapage-counter-count {
+                                padding-bottom: 10px;
+
+                            }
+
+                            .datapage-counter-desc p {
+                                margin-top: 28px;
+                            }
+
+                        }
+
+                        .datapage-counter-desc {
+                            p {
+                                padding-top: 20px;
+                            }
+                        }
+                    }
+
+                    //  .col-md-6 .countdown-service {
+                    //     padding: 15px 0px;
+                    //     p{
+                    //         font-size: 14px;
+                    //     }
+                    //     .svg-counter{
+                    //         h2{
+                    //             font-size: 48px;
+                    //         }
+                    //         div{
+                    //             h3{
+                    //                 font-size: 14px;
+                    //             }
+                    //         }
+                    //     } 
+                    // }
+                    .counting-images {
+                        height: 410px;
+
+                        .images123 {
+                            height: 400px;
+                            left: 0px;
+                            width: 80%;
+                        }
+
+                        .images1234 {
+                            height: 270px;
+                            left: 24%;
+                            top: 18.5%;
+                            width: 100%;
+                        }
+
+                        .countdown-service {
+                            padding: 10px;
+
+                        }
+                    }
+                }
+
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width: 767px) {
+    .service-timing-parent {
+        .service-timing-subparent {
+            height: fit-content;
+            margin-top: 40px;
+
+            .row {
+                .col-md-6 {
+                    .datapage {
+                        width: 94%;
+                        margin: auto;
+                        padding-left: 10px;
+
+                        h2 {
+                            font-size: 12px;
+                        }
+
+                        h3 {
+                            font-size: 32px;
+                        }
+                    }
+
+                    .datapage-counter-sec {
+                        padding-bottom: 35px;
+
+                        .datapage-count {
+
+                            .datapage-counter-main {
+                                width: 60px;
+                                height: 60px;
+                            }
+
+                            .datapage-counter-count h4 {
+                                font-size: 40px;
+                                font-weight: 700;
+                            }
+
+                            .datapage-counter-count strong {
+                                font-size: 15px;
+                            }
+
+                            .datapage-counter-count {
+                                padding-bottom: 37px;
+                            }
+
+                            .datapage-counter-desc p {
+                                margin-top: 28px;
+                            }
+
+                        }
+
+                        .datapage-counter-desc {
+                            p {
+                                padding-top: 20px;
+                            }
+                        }
+                    }
+
+                    .counting-images {
+                        height: 480px;
+
+                        .images123 {
+                            height: 450px;
+                            left: 0px;
+                            width: 75%;
+                        }
+
+                        .images1234 {
+                            height: 340px;
+                            top: 10%;
+                            left: 24%;
+                        }
+
+                        .countdown-service {
+                            padding: 10px;
+
+                        }
+                    }
+                }
+
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    .service-timing-parent .service-timing-subparent .row .col-md-6 .datapage {
+        width: 98%;
+        padding-left: 10px;
+
+        h2 {
+            font-size: 12px;
+        }
+
+        h3 {
+            font-size: 26px;
+        }
+    }
+
+    .datapage-counter-sec {
+        padding-bottom: 16px !important;
+
+        .datapage-count {
+            gap: 10px !important;
+
+            .datapage-counter-main {
+                width: 50px;
+                height: 50px;
+
+            }
+
+            .datapage-counter-count h4 {
+                font-size: 23px !important;
+                font-weight: 700;
+            }
+
+            .datapage-counter-count strong {
+                font-size: 12px !important;
+            }
+
+            .datapage-counter-count {
+                padding-bottom: 15px !important;
+
+            }
+
+            .datapage-counter-desc p {
+                margin-top: 28px;
+            }
+
+        }
+
+        .datapage-counter-desc {
+            p {
+                padding-top: 12px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .service-timing-parent .service-timing-subparent .row .col-md-6 .datapage {
+        padding: 5px 25px;
+    h3 {
+        font-size: 27px;
+    }
+}
+    .service-timing-parent .service-timing-subparent .row .col-md-6 .datapage-counter-sec {
+        padding-bottom: 20px;
+
+        .datapage-count {
+
+            .datapage-counter-count {
+                padding-bottom: 15px !important;
+
+                h4 {
+                    font-size: 22px !important;
+                    font-weight: 700;
+                }
+            }
+
+            .datapage-counter-count strong {
+                font-size: 12px !important;
+            }
+        }
+        
+        .datapage-counter-desc {
+            p {
+                padding-top: 12px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:1199px) {
+    .service-timing-parent {
+        padding: 10px 0px 20px 0px;
+
+        .service-timing-subparent {
+            height: fit-content;
+            margin-top: 10px;
+
+            .row {
+                align-items: center;
+
+                .col-md-6 {
+
+
+                    .counting-images {
+                        height: 560px;
+
+                        .images123 {
+                            height: 520px;
+                            left: 0px;
+                        }
+
+                        .images1234 {
+                            height: 350px;
+                            top: 18%;
+                            left: 20%;
+                        }
+
+                        .countdown-service {
+                            padding: 10px;
+
+                        }
+                    }
+                }
+
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width:1199px) {}
+
+@media only screen and (min-width: 1201px) and (max-width: 1440px) {
+
+}

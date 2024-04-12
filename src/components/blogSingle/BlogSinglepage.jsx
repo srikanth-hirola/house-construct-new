@@ -93,7 +93,7 @@ const BlogSinglepage = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6">
+              {/* <div className="col-md-6">
                 <div className="blog-single-page-input-line">
                   <div className="col-md-6">
                     <input type="text" placeholder="John Doe" style={{ border: 0, backgroundColor: "#f2f6f6" }} />
@@ -116,7 +116,7 @@ const BlogSinglepage = () => {
                 <div className="save-button">
                   <button>Post Commit</button>
                 </div>
-              </div>
+              </div> */}
             </div>
 
           </div>

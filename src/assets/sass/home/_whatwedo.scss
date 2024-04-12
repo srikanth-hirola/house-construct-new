@@ -82,6 +82,7 @@
       .text-parent {
         .container {
           .swiper {
+            
             .swiper-wrapper {
               .swiper-slide {
                 padding: 0px;
@@ -114,16 +115,17 @@
                     }
                   }
                 }
-
               }
             }
+
 
             .swiper-pagination {
               .swiper-pagination-bullet {
                 background: #f2e7e7 !important;
-                width: 11px ;
+                width: 11px;
                 height: 11px;
               }
+
               .swiper-pagination-bullet-active {
                 background: #c3921c !important;
               }
@@ -143,11 +145,3 @@
 @media only screen and (min-width:768px) and (max-width:991px) {}
 
 @media only screen and (min-width:992px) and (max-width:1199px) {}
-
-
-
-
-
-
-
-

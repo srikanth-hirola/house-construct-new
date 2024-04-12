@@ -6,7 +6,7 @@ const ServiceOfficePage = () => {
             <div className="service-parent-offer">
                 <div className="service-offer-sub-parent"  style={{ backgroundImage: "url('/servicepage/bg-bannner-image.png')" }}>
                     <div className="row">
-                        <div className="col-md-7">
+                        <div className="col-sm-6 col-md-7">
                             <div className='serivice-offer'>
                                 <h6>WHAT WE OFFER</h6>
                                 <h1>Providing solutions for construction,
@@ -21,7 +21,7 @@ const ServiceOfficePage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-5">
+                        <div className="col-sm-6 col-md-5">
                             <div className='service-offer-iamge'>
                                 <img src="../servicepage/banner-section1.jpeg" alt="" srcset="" />
                             </div>

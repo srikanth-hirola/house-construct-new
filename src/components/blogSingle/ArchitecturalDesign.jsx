@@ -4,7 +4,6 @@ import BlogPage from "../home/BlogPage";
 const ArchitecturalDesign = () => {
     return (
         <>
-        
             <div className="blog-single-page-parent">
                 <div className="blog-single-page-sub">
                     <div className="container">
@@ -89,7 +88,7 @@ const ArchitecturalDesign = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-6">
+                            {/* <div className="col-md-6">
                                 <div className="blog-single-page-input-line">
                                     <div className="col-md-6">
                                         <input type="text" placeholder="John Doe" style={{ border: 0, backgroundColor: "#f2f6f6" }} />
@@ -112,7 +111,7 @@ const ArchitecturalDesign = () => {
                                 <div className="save-button">
                                     <button>Post Commit</button>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
 
                     </div>

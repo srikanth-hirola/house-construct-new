@@ -7,7 +7,6 @@ const PortfolioIndividualContent = ({project}) => {
     
     return (
         <>
-      z
             <div className='PortfolioIndividualContent-parent'>
                 <div className="PortfolioIndividualContent-sub">
                     <div className="row">

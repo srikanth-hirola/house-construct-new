@@ -18,6 +18,8 @@ import 'bootstrap/dist/js/bootstrap.js';
 import ConstructionandDesign from './components/blogSingle/ConstructionandDesign';
 import ArchitecturalDesign from './components/blogSingle/ArchitecturalDesign';
 import VerticalStepperForm from './Sample';
+import IndividualBlogsPage from './pages/IndividualBlogsPage';
+import IndividualBlogsPage2 from './pages/IndividualBlogsPage2';
 const App = () => {
   return (
     <>
@@ -32,9 +34,10 @@ const App = () => {
         <Route path='/services' exact element={<ServicePage/>}/>
         <Route path='/contact-us' exact element={<Contactus />}/>
 
+
         <Route path='/how-to-choose-the-right-floor-plan-for-your-dream-home' exact element={<Blogspage />}/>
-        <Route path='/the-top-trends-in-home-construction-and-design-for-2023' exact element={<ConstructionandDesign />}/>
-        <Route path='/the-role-of-architectural-design-in-creating-sustainable-homes' exact element={<ArchitecturalDesign />}/>
+        <Route path='/the-top-trends-in-home-construction-and-design-for-2023' exact element={<IndividualBlogsPage2 />}/>
+        <Route path='/the-role-of-architectural-design-in-creating-sustainable-homes' exact element={<IndividualBlogsPage />}/>
       </Routes>
     </Router>
     </>

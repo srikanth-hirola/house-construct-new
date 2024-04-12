@@ -66,9 +66,9 @@ const Whatwedo = () => {
                             <h6>{info.customer}</h6>
                           </div>
                         </div>
-
                       </SwiperSlide>
                     ))}
+                      
 
                   </Swiper>
                 </div>

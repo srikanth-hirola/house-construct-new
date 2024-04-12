@@ -28,6 +28,7 @@
                 h6 {
                     font-size: 30px;
                     font-weight: 700;
+                    margin-left: 20px;
 
                 }
             }
@@ -40,19 +41,43 @@
         }
     }
 }
+@media only screen and (max-width:767px){
+    .services-banner-page {
+        .service-banner-subparent {
+            height: 320px;
+            .service-banner-text {
 
-@media only screen and (min-width:1201px) and (max-width:1440px) {
+                .text-line {
 
+                    p {
+                        font-size: 16px;
+                    }
+                }
+    
+                h1 {
+                    font-size: 40px;
+                }
+            }
+        }
+    } 
+}
+@media only screen and (min-width:768px) and (max-width:1199px) {
+    .services-banner-page {
+        .service-banner-subparent {
+            height: 350px;
+            .service-banner-text {
+                .text-line {
+                    p {
+                        font-size: 18px;
+                    }
+                }
+    
+                h1 {
+                    font-size: 48px;
+                }
+            }
+        }
+    } 
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  
-}
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-
-}
-
-@media only screen and (max-width: 767px) {
-
-}

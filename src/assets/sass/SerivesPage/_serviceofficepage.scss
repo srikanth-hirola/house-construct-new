@@ -85,3 +85,202 @@
         }
     }
 }
+
+@media only screen and (max-width:575px){
+    .service-parent-offer {
+        .service-offer-sub-parent {
+           height: fit-content;
+            .row {
+                .col-md-7 {
+                    .serivice-offer {
+                        width: 93%;
+                        margin: 20px auto;
+    
+                        h6 {
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 20px;
+                            padding: 5px 0;
+                        }
+    
+                        h1 {
+                            font-size: 25px;
+                            line-height: 31px;
+                            padding: 7px 0;
+                        }
+    
+                        p {
+                            line-height: 27px;
+                            text-align: justify;
+                            font-size: 15px;
+                            font-weight: 400;
+                        }
+    
+                        .button-style {
+                            .button-page {
+                                margin-bottom: 15px;
+                                padding: 6px 18px;
+                            }
+                        }
+                    }
+                }
+                .col-md-5 {
+                    .service-offer-iamge {
+                        height: 290px;
+                        width: 94%;
+                        margin: 10px auto;
+                    }
+                }
+            }
+        }
+    }   
+}
+@media only screen and (min-width:576px) and (max-width:767px){
+    .service-parent-offer {
+        .service-offer-sub-parent {
+           height: fit-content;
+            .row {
+                align-items: center;
+                .col-md-7 {
+                    .serivice-offer {
+                        width: 93%;
+                        margin: 15px auto;
+    
+                        h6 {
+                            font-size: 13px;
+                            font-weight: 500;
+                            line-height: 0px;
+                            padding-top: 35px;}
+
+                        
+    
+                        h1 {
+                            font-size: 22px;
+                            line-height: 30px;
+                        }
+    
+                        p {
+                            line-height: 27px;
+                            text-align: justify;
+                            font-size: 15px;
+                            font-weight: 400;
+                        }
+    
+                        .button-style {
+                            .button-page {
+                                margin-bottom: 15px;
+                                padding: 6px 18px;
+                            }
+                        }
+                    }
+                }
+                .col-md-5 {
+                    .service-offer-iamge {
+                        height: 350px;
+
+                    }
+                }
+            }
+        }
+    }     
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+    .service-parent-offer {
+        .service-offer-sub-parent {
+            padding: 30px 0px;
+            .row {
+                align-items: center;
+                .col-md-7 {
+                    .serivice-offer {
+                        width: 93%;
+                        margin: auto;
+    
+                        h6 {
+                            font-size: 13px;
+                            font-weight: 500;
+                            line-height: 0px;
+                            padding-top: 35px;}
+
+                        
+    
+                        h1 {
+                            font-size: 26px;
+                            line-height: 38px;
+                        }
+    
+                        p {
+                            line-height: 27px;
+                            text-align: justify;
+                            font-size: 15px;
+                            font-weight: 400;
+                        }
+    
+                        .button-style {
+                            .button-page {
+                                margin-bottom: 15px;
+                                padding: 6px 18px;
+                            }
+                        }
+                    }
+                }
+                .col-md-5 {
+                    .service-offer-iamge {
+                        height: 350px;
+
+                    }
+                }
+            }
+        }
+    }     
+}
+@media only screen and (min-width:992px) and (max-width:1199px){
+    .service-parent-offer {
+        .service-offer-sub-parent {
+            padding: 30px 0px;
+            height: 480px;
+            .row {
+                align-items: center;
+                .col-md-7 {
+                    .serivice-offer {
+                        width: 93%;
+                        margin: auto;
+    
+                        h6 {
+                            font-size: 13px;
+                            font-weight: 500;
+                            line-height: 0px;
+                            padding-top: 35px;}
+
+                        
+    
+                        h1 {
+                            font-size: 32px;
+                            line-height: 38px;
+                        }
+    
+                        p {
+                            line-height: 27px;
+                            text-align: justify;
+                            font-size: 16px;
+                            font-weight: 400;
+                        }
+    
+                        .button-style {
+                            .button-page {
+                                margin-bottom: 15px;
+                                padding: 6px 18px;
+                            }
+                        }
+                    }
+                }
+                .col-md-5 {
+                    .service-offer-iamge {
+                        height: 350px;
+
+                    }
+                }
+            }
+        }
+    }     
+}

@@ -42,6 +42,24 @@ const ServiceShowcase = () => {
                                             navigation={true}
                                             modules={[Autoplay, Navigation]}
                                             className="mySwiper"
+                                            breakpoints={{
+                                                0: {
+                                                    slidesPerView: 1,
+                                                },
+                                                480: {
+                                                    slidesPerView: 1,
+                                                },
+                                                576: {
+                                                    slidesPerView: 1,
+                                                },
+                                                900: {
+                                                    slidesPerView: 2,
+                                                },
+                                                1300:{
+                                                  slidesPerView: 2,
+                                                }
+                                            }}
+                                           
                                         >
                                             <SwiperSlide><div>
                                                 <img src="../servicepage/banner-section9.jpeg" alt="" />

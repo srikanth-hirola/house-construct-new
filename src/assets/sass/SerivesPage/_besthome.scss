@@ -3,7 +3,7 @@
   .best-home-sub {
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: cover;
 
     .container {
       
@@ -151,8 +151,22 @@
     width: 90% !important;
     margin: auto !important;
   }
+  .besthome-sec2-paragraph{
+    h2 {
+      font-size: 24px;
+      line-height: 30px;
+      padding: 0;
+    }
+  }
 }
-
+@media only screen and (min-width:575px) and (max-width:767px){
+  .best-home-parent .best-home-sub .container .clsss-dsuj .best-home-section2 .besthome-indus-dess .besthome-sec2-paragraph h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 47px;
+    padding: 10px 0;
+} 
+}
 @media only screen and (max-width: 767px) {
   .best-home-parent {
     .best-home-sub {
@@ -186,7 +200,7 @@
                   }
 
                   p {
-                    font-size: 14px;
+                    font-size: 15px;
                     line-height: 20px;
                   }
                 }
@@ -220,21 +234,23 @@
                 padding-top: 20px;
 
                 h6 {
-                  font-size: 14px;
+                  font-size: 16px;
                   font-weight: 500;
                   padding: 10px 0;
                   margin: 0;
                 }
-
-                h2 {
-                  font-size: 24px;
-                  line-height: 30px;
-                  padding: 0;
+                h2{
+                  font-size: 25px;
+                  font-weight: 700;
+                  line-height: 36px;
+                  padding: 8px 0;
+              
                 }
+
 
                 p {
                   padding: 0;
-                  font-size: 14px;
+                  font-size: 15px;
                   line-height: 20px
                 }
               }
@@ -271,20 +287,19 @@
               .besthome-card1 {
                 width: 46%;
                 margin: auto;
-                padding: 10px 5px;
+                padding: 10px 16px;
 
                 .best-home-sec1-text1 {
                   width: 100%;
                   margin: auto;
 
                   h5 {
-                    font-size: 16px;
-                    padding: 0;
-                    margin: 0;
+                    font-size: 20px;
+                    padding: 10px 0px;
                   }
 
                   p {
-                    font-size: 13px;
+                    font-size: 15px;
                     line-height: 20px;
                   }
                 }
@@ -319,22 +334,18 @@
                 padding-top: 30px;
 
                 h6 {
-                  font-size: 14px;
-                  font-weight: 500;
+                  font-size: 16px;
                   padding: 6px 0;
-                  margin: 0;
                 }
 
                 h2 {
-                  font-size: 24px;
-                  font-weight: 700;
-                  line-height: 41px;
-                  padding: 0;
+                  font-size: 28px;
+                  padding: 10px 0px;
                 }
 
                 p {
                   padding: 0;
-                  font-size: 13px;
+                  font-size: 16px;
                   line-height: 22px;
                 }
               }
