@@ -4,7 +4,7 @@
         background-position: center;
         background-size: initial;
         overflow-x: hidden;
-        height: 580px;
+        height: 530px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -23,18 +23,18 @@
                     }
 
                     h1 {
-                        font-size: 42px;
+                        font-size: 37px;
                         font-weight: 600;
-                        line-height: 55px;
+                        line-height: 50px;
                         padding: 7px 0;
                     }
 
                     p {
-                        font-size: 20px;
-                        line-height: 35px;
+                        font-size: 18px;
+                        line-height: 30px;
                         padding: 7px 0;
                         font-size: 20px;
-                        font-weight: 500;
+                        font-weight: 400;
                     }
 
                     .button-style {
@@ -44,7 +44,7 @@
                             align-items: center;
                             gap: 9.68px;
                             width: fit-content;
-                            padding: 14px 35px;
+                            padding: 12px 32px;
                             border-radius: 30px;
                             border: 3px solid #e1e4e6;
 

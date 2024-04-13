@@ -4,14 +4,14 @@
 
 // const PortfolioIndividualContent = ({project}) => {
 //    console.log("projectsqd",project)
-    
+
 //     return (
 //         <>
 
 //             <div className='PortfolioIndividualContent-parent'>
 //                 <div className="PortfolioIndividualContent-sub">
 //                     <div className="row">
-                   
+
 //                         <div className="col-md-6">
 //                             <div className='PortfolioIndividual-content-image-section'>
 //                                 <div className="col-md-12">
@@ -26,7 +26,7 @@
 //                                                </>
 //                                             ))
 //                                            }
-                                            
+
 //                                         {/* </div> */}
 
 //                                     </div>
@@ -112,51 +112,58 @@
 
 
 import React from 'react'
+import slugify from 'slugify';
 
-const PortfolioIndividualContent = () => {
-  return (
-    <>
-    <div className='PortfolioIndividualContent-parent'>
-        <div className="container-lg container-xl container-xxl">
-            <div className="row">
-                <div className="col-md-4">
-                   <div className='portfolioIndividual-sub1'>
-                   <div className='d-flex gap-1'>
-                        <h5>Place :</h5>
-                        <p>Bangalore</p>
-                    </div>
-                    <div className='d-flex gap-1'>
-                        <h5>Total area :</h5>
-                        <p> 7000 sq.ft</p>
-                    </div>
-                    <div className='d-flex gap-1'>
-                        <h5>Project Type :</h5>
-                        <p>Residential</p>
-                    </div>
-                    <div className='d-flex gap-1'>
-                        <h5>Project Status :</h5>
-                        <p>Ongoing</p>
-                    </div>
-                   </div>
-                </div>
-                <div className="col-md-8">
-                    <div className="PortfolioIndividual-sub2">
-                        <div className='title'>
-                            <p>PROJECT DETAILS</p>
-                            <h1>About the Project</h1>
+const PortfolioIndividualContent = ({ project, location }) => {
+    const slugifyTitle = (title) => {
+        return slugify(title, { lower: true, replacement: '-', remove: /[*+~.()'"!:@]/g }) + "-new";
+    };
+    return (
+        <>
+            {project?.filter(item=> slugifyTitle(item?.title) === location)?.map(project => 
+                <div className='PortfolioIndividualContent-parent'>
+                    <div className="container-lg container-xl container-xxl">
+                        <div className="row">
+                            <div className="col-md-4">
+                                <div className='portfolioIndividual-sub1'>
+                                    <div className='d-flex gap-1'>
+                                        <h5>Place :</h5>
+                                        <p>{project?.place}</p>
+                                    </div>
+                                    <div className='d-flex gap-1'>
+                                        <h5>Total area :</h5>
+                                        <p>{project?.area}</p>
+                                    </div>
+                                    <div className='d-flex gap-1'>
+                                        <h5>Project Type :</h5>
+                                        <p>{project?.project}</p>
+                                    </div>
+                                    <div className='d-flex gap-1'>
+                                        <h5>Project Status :</h5>
+                                        <p>{project?.status}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-8">
+                                <div className="PortfolioIndividual-sub2">
+                                    <div className='title'>
+                                        <p>PROJECT DETAILS</p>
+                                        <h1>About the Project</h1>
+                                    </div>
+                                    <div className='description'>
+                                        <p>{project.description}</p>
+                                        <p>{project?.descriptionTwo}</p>
+                                        <p>{project?.descriptionThree}</p>
+                                        <p>{project?.descriptionFour}</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div className='description'>
-                            <p>Nestled in the heart of Bangalore, Abhisheak’s Residency is a contemporary residential project spanning 5800 square feet, symbolizing a seamless blend of comfort and style. As of November 12, 2022, the project is dynamically underway, promising an elevated living experience in one of India’s vibrant urban centers.</p>
-                            <p>This ongoing residential venture is designed to meet the diverse needs of modern living, emphasizing both functionality and aesthetics. The 5800 sq ft space is meticulously planned to optimize natural light and ventilation, ensuring a comfortable and welcoming environment for its future inhabitants. The project, focused on redefining urban living, is a testament to architectural innovation and a commitment to quality.</p>
-                            <p>Stay tuned for updates on Abhisheak’s Residency, where the city’s pulse meets the tranquility of a thoughtfully designed home. The ongoing status reflects the dedication of the construction team to uphold the highest standards, promising a residence that goes beyond the ordinary. Abhisheak’s Residency is poised to become a landmark, setting new standards for contemporary living in Bangalore.</p>
-                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    </>
-  )
+            )}
+        </>
+    )
 }
 
 export default PortfolioIndividualContent

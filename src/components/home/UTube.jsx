@@ -29,10 +29,10 @@ export default function UTube() {
                         autoplay={true}
                         grabCursor={true}
                         delay={3000}
+                        loop={true}
                         pagination={{
                             clickable: true,
                         }}
-
                         breakpoints={{
 
                             0: {
@@ -60,23 +60,23 @@ export default function UTube() {
                     >
                         <SwiperSlide>
                             <iframe
-                                src="https://www.youtube-nocookie.com/embed/J3_rWTx0RRY?autoplay=1&controls=0&mute=1&loop=1&playlist=J3_rWTx0RRY"
+                                src="https://www.youtube.com/embed/WSz1QLBfTSk?si=fv22uvwDwGxTlIEo"
                                 title="YouTube video player"
                                 frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerPolicy="strict-origin-when-cross-origin"
-                                allowFullScreen
-                            ></iframe>
+                                allowfullscreen=""
+                            />
                         </SwiperSlide>
 
-                        <SwiperSlide><iframe src="https://www.youtube.com/embed/J3_rWTx0RRY?si=0Jm3nhXXr5hGfAQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></SwiperSlide>
-                        <SwiperSlide><iframe src="https://www.youtube.com/embed/J3_rWTx0RRY?si=0Jm3nhXXr5hGfAQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></SwiperSlide>
-                        <SwiperSlide><iframe src="https://www.youtube.com/embed/J3_rWTx0RRY?si=0Jm3nhXXr5hGfAQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></SwiperSlide>
-                        <SwiperSlide><iframe src="https://www.youtube.com/embed/J3_rWTx0RRY?si=0Jm3nhXXr5hGfAQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></SwiperSlide>
-                        <SwiperSlide><iframe src="https://www.youtube.com/embed/J3_rWTx0RRY?si=0Jm3nhXXr5hGfAQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></SwiperSlide>
-                        <SwiperSlide><iframe src="https://www.youtube.com/embed/J3_rWTx0RRY?si=0Jm3nhXXr5hGfAQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></SwiperSlide>
-                        <SwiperSlide><iframe src="https://www.youtube.com/embed/J3_rWTx0RRY?si=0Jm3nhXXr5hGfAQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></SwiperSlide>
-                        <SwiperSlide><iframe src="https://www.youtube.com/embed/J3_rWTx0RRY?si=0Jm3nhXXr5hGfAQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></SwiperSlide>
+                        <SwiperSlide><iframe src="https://www.youtube.com/embed/vt5hIrsWnxQ?si=Pv2GUj_VIt0KyJnB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></SwiperSlide>
+                        <SwiperSlide><iframe src="https://www.youtube.com/embed/9i6nlwqfZU8?si=znWhSZb354Ll2bxm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></SwiperSlide>
+                        <SwiperSlide><iframe src="https://www.youtube.com/embed/iwANwd62UCI?si=Xub3Q9WbO2tYelB1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></SwiperSlide>
+                        <SwiperSlide><iframe src="https://www.youtube.com/embed/JNE87x_1AD4?si=RjJydrVPs92ATBbv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></SwiperSlide>
+                        <SwiperSlide><iframe src="https://www.youtube.com/embed/VjvPex6_4cY?si=r2ukmO1HPm79Qrbm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></SwiperSlide>
+                        <SwiperSlide><iframe src="https://www.youtube.com/embed/J3_rWTx0RRY?si=0Jm3nhXXr5hGfAQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></SwiperSlide>
+                        <SwiperSlide><iframe src="https://www.youtube.com/embed/J3_rWTx0RRY?si=0Jm3nhXXr5hGfAQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></SwiperSlide>
+                        <SwiperSlide><iframe src="https://www.youtube.com/embed/J3_rWTx0RRY?si=0Jm3nhXXr5hGfAQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></SwiperSlide>
                     </Swiper>
                 </div>
             </div>

@@ -40,11 +40,12 @@
             padding: 25px 15px;
 
             @media only screen and (max-width:575px) {
-              width: 100%;
+              width: 100% ;
             }
 
             @media only screen and (min-width:576px) and (max-width:767px) {
               padding: 0px 15px 20px 15px;
+              width: 100% ;
             }
             @media only screen and (min-width:768px) and (max-width:991px){
               width: 85%;
@@ -147,7 +148,7 @@
 
         @media only screen and (min-width: 576px) and (max-width: 767px) {
           padding-top: 2.5rem;
-          padding-left: 4rem;
+          padding-left: 2rem;
           height: fit-content;
         }
 
@@ -287,7 +288,7 @@
 @media only screen and (max-width: 767px) {
   .contactus-banner {
     .contactus-banner-sub {
-      height: 388px;
+      height: fit-content;
 
       .about-us-banner-left-section {
         margin-top: 0;

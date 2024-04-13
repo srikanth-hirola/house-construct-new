@@ -1,846 +1,619 @@
 [
     {
-        "title":"Srinivas Residency",
-        "description":"This minimal house is planned in such a way that the building incorporates all the spaces in a three storey building for easy access. The use of cladding material on the exterior, which is in contrast with the main structure, grant a striking character to the whole residence. ",
-        "descriptionTwo":"This residence is defined by vertical elements broken by intermediate horizontal planes which bring in a pattern to the building. A humble yet dignified structure fulfills the need of the client as a perfect home.",
-        "date":"NOVEMBER 2, 2023",
-        "place":"Bangalore",
-        "area":"5600 sq.ft",
-        "project":"Residential",
-        "status":"Completed",
-        "img":"/portfolio/ak/ak-1.webp",
-        "images":[
+        "title": "Srinivas Residency",
+        "description": "This minimal house is planned in such a way that the building incorporates all the spaces in a three storey building for easy access. The use of cladding material on the exterior, which is in contrast with the main structure, grant a striking character to the whole residence. ",
+        "descriptionTwo": "This residence is defined by vertical elements broken by intermediate horizontal planes which bring in a pattern to the building. A humble yet dignified structure fulfills the need of the client as a perfect home.",
+        "date": "NOVEMBER 2, 2023",
+        "place": "Bangalore",
+        "area": "5600 sq.ft",
+        "project": "Residential",
+        "status": "Completed",
+        "img": "/portfolio/srinivas/srinivas-6.webp",
+        "mainImg": [
             {
-                "img":"/portfolio/srinivas/srinivas-1.webp"
+                "img": "/portfolio/srinivas/srinivas-3.webp"
             },
             {
-                "img":"/portfolio/srinivas/srinivas-2.webp"
+                "img": "/portfolio/srinivas/srinivas-4.webp"
+            }
+        ],
+        "images": [
+            {
+                "img": "/portfolio/srinivas/srinivas-1.webp"
             },
             {
-                "img":"/portfolio/srinivas/srinivas-3.webp"
+                "img": "/portfolio/srinivas/srinivas-4.webp"
             },
             {
-                "img":"/portfolio/srinivas/srinivas-4.webp"
+                "img": "/portfolio/srinivas/srinivas-5.webp"
             },
             {
-                "img":"/portfolio/srinivas/srinivas-5.webp"
-            },
-            {
-                "img":"/portfolio/srinivas/srinivas-6.webp"
+                "img": "/portfolio/srinivas/srinivas-6.webp"
             }
         ]
     },
     {
-        "title":"DS Shyam’s Eco Nest",
-        "description":"On the southern periphery of the site stood a magnificent and ancient tree that influenced the spatial layout of this 4 bedroom house in Bangalore. The tree with its sculptural roots straddling the compound wall defines the entrance court of the home and influences its imprint and location on the site.",
-        "descriptionTwo":"The flow of public spaces on the ground & first floor include living, dining, family, kitchen, study and a guest bedroom. The upper level of the house has the master bedroom, an open family area as well as two children’s rooms. with a small family pool.",
-        "date":"JUNE 29, 2021",
-        "place":"Bangalore",
-        "area":"5200 sq.ft",
-        "project":"Residential",
-        "status":"Completed",
-        "img":"/portfolio/dsshyam/dsshyam-1.webp",
-        "images":[
+        "title": "DS Shyam’s Eco Nest",
+        "description": "On the southern periphery of the site stood a magnificent and ancient tree that influenced the spatial layout of this 4 bedroom house in Bangalore. The tree with its sculptural roots straddling the compound wall defines the entrance court of the home and influences its imprint and location on the site.",
+        "descriptionTwo": "The flow of public spaces on the ground & first floor include living, dining, family, kitchen, study and a guest bedroom. The upper level of the house has the master bedroom, an open family area as well as two children’s rooms. with a small family pool.",
+        "date": "JUNE 29, 2021",
+        "place": "Bangalore",
+        "area": "5200 sq.ft",
+        "project": "Residential",
+        "status": "Completed",
+        "img": "/portfolio/dsshyam/dsshyam-2.webp",
+        "mainImg": [
             {
-                "img":"portfolio/dsshyam/dsshyam-1.webp"
+                "img": "/portfolio/dsshyam/dsshyam-2.webp"
             },
             {
-                "img":"portfolio/dsshyam/dsshyam-2.webp"
+                "img": "/portfolio/dsshyam/dsshyam-3.webp"
+            }
+        ],
+        "images": [
+            {
+                "img": "/portfolio/dsshyam/dsshyam-1.webp"
             },
             {
-                "img":"portfolio/dsshyam/dsshyam-3.webp"
+                "img": "/portfolio/dsshyam/dsshyam-4.webp"
             },
             {
-                "img":"portfolio/dsshyam/dsshyam-4.webp"
+                "img": "/portfolio/dsshyam/dsshyam-5.webp"
             },
             {
-                "img":"portfolio/dsshyam/dsshyam-5.webp"
+                "img": "/portfolio/dsshyam/dsshyam-6.webp"
             },
             {
-                "img":"portfolio/dsshyam/dsshyam-6.webp"
+                "img": "/portfolio/dsshyam/dsshyam-7.webp"
             },
             {
-                "img":"portfolio/dsshyam/dsshyam-7.webp"
+                "img": "/portfolio/dsshyam/dsshyam-8.webp"
             },
             {
-                "img":"portfolio/dsshyam/dsshyam-8.webp"
-            },
-            {
-                "img":"portfolio/dsshyam/dsshyam-9.webp"
+                "img": "/portfolio/dsshyam/dsshyam-9.webp"
             }
         ]
     },
     {
-        "title":"Praveen Residency",
-        "description":"This budget home is developed based on the principle of less is more, Keeping in mind the plot area of 600sft. The entire building and its appeal arise from the colour theme chosen and the few projections provided. The form is created from the functional parts of the building with almost no additional wastage of space & resources for aesthetic appeal. The floor plan is designed to let in air and light. It is also planned in such a way so as to increase the utility under the area constraints provided.",
-        "descriptionTwo":"one",
-        "date":"NOVEMBER 10, 2023",
-        "place":"Bangalore",
-        "area":"1950 sq.ft",
-        "project":"Residential",
-        "status":"Completed",
-        "img":"/portfolio/praveen/praveen-1.webp",
-        "images":[
+        "title": "Praveen Residency",
+        "description": "This budget home is developed based on the principle of less is more, Keeping in mind the plot area of 600sft. The entire building and its appeal arise from the colour theme chosen and the few projections provided. The form is created from the functional parts of the building with almost no additional wastage of space & resources for aesthetic appeal. The floor plan is designed to let in air and light. It is also planned in such a way so as to increase the utility under the area constraints provided.",
+        "date": "NOVEMBER 10, 2023",
+        "place": "Bangalore",
+        "area": "1950 sq.ft",
+        "project": "Residential",
+        "status": "Completed",
+        "img": "/portfolio/praveen/praveen-3.webp",
+        "mainImg": [
             {
-                "img":"/portfolio/praveen/praveen-1.webp"
+                "img": "/portfolio/praveen/praveen-3.webp"
             },
             {
-                "img":"/portfolio/praveen/praveen-2.webp"
+                "img": "/portfolio/praveen/praveen-9.webp"
+            }
+        ],
+        "images": [
+            {
+                "img": "/portfolio/praveen/praveen-1.webp"
             },
             {
-                "img":"/portfolio/praveen/praveen-3.webp"
+                "img": "/portfolio/praveen/praveen-2.webp"
             },
             {
-                "img":"/portfolio/praveen/praveen-4.webp"
+                "img": "/portfolio/praveen/praveen-4.webp"
             },
             {
-                "img":"/portfolio/praveen/praveen-5.webp"
+                "img": "/portfolio/praveen/praveen-5.webp"
             },
             {
-                "img":"/portfolio/praveen/praveen-6.webp"
+                "img": "/portfolio/praveen/praveen-6.webp"
             },
             {
-                "img":"/portfolio/praveen/praveen-7.webp"
+                "img": "/portfolio/praveen/praveen-7.webp"
             },
             {
-                "img":"/portfolio/praveen/praveen-8.webp"
+                "img": "/portfolio/praveen/praveen-8.webp"
             },
             {
-                "img":"/portfolio/praveen/praveen-9.webp"
+                "img": "/portfolio/praveen/praveen-10.webp"
             },
             {
-                "img":"/portfolio/praveen/praveen-10.webp"
+                "img": "/portfolio/praveen/praveen-11.webp"
             },
             {
-                "img":"/portfolio/praveen/praveen-11.webp"
-            },
-            {
-                "img":"/portfolio/praveen/praveen-12.webp"
+                "img": "/portfolio/praveen/praveen-12.webp"
             }
         ]
     },
     {
-        "title":"Chandan Residency",
-        "description":"A four-bedroom modern residence in a small urban plot, this is a space efficient design to capture the best features of the site. The design opens up in the first floor, to create a panoramic view from the upper living and balcony while bringing in daylight and creating natural ventilation in the entire house. A striking bright elevation slowly emerges during the access from front road.A four-bedroom modern residence in a small urban plot in Nagarbhavi Bangalore, with a space-efficient design to capture the best features of the site. The design opens up on the first floor, to create a panoramic view from the upper living and balcony while bringing in daylight and creating natural ventilation in the entire house. The interior designers put the effort for maximum space utilization to make the interior of the residence look spacious with the more windows and double-height visitors room. The VR experience cleared a bunch of design confusion while the tracker could ensure that the project stayed on track without budget overshoots or quality snags.",
-        "descriptionTwo":"one",
-        "date":"NOVEMBER 10, 2023",
-        "place":"Bangalore",
-        "area":"4700 sq.ft",
-        "project":"Residential Triplex",
-        "status":"Ongoing",
-        "img":"/portfolio/chandan/chandan-1.webp",
-        "images":[
+        "title": "Chandan Residency",
+        "description": "A four-bedroom modern residence in a small urban plot, this is a space efficient design to capture the best features of the site. The design opens up in the first floor, to create a panoramic view from the upper living and balcony while bringing in daylight and creating natural ventilation in the entire house. A striking bright elevation slowly emerges during the access from front road.A four-bedroom modern residence in a small urban plot in Nagarbhavi Bangalore, with a space-efficient design to capture the best features of the site. The design opens up on the first floor, to create a panoramic view from the upper living and balcony while bringing in daylight and creating natural ventilation in the entire house. The interior designers put the effort for maximum space utilization to make the interior of the residence look spacious with the more windows and double-height visitors room. The VR experience cleared a bunch of design confusion while the tracker could ensure that the project stayed on track without budget overshoots or quality snags.",
+        "date": "NOVEMBER 10, 2023",
+        "place": "Bangalore",
+        "area": "4700 sq.ft",
+        "project": "Residential Triplex",
+        "status": "Ongoing",
+        "img": "/portfolio/chandan/chandan-5.webp",
+        "mainImg": [
             {
-                "img":"/portfolio/chandan/chandan-1.webp"
+                "img": "/portfolio/chandan/chandan-5.webp"
             },
             {
-                "img":"/portfolio/chandan/chandan-2.webp"
+                "img": "/portfolio/chandan/chandan-16.webp"
+            }
+        ],
+        "images": [
+            {
+                "img": "/portfolio/chandan/chandan-1.webp"
             },
             {
-                "img":"/portfolio/chandan/chandan-3.webp"
+                "img": "/portfolio/chandan/chandan-2.webp"
             },
             {
-                "img":"/portfolio/chandan/chandan-4.webp"
+                "img": "/portfolio/chandan/chandan-3.webp"
             },
             {
-                "img":"/portfolio/chandan/chandan-5.webp"
+                "img": "/portfolio/chandan/chandan-4.webp"
             },
             {
-                "img":"/portfolio/chandan/chandan-6.webp"
+                "img": "/portfolio/chandan/chandan-6.webp"
             },
             {
-                "img":"/portfolio/chandan/chandan-7.webp"
+                "img": "/portfolio/chandan/chandan-7.webp"
             },
             {
-                "img":"/portfolio/chandan/chandan-8.webp"
+                "img": "/portfolio/chandan/chandan-8.webp"
             },
             {
-                "img":"/portfolio/chandan/chandan-9.webp"
+                "img": "/portfolio/chandan/chandan-9.webp"
             },
             {
-                "img":"/portfolio/chandan/chandan-10.webp"
+                "img": "/portfolio/chandan/chandan-10.webp"
             },
             {
-                "img":"/portfolio/chandan/chandan-11.webp"
+                "img": "/portfolio/chandan/chandan-12.webp"
             },
             {
-                "img":"/portfolio/chandan/chandan-12.webp"
+                "img": "/portfolio/chandan/chandan-13.webp"
             },
             {
-                "img":"/portfolio/chandan/chandan-13.webp"
+                "img": "/portfolio/chandan/chandan-14.webp"
             },
             {
-                "img":"/portfolio/chandan/chandan-14.webp"
+                "img": "/portfolio/chandan/chandan-15.webp"
             },
             {
-                "img":"/portfolio/chandan/chandan-15.webp"
-            },
-            {
-                "img":"/portfolio/chandan/chandan-16.webp"
+                "img": "/portfolio/chandan/chandan-11.webp"
             }
         ]
     },
     {
-        "title":"Harish Gowda Residency",
-        "description":"White colour imparts more spaciousness while the glazed surfaces bring in maximum natural light. Built-in furniture helps to create clean interiors. The designer’s choice to use a milky-hued interior is the perfect blank canvas for creating a striking space that never gets outdated. The modern style room, along with the play of white from the smallest mirror, to the white stripes on the couch with the beautiful vibrant flowers clearly sends a cheerful mood.",
-        "descriptionTwo":"one",
-        "date":"NOVEMBER 10, 2023",
-        "place":"Bangalore",
-        "area":"4300 sq.ft",
-        "project":"Residential",
-        "status":"Completed",
-        "img":"/portfolio/harish/harish-1.webp",
-        "images":[
+        "title": "Harish Gowda Residency",
+        "description": "White colour imparts more spaciousness while the glazed surfaces bring in maximum natural light. Built-in furniture helps to create clean interiors. The designer’s choice to use a milky-hued interior is the perfect blank canvas for creating a striking space that never gets outdated. The modern style room, along with the play of white from the smallest mirror, to the white stripes on the couch with the beautiful vibrant flowers clearly sends a cheerful mood.",
+        "date": "NOVEMBER 10, 2023",
+        "place": "Bangalore",
+        "area": "4300 sq.ft",
+        "project": "Residential",
+        "status": "Completed",
+        "img": "/portfolio/harish/harish-4.webp",
+        "mainImg": [
             {
-                "img":"/portfolio/harish/harish-1.webp"
+                "img": "/portfolio/harish/harish-4.webp"
             },
             {
-                "img":"/portfolio/harish/harish-2.webp"
-            },
-            {
-                "img":"/portfolio/harish/harish-3.webp"
-            },
-            {
-                "img":"/portfolio/harish/harish-4.webp"
-            },
-            {
-                "img":"/portfolio/harish/harish-5.webp"
-            },
-            {
-                "img":"/portfolio/harish/harish-6.webp"
-            },
-            {
-                "img":"/portfolio/harish/harish-7.webp"
-            },
-            {
-                "img":"/portfolio/harish/harish-8.webp"
-            },
-            {
-                "img":"/portfolio/harish/harish-9.webp"
+                "img": "/portfolio/harish/harish-5.webp"
             }
-           
-        ]
-    },
-    {
-        "title":"Anup’s Contemporary City Residence",
-        "description":"A four-bedroom modern residence in a small urban plot, this is a space efficient design to capture the best features of the site. The design opens up in the Ground floor, to create a panoramic view from the upper living and balcony while bringing in daylight and creating natural ventilation in the entire house. The interior designers put the effort for maximum space utilization to make the interior of the residence look spacious. The materiality of the house has large expanses of polished grey kota stone & off white sand stone as the flooring offset with walnut wood in certain bedrooms. Accent cast concrete walls in the master bedroom and stairwell complement the wood and natural stones.",
-        "descriptionTwo":"one",
-        "date":"NOVEMBER 10, 2023",
-        "place":"Bangalore",
-        "area":"3600 sq.ft",
-        "project":"Residential",
-        "status":"Completed",
-        "img":"/portfolio/anup/anup-1.webp",
-        "images":[
+        ],
+        "images": [
             {
-                "img":"/portfolio/anup/anup-1.webp"
+                "img": "/portfolio/harish/harish-2.webp"
             },
             {
-                "img":"/portfolio/anup/anup-2.webp"
+                "img": "/portfolio/harish/harish-3.webp"
             },
             {
-                "img":"/portfolio/anup/anup-3.webp"
+                "img": "/portfolio/harish/harish-1.webp"
             },
             {
-                "img":"/portfolio/anup/anup-4.webp"
+                "img": "/portfolio/harish/harish-6.webp"
             },
             {
-                "img":"/portfolio/anup/anup-5.webp"
+                "img": "/portfolio/harish/harish-7.webp"
             },
             {
-                "img":"/portfolio/anup/anup-6.webp"
+                "img": "/portfolio/harish/harish-8.webp"
             },
             {
-                "img":"/portfolio/anup/anup-7.webp"
-            },
-            {
-                "img":"/portfolio/anup/anup-8.webp"
-            },
-            {
-                "img":"/portfolio/anup/anup-9.webp"
-            },
-            {
-                "img":"/portfolio/anup/anup-10.webp"
-            },
-            {
-                "img":"/portfolio/anup/anup-11.webp"
-            }
-            
-        ]
-    },
-    {
-        "title":"Rashmi Residency",
-        "description":"Architecturally characterized by its proportions and double-height spaces in balance, the project in Mysore takes a modern approach to the interior. Exterior light filtering through inside creates an amazingly best palette of sympathetic colours. Cantilevered front balcony provides dramatic views to the elevation. Sunlight from west, refracting through the glass creates beautiful light patterns. Outdoor seating area along with a neat landscape filled courtyard provides a great evening gathering space. Entrance is via a sun drenched tropical court, which extends into a light filled foyer and then flows into the living room. The living room is a glass pavilion with a hovering timber clad sloping room orienting itself into a tropical garden,We were driven to create a contextually sensitive and sustainable design by maximizing local materials.",
-        "descriptionTwo":"one",
-        "date":"NOVEMBER 10, 2023",
-        "place":"Bangalore",
-        "area":"6500 sq.ft",
-        "project":"Residential",
-        "status":"Completed",
-        "img":"/portfolio/rashmi/rashmi-1.webp",
-        "images":[
-            {
-                "img":"/portfolio/rashmi/rashmi-1.webp"
-            },
-            {
-                "img":"/portfolio/rashmi/rashmi-2.webp"
-            },
-            {
-                "img":"/portfolio/rashmi/rashmi-3.webp"
-            },
-            {
-                "img":"/portfolio/rashmi/rashmi-4.webp"
-            },
-            {
-                "img":"/portfolio/rashmi/rashmi-5.webp"
-            },
-            {
-                "img":"/portfolio/rashmi/rashmi-6.webp"
-            },
-            {
-                "img":"/portfolio/rashmi/rashmi-7.webp"
-            },
-            {
-                "img":"/portfolio/rashmi/rashmi-8.webp"
-            }
-            
-        ]
-    },
-    {
-        "title":"Manjunath’s Grey Villa",
-        "description":"an exquisite residential project nestled in the serene surroundings of Yelahanka, Bangalore. Experience the epitome of compact yet luxury living with this beautifully crafted 3 BHK East facing Villas, designed to perfection with meticulous attention to detail. Spanning across a spacious layout, this well planned villa offers the client harmonious blend of elegance and comfort with the interior designers put the effort for maximum space utilization to make the interior of the residence look spacious.",
-        "descriptionTwo":"one",
-        "date":"NOVEMBER 14, 2023",
-        "place":"Bangalore",
-        "area":"1850 sq.ft",
-        "project":"Residential",
-        "status":"Ongoing",
-        "img":"/portfolio/manjunath/manjunath-1.webp",
-        "images":[
-            {
-                "img":"/portfolio/manjunath/manjunath-1.webp"
-            },
-            {
-                "img":"/portfolio/manjunath/manjunath-2.webp"
-            },
-            {
-                "img":"/portfolio/manjunath/manjunath-3.webp"
-            },
-            {
-                "img":"/portfolio/manjunath/manjunath-4.webp"
-            },
-            {
-                "img":"/portfolio/manjunath/manjunath-5.webp"
-            },
-            {
-                "img":"/portfolio/manjunath/manjunath-6.webp"
-            }
-            
-        ]
-    },
-    {
-        "title":"Pradeep’s Farm Villa",
-        "description":"Nestled in the epitome of natural beauty, this residence has been designed keeping this view in mind. The walls have been opened up fully to the panoramic views offered by the location. This has been done with ample shading and screening so that the privacy of the interior is not compromised. The front elevation has been designed using a somber colour theme of Grey and beige, with interstices filled by wood. The colours were chosen to ensure the building is iconic to its site, and yet will not overwhelm the natural appeal of the locale. The trees surrounding the building give it ample shade from the sunlight, forming filtered shadow patterns across the front façade. The back patio, reached by a long walkway is raised above the obliqueness of the site to ensure a cosy space to relax in during spring, while enjoying the beauty of the nandi hills.",
-        "descriptionTwo":"one",
-        "date":"NOVEMBER 14, 2023",
-        "place":"Bangalore",
-        "area":"2800 sq.ft",
-        "project":"Residential",
-        "status":"Completed",
-        "img":"/portfolio/pradeep/pradeep-1.webp",
-        "images":[
-            {
-                "img":"/portfolio/pradeep/pradeep-1.webp"
-            },
-            {
-                "img":"/portfolio/pradeep/pradeep-2.webp"
-            },
-            {
-                "img":"/portfolio/pradeep/pradeep-3.webp"
-            },
-            {
-                "img":"/portfolio/pradeep/pradeep-4.webp"
-            },
-            {
-                "img":"/portfolio/pradeep/pradeep-5.webp"
-            },
-            {
-                "img":"/portfolio/pradeep/pradeep-6.webp"
-            },
-            {
-                "img":"/portfolio/pradeep/pradeep-7.webp"
-            },
-            {
-                "img":"/portfolio/pradeep/pradeep-8.webp"
-            },
-            {
-                "img":"/portfolio/pradeep/pradeep-9.webp"
-            },
-            {
-                "img":"/portfolio/pradeep/pradeep-10.webp"
-            },
-            {
-                "img":"/portfolio/pradeep/pradeep-11.webp"
-            },
-            {
-                "img":"/portfolio/pradeep/pradeep-12.webp"
-            }
-            
-        ]
-    },
-    {
-        "title":"DNN Corner House",
-        "description":"Completed shortly before the pandemic, the house became a universe for parents and children. With young children, the preference was for a three-story house which colud spark their imagination in every aspect and to always be interactive for the family within. In terms of materiality, it was intended & time to bring out the most beautiful aspects to life such as the cantiliver staircase  The key highlights of this home are the bold exteriors, the sleek duplex staircase, and the most ravishing interiors The house uses every inch of the space available and yet makes it look spacious and open, which involves crazy amount of planning and material choices which was perfectly executed by house construct team.",
-        "descriptionTwo":"one",
-        "date":"NOVEMBER 14, 2023",
-        "place":"Bangalore",
-        "area":"5800 sq.ft",
-        "project":"Residential",
-        "status":"Ongoing",
-        "img":"/portfolio/dnn/dnn-1.webp",
-        "images":[
-            {
-                "img":"/portfolio/dnn/dnn-1.webp"
-            },
-            {
-                "img":"/portfolio/dnn/dnn-2.webp"
-            },
-            {
-                "img":"/portfolio/dnn/dnn-3.webp"
-            },
-            {
-                "img":"/portfolio/dnn/dnn-4.webp"
-            },
-            {
-                "img":"/portfolio/dnn/dnn-5.webp"
-            },
-            {
-                "img":"/portfolio/dnn/dnn-6.webp"
-            },
-            {
-                "img":"/portfolio/dnn/dnn-7.webp"
-            },
-            {
-                "img":"/portfolio/dnn/dnn-8.webp"
-            },
-            {
-                "img":"/portfolio/dnn/dnn-9.webp"
-            },
-            {
-                "img":"/portfolio/dnn/dnn-10.webp"
-            },
-            {
-                "img":"/portfolio/dnn/dnn-11.webp"
-            },
-            {
-                "img":"/portfolio/dnn/dnn-12.webp"
-            }
-            
-        ]
-    },
-    {
-        "title":"Ak House",
-        "description":"an exquisite triplex project nestled in the serene surroundings of Mysore. Experience the epitome of luxury living with this beautifully crafted 6 BHK East facing Villa You can catch a glimpse of it through the living room, which gives that sense of connection to the rest of the space. The living is a gorgeous example of being connected to nature, as it faces a lovely park. The nearly 6m tall double height accentuate the airy open feeling. And the choice of materials here like the pine wood board-walls adds to the naturalness of the home. Each of the elements of the house have been individually designed to accentuate the concept, ranging from lightness to massiveness, such as the bridge that is closed to the room and open and transparent to the patio, joining the paper stairs with subtle crystals but they are accompanied by large wide walls of irregular parota.",
-        "descriptionTwo":"one",
-        "date":"NOVEMBER 14, 2023",
-        "place":"Bangalore",
-        "area":"6100 sq.ft",
-        "project":"Residential",
-        "status":"Completed",
-        "img":"/portfolio/ak/ak-1.webp",
-        "images":[
-            {
-                "img":"/portfolio/ak/ak-1.webp"
-            },
-            {
-                "img":"/portfolio/ak/ak-2.webp"
-            },
-            {
-                "img":"/portfolio/ak/ak-3.webp"
-            },
-            {
-                "img":"/portfolio/ak/ak-4.webp"
-            },
-            {
-                "img":"/portfolio/ak/ak-5.webp"
-            },
-            {
-                "img":"/portfolio/ak/ak-6.webp"
-            },
-            {
-                "img":"/portfolio/ak/ak-7.webp"
-            },
-            {
-                "img":"/portfolio/ak/ak-8.webp"
-            },
-            {
-                "img":"/portfolio/ak/ak-9.webp"
-            },
-            {
-                "img":"/portfolio/ak/ak-10.webp"
-            },
-            {
-                "img":"/portfolio/ak/ak-11.webp"
-            },
-            {
-                "img":"/portfolio/ak/ak-12.webp"
-            }
-            
-        ]
-    },
-    {
-        "title":"Rahul Clayton",
-        "description":"Rahul Clayton Residence, an ongoing residential project spanning 8000 square feet and led by the reputable House Construct, embodies a fusion of luxury and functionality. The modern architectural design, incorporating innovative construction techniques, ensures a sustainable and aesthetically pleasing living space. Thoughtfully crafted amenities, from advanced security systems to tranquil green spaces, contribute to a lifestyle that transcends the ordinary. Progressing smoothly with a dedicated construction team adhering to the highest standards of quality and safety, this project is set to redefine modern living. Stay tuned for updates on this remarkable venture, where House Construct’s commitment to delivering not just a home but a lifestyle is evident in every detail.",
-        "descriptionTwo":"one",
-        "date":"NOVEMBER 18, 2023",
-        "place":"Bangalore",
-        "area":"8000 sq.ft",
-        "project":"Residential",
-        "status":"Ongoing",
-        "img":"/portfolio/rahul/rahul-1.webp",
-        "images":[
-            {
-                "img":"/portfolio/rahul/rahul-1.webp"
-            },
-            {
-                "img":"/portfolio/rahul/rahul-2.webp"
-            },
-            {
-                "img":"/portfolio/rahul/rahul-3.webp"
-            },
-            {
-                "img":"/portfolio/rahul/rahul-4.webp"
-            },
-            {
-                "img":"/portfolio/rahul/rahul-5.webp"
-            },
-            {
-                "img":"/portfolio/rahul/rahul-6.webp"
-            },
-            {
-                "img":"/portfolio/rahul/rahul-7.webp"
-            }
-            
-        ]
-    },
-    {
-        "title":"Abhisheak’s Residency",
-        "description":"Nestled in the heart of Bangalore, Abhisheak’s Residency is a contemporary residential project spanning 5800 square feet, symbolizing a seamless blend of comfort and style. As of November 12, 2022, the project is dynamically underway, promising an elevated living experience in one of India’s vibrant urban centers.This ongoing residential venture is designed to meet the diverse needs of modern living, emphasizing both functionality and aesthetics. The 5800 sq ft space is meticulously planned to optimize natural light and ventilation, ensuring a comfortable and welcoming environment for its future inhabitants. The project, focused on redefining urban living, is a testament to architectural innovation and a commitment to quality.Stay tuned for updates on Abhisheak’s Residency, where the city’s pulse meets the tranquility of a thoughtfully designed home. The ongoing status reflects the dedication of the construction team to uphold the highest standards, promising a residence that goes beyond the ordinary. Abhisheak’s Residency is poised to become a landmark, setting new standards for contemporary living in Bangalore.",
-        "descriptionTwo":"one",
-        "date":"NOVEMBER 18, 2023",
-        "place":"Bangalore",
-        "area":"7000 sq.ft",
-        "project":"Residential",
-        "status":"Ongoing",
-        "img":"/portfolio/abhisheak/abhisheak-1.webp",
-        "images":[
-            {
-                "img":"/portfolio/abhisheak/abhisheak-1.webp"
-            },
-            {
-                "img":"/portfolio/abhisheak/abhisheak-2.webp"
-            },
-            {
-                "img":"/portfolio/abhisheak/abhisheak-3.webp"
-            },
-            {
-                "img":"/portfolio/abhisheak/abhisheak-4.webp"
-            },
-            {
-                "img":"/portfolio/abhisheak/abhisheak-5.webp"
-            },
-            {
-                "img":"/portfolio/abhisheak/abhisheak-6.webp"
-            },
-            {
-                "img":"/portfolio/abhisheak/abhisheak-7.webp"
-            },
-            {
-                "img":"/portfolio/abhisheak/abhisheak-8.webp"
-            }
-            
-        ]
-    },
-    {
-        "title":"Aniket’s Residency",
-        "description":"Discover unparalleled luxury living at Aniket’s Residency, a contemporary residential masterpiece in the heart of Bangalore spanning 5800 square feet. Our ongoing construction progress, as of December 22, 2022, promises an elevated living experience in one of India’s most vibrant urban centers.Aniket’s Residency sets itself apart with exquisite woodwork, a captivating circular staircase, lush gardens, and impeccably designed washrooms. Explore the epitome of comfort and style as these elements converge to redefine luxury living in Bangalore.Stay updated with Aniket’s Residency to witness the evolution of extraordinary woodwork, a focal circular staircase, picturesque gardens, and stylish washrooms. Our commitment to architectural brilliance ensures a unique fusion of sophistication and comfort.Our meticulously planned 5800 sq ft space optimizes natural light and ventilation, creating an inviting haven for future inhabitants. Follow our construction journey and witness the dedication of our team to uphold the highest standards, promising a residence that transcends expectations and sets new standards for contemporary living in Bangalore.Aniket’s Residency is positioned to become a landmark in the city, showcasing exceptional features that redefine urban living.",
-        "descriptionTwo":"one",
-        "date":"DECEMBER 2, 2023",
-        "place":"Bangalore",
-        "area":"5800 sq.ft",
-        "project":"Residential",
-        "status":"Ongoing",
-        "img":"/portfolio/aniket/aniket-1.webp",
-        "images":[
-            {
-                "img":"/portfolio/aniket/aniket-1.webp"
-            },
-            {
-                "img":"/portfolio/aniket/aniket-2.webp"
-            },
-            {
-                "img":"/portfolio/aniket/aniket-3.webp"
-            },
-            {
-                "img":"/portfolio/aniket/aniket-4.webp"
-            },
-            {
-                "img":"/portfolio/aniket/aniket-5.webp"
-            },
-            {
-                "img":"/portfolio/aniket/aniket-6.webp"
-            },
-            {
-                "img":"/portfolio/aniket/aniket-7.webp"
-            },
-            {
-                "img":"/portfolio/aniket/aniket-8.webp"
-            }
-            
-        ]
-    },
-    {
-        "title":"one",
-        "description":"one",
-        "descriptionTwo":"one",
-        "date":"one",
-        "place":"Bangalore",
-        "area":"one",
-        "project":"one",
-        "status":"one",
-        "img":"/portfolio/ak/ak-1.webp",
-        "images":[
-            {
-                "img":"/portfolio/ak/ak-1.webp"
-            },
-            {
-                "img":"one"
-            },
-            {
-                "img":"one"
-            },
-            {
-                "img":"one"
-            },
-            {
-                "img":"one"
-            },
-            {
-                "img":"one"
-            },
-            {
-                "img":"one"
-            },
-            {
-                "img":"one"
-            },
-            {
-                "img":"one"
-            },
-            {
-                "img":"one"
-            },
-            {
-                "img":"one"
-            },
-            {
-                "img":"one"
+                "img": "/portfolio/harish/harish-9.webp"
             }
         ]
     },
     {
-        "title":"one",
-        "description":"one",
-        "descriptionTwo":"one",
-        "date":"one",
-        "place":"Bangalore",
-        "area":"one",
-        "project":"one",
-        "status":"one",
-        "img":"/portfolio/ak/ak-1.webp",
-        "images":[
+        "title": "Anup’s Contemporary City Residence",
+        "description": "A four-bedroom modern residence in a small urban plot, this is a space efficient design to capture the best features of the site. The design opens up in the Ground floor, to create a panoramic view from the upper living and balcony while bringing in daylight and creating natural ventilation in the entire house. The interior designers put the effort for maximum space utilization to make the interior of the residence look spacious. The materiality of the house has large expanses of polished grey kota stone & off white sand stone as the flooring offset with walnut wood in certain bedrooms. Accent cast concrete walls in the master bedroom and stairwell complement the wood and natural stones.",
+        "date": "NOVEMBER 10, 2023",
+        "place": "Bangalore",
+        "area": "3600 sq.ft",
+        "project": "Residential",
+        "status": "Completed",
+        "img": "/portfolio/anup/anup-1.webp",
+        "mainImg": [
             {
-                "img":"/portfolio/ak/ak-1.webp"
+                "img": "/portfolio/anup/anup-1.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/anup/anup-4.webp"
+            }
+        ],
+        "images": [
+            {
+                "img": "/portfolio/anup/anup-3.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/anup/anup-2.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/anup/anup-5.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/anup/anup-6.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/anup/anup-7.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/anup/anup-8.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/anup/anup-9.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/anup/anup-10.webp"
             },
             {
-                "img":"one"
-            },
-            {
-                "img":"one"
-            },
-            {
-                "img":"one"
+                "img": "/portfolio/anup/anup-11.webp"
             }
         ]
     },
     {
-        "title":"one",
-        "description":"one",
-        "descriptionTwo":"one",
-        "date":"one",
-        "place":"Bangalore",
-        "area":"one",
-        "project":"one",
-        "status":"one",
-        "img":"/portfolio/ak/ak-1.webp",
-        "images":[
+        "title": "Rashmi Residency",
+        "description": "Architecturally characterized by its proportions and double-height spaces in balance, the project in Mysore takes a modern approach to the interior. Exterior light filtering through inside creates an amazingly best palette of sympathetic colours. Cantilevered front balcony provides dramatic views to the elevation. Sunlight from west, refracting through the glass creates beautiful light patterns. Outdoor seating area along with a neat landscape filled courtyard provides a great evening gathering space. Entrance is via a sun drenched tropical court, which extends into a light filled foyer and then flows into the living room. The living room is a glass pavilion with a hovering timber clad sloping room orienting itself into a tropical garden,We were driven to create a contextually sensitive and sustainable design by maximizing local materials.",
+        "date": "NOVEMBER 10, 2023",
+        "place": "Bangalore",
+        "area": "6500 sq.ft",
+        "project": "Residential",
+        "status": "Completed",
+        "img": "/portfolio/rashmi/rashmi-7.webp",
+        "mainImg": [
             {
-                "img":"/portfolio/ak/ak-1.webp"
+                "img": "/portfolio/rashmi/rashmi-6.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/rashmi/rashmi-5.webp"
+            }
+        ],
+        "images": [
+            {
+                "img": "/portfolio/rashmi/rashmi-1.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/rashmi/rashmi-2.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/rashmi/rashmi-3.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/rashmi/rashmi-4.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/rashmi/rashmi-7.webp"
             },
             {
-                "img":"one"
-            },
-            {
-                "img":"one"
-            },
-            {
-                "img":"one"
-            },
-            {
-                "img":"one"
-            },
-            {
-                "img":"one"
-            },
-            {
-                "img":"one"
+                "img": "/portfolio/rashmi/rashmi-8.webp"
             }
         ]
     },
     {
-        "title":"one",
-        "description":"one",
-        "descriptionTwo":"one",
-        "date":"one",
-        "place":"Bangalore",
-        "area":"one",
-        "project":"one",
-        "status":"one",
-        "img":"/portfolio/ak/ak-1.webp",
-        "images":[
+        "title": "Manjunath’s Grey Villa",
+        "description": "an exquisite residential project nestled in the serene surroundings of Yelahanka, Bangalore. Experience the epitome of compact yet luxury living with this beautifully crafted 3 BHK East facing Villas, designed to perfection with meticulous attention to detail. Spanning across a spacious layout, this well planned villa offers the client harmonious blend of elegance and comfort with the interior designers put the effort for maximum space utilization to make the interior of the residence look spacious.",
+        
+        "date": "NOVEMBER 14, 2023",
+        "place": "Bangalore",
+        "area": "1850 sq.ft",
+        "project": "Residential",
+        "status": "Ongoing",
+        "img": "/portfolio/manjunath/manjunath-1.webp",
+        "mainImg": [
             {
-                "img":"/portfolio/ak/ak-1.webp"
+                "img": "/portfolio/manjunath/manjunath-1.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/manjunath/manjunath-5.webp"
+            }
+        ],
+        "images": [
+            {
+                "img": "/portfolio/manjunath/manjunath-2.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/manjunath/manjunath-3.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/manjunath/manjunath-4.webp"
             },
             {
-                "img":"one"
-            },
-            {
-                "img":"one"
-            },
-            {
-                "img":"one"
-            },
-            {
-                "img":"one"
-            },
-            {
-                "img":"one"
-            },
-            {
-                "img":"one"
-            },
-            {
-                "img":"one"
-            },
-            {
-                "img":"one"
+                "img": "/portfolio/manjunath/manjunath-6.webp"
             }
         ]
     },
     {
-        "title":"one",
-        "description":"one",
-        "descriptionTwo":"one",
-        "date":"one",
-        "place":"Bangalore",
-        "area":"one",
-        "project":"one",
-        "status":"one",
-        "img":"/portfolio/ak/ak-1.webp",
-        "images":[
+        "title": "Pradeep’s Farm Villa",
+        "description": "Nestled in the epitome of natural beauty, this residence has been designed keeping this view in mind. The walls have been opened up fully to the panoramic views offered by the location. This has been done with ample shading and screening so that the privacy of the interior is not compromised. The front elevation has been designed using a somber colour theme of Grey and beige, with interstices filled by wood. The colours were chosen to ensure the building is iconic to its site, and yet will not overwhelm the natural appeal of the locale. The trees surrounding the building give it ample shade from the sunlight, forming filtered shadow patterns across the front façade. The back patio, reached by a long walkway is raised above the obliqueness of the site to ensure a cosy space to relax in during spring, while enjoying the beauty of the nandi hills.",
+        
+        "date": "NOVEMBER 14, 2023",
+        "place": "Bangalore",
+        "area": "2800 sq.ft",
+        "project": "Residential",
+        "status": "Completed",
+        "img": "/portfolio/pradeep/pradeep-4.webp",
+        "mainImg": [
             {
-                "img":"/portfolio/ak/ak-1.webp"
+                "img": "/portfolio/pradeep/pradeep-4.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/pradeep/pradeep-5.webp"
+            }
+        ],
+        "images": [
+            {
+                "img": "/portfolio/pradeep/pradeep-1.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/pradeep/pradeep-2.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/pradeep/pradeep-3.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/pradeep/pradeep-9.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/pradeep/pradeep-6.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/pradeep/pradeep-7.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/pradeep/pradeep-8.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/pradeep/pradeep-10.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/pradeep/pradeep-11.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/pradeep/pradeep-12.webp"
+            }
+        ]
+    },
+    {
+        "title": "DNN Corner House",
+        "description": "Completed shortly before the pandemic, the house became a universe for parents and children. With young children, the preference was for a three-story house which colud spark their imagination in every aspect and to always be interactive for the family within.",
+        "descriptionTwo": "In terms of materiality, it was intended & time to bring out the most beautiful aspects to life such as the cantiliver staircase.",
+        "descriptionThree": "The key highlights of this home are the bold exteriors, the sleek duplex staircase, and the most ravishing interiors The house uses every inch of the space available and yet makes it look spacious and open, which involves crazy amount of planning and material choices which was perfectly executed by house construct team.",
+        "date": "NOVEMBER 14, 2023",
+        "place": "Bangalore",
+        "area": "5800 sq.ft",
+        "project": "Residential",
+        "status": "Ongoing",
+        "img": "/portfolio/dnn/dnn-10.webp",
+        "mainImg": [
+            {
+                "img": "/portfolio/dnn/dnn-4.webp"
             },
             {
-                "img":"one"
+                "img": "/portfolio/dnn/dnn-6.webp"
+            }
+        ],
+        "images": [
+            {
+                "img": "/portfolio/dnn/dnn-1.webp"
+            },
+            {
+                "img": "/portfolio/dnn/dnn-2.webp"
+            },
+            {
+                "img": "/portfolio/dnn/dnn-3.webp"
+            },
+            {
+                "img": "/portfolio/dnn/dnn-5.webp"
+            },
+            {
+                "img": "/portfolio/dnn/dnn-7.webp"
+            },
+            {
+                "img": "/portfolio/dnn/dnn-8.webp"
+            },
+            {
+                "img": "/portfolio/dnn/dnn-9.webp"
+            },
+            {
+                "img": "/portfolio/dnn/dnn-10.webp"
+            },
+            {
+                "img": "/portfolio/dnn/dnn-11.webp"
+            },
+            {
+                "img": "/portfolio/dnn/dnn-12.webp"
+            }
+        ]
+    },
+    {
+        "title": "Ak House",
+        "description": "an exquisite triplex project nestled in the serene surroundings of Mysore. Experience the epitome of luxury living with this beautifully crafted 6 BHK East facing Villa You can catch a glimpse of it through the living room, which gives that sense of connection to the rest of the space.",
+        "descriptionTwo": "The living is a gorgeous example of being connected to nature, as it faces a lovely park. The nearly 6m tall double height accentuate the airy open feeling. And the choice of materials here like the pine wood board-walls adds to the naturalness of the home.",
+        "descriptionThree": "Each of the elements of the house have been individually designed to accentuate the concept, ranging from lightness to massiveness, such as the bridge that is closed to the room and open and transparent to the patio, joining the paper stairs with subtle crystals but they are accompanied by large wide walls of irregular parota.",
+        "date": "NOVEMBER 14, 2023",
+        "place": "Bangalore",
+        "area": "6100 sq.ft",
+        "project": "Residential",
+        "status": "Completed",
+        "img": "/portfolio/ak/ak-1.webp",
+        "mainImg": [
+            {
+                "img": "/portfolio/ak/ak-2.webp"
+            },
+            {
+                "img": "/portfolio/ak/ak-6.webp"
+            }
+        ],
+        "images": [
+            {
+                "img": "/portfolio/ak/ak-1.webp"
+            },
+            {
+                "img": "/portfolio/ak/ak-4.webp"
+            },
+            {
+                "img": "/portfolio/ak/ak-5.webp"
+            },
+            {
+                "img": "/portfolio/ak/ak-3.webp"
+            },
+            {
+                "img": "/portfolio/ak/ak-7.webp"
+            },
+            {
+                "img": "/portfolio/ak/ak-8.webp"
+            },
+            {
+                "img": "/portfolio/ak/ak-9.webp"
+            },
+            {
+                "img": "/portfolio/ak/ak-10.webp"
+            },
+            {
+                "img": "/portfolio/ak/ak-11.webp"
+            },
+            {
+                "img": "/portfolio/ak/ak-12.webp"
+            }
+        ]
+    },
+    {
+        "title": "Rahul Clayton",
+        "description": "Rahul Clayton Residence, an ongoing residential project spanning 8000 square feet and led by the reputable House Construct, embodies a fusion of luxury and functionality. The modern architectural design, incorporating innovative construction techniques, ensures a sustainable and aesthetically pleasing living space. Thoughtfully crafted amenities, from advanced security systems to tranquil green spaces, contribute to a lifestyle that transcends the ordinary. Progressing smoothly with a dedicated construction team adhering to the highest standards of quality and safety, this project is set to redefine modern living. Stay tuned for updates on this remarkable venture, where House Construct’s commitment to delivering not just a home but a lifestyle is evident in every detail.",
+        
+        "date": "NOVEMBER 18, 2023",
+        "place": "Bangalore",
+        "area": "8000 sq.ft",
+        "project": "Residential",
+        "status": "Ongoing",
+        "img": "/portfolio/rahul/rahul-1.webp",
+        "mainImg": [
+            {
+                "img": "/portfolio/rahul/rahul-1.webp"
+            },
+            {
+                "img": "/portfolio/rahul/rahul-3.webp"
+            }
+        ],
+        "images": [
+            {
+                "img": "/portfolio/rahul/rahul-2.webp"
+            },
+            {
+                "img": "/portfolio/rahul/rahul-4.webp"
+            },
+            {
+                "img": "/portfolio/rahul/rahul-5.webp"
+            },
+            {
+                "img": "/portfolio/rahul/rahul-6.webp"
+            },
+            {
+                "img": "/portfolio/rahul/rahul-7.webp"
+            }
+        ]
+    },
+    {
+        "title": "Abhisheak’s Residency",
+        "description": "Nestled in the heart of Bangalore, Abhisheak’s Residency is a contemporary residential project spanning 5800 square feet, symbolizing a seamless blend of comfort and style. As of November 12, 2022, the project is dynamically underway, promising an elevated living experience in one of India’s vibrant urban centers.",
+        "descriptionTwo": "This ongoing residential venture is designed to meet the diverse needs of modern living, emphasizing both functionality and aesthetics. The 5800 sq ft space is meticulously planned to optimize natural light and ventilation, ensuring a comfortable and welcoming environment for its future inhabitants. The project, focused on redefining urban living, is a testament to architectural innovation and a commitment to quality.",
+        "descriptionThree": "Stay tuned for updates on Abhisheak’s Residency, where the city’s pulse meets the tranquility of a thoughtfully designed home. The ongoing status reflects the dedication of the construction team to uphold the highest standards, promising a residence that goes beyond the ordinary. Abhisheak’s Residency is poised to become a landmark, setting new standards for contemporary living in Bangalore.",
+        "date": "NOVEMBER 18, 2023",
+        "place": "Bangalore",
+        "area": "7000 sq.ft",
+        "project": "Residential",
+        "status": "Ongoing",
+        "img": "/portfolio/abhisheak/abhisheak-2.webp",
+        "mainImg": [
+            {
+                "img": "/portfolio/abhisheak/abhisheak-1.webp"
+            },
+            {
+                "img": "/portfolio/abhisheak/abhisheak-6.webp"
+            }
+        ],
+        "images": [
+            {
+                "img": "/portfolio/abhisheak/abhisheak-2.webp"
+            },
+            {
+                "img": "/portfolio/abhisheak/abhisheak-3.webp"
+            },
+            {
+                "img": "/portfolio/abhisheak/abhisheak-4.webp"
+            },
+            {
+                "img": "/portfolio/abhisheak/abhisheak-5.webp"
+            },
+            {
+                "img": "/portfolio/abhisheak/abhisheak-7.webp"
+            },
+            {
+                "img": "/portfolio/abhisheak/abhisheak-8.webp"
+            }
+        ]
+    },
+    {
+        "title": "Aniket’s Residency",
+        "description": "Discover unparalleled luxury living at Aniket’s Residency, a contemporary residential masterpiece in the heart of Bangalore spanning 5800 square feet. Our ongoing construction progress, as of December 22, 2022, promises an elevated living experience in one of India’s most vibrant urban centers.",
+        "descriptionTwo": "Aniket’s Residency sets itself apart with exquisite woodwork, a captivating circular staircase, lush gardens, and impeccably designed washrooms. Explore the epitome of comfort and style as these elements converge to redefine luxury living in Bangalore.",
+        "descriptionThree": "Stay updated with Aniket’s Residency to witness the evolution of extraordinary woodwork, a focal circular staircase, picturesque gardens, and stylish washrooms. Our commitment to architectural brilliance ensures a unique fusion of sophistication and comfort.",
+        "descriptionFour": "Our meticulously planned 5800 sq ft space optimizes natural light and ventilation, creating an inviting haven for future inhabitants. Follow our construction journey and witness the dedication of our team to uphold the highest standards, promising a residence that transcends expectations and sets new standards for contemporary living in Bangalore.",
+        "date": "DECEMBER 2, 2023",
+        "place": "Bangalore",
+        "area": "5800 sq.ft",
+        "project": "Residential",
+        "status": "Ongoing",
+        "img": "/portfolio/aniket/Aniket-4.webp",
+        "mainImg": [
+            {
+                "img": "/portfolio/aniket/Aniket-4.webp"
+            },
+            {
+                "img": "/portfolio/aniket/Aniket-1.webp"
+            }
+        ],
+        "images": [
+            {
+                "img": "/portfolio/aniket/Aniket-4.webp"
+            },
+            {
+                "img": "/portfolio/aniket/Aniket-3.webp"
+            },
+            {
+                "img": "/portfolio/aniket/Aniket-5.webp"
+            },
+            {
+                "img": "/portfolio/aniket/Aniket-6.webp"
+            },
+            {
+                "img": "/portfolio/aniket/Aniket-7.webp"
+            },
+            {
+                "img": "/portfolio/aniket/Aniket-8.webp"
             }
         ]
     }

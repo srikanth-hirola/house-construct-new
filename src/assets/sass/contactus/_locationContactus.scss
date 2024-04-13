@@ -2,7 +2,7 @@
 
     @media only screen and (max-width:767px){
         padding-bottom: 10px;
-        padding-top: 25px;
+        padding-top: 0px;
     }
     .first-row{
         text-align: center;
@@ -87,7 +87,7 @@
                     background: #fff;
                     width: 29.333333%;
                     @media only screen and (max-width:575px){
-                        width:100%;   
+                        width:92%;   
                     }
                     @media only screen and (min-width:576px) and (max-width:767px){
                         width: 45%;

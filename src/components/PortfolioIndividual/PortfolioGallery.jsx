@@ -1,60 +1,41 @@
 import React from 'react'
-
-const PortfolioGallery = () => {
+import slugify from "slugify"
+const PortfolioGallery = ({ project, location }) => {
+    const slugifyTitle = (title) => {
+        return slugify(title, { lower: true, replacement: '-', remove: /[*+~.()'"!:@]/g }) + "-new";
+    };
     return (
         <>
-            <div className='PortfolioGallery-parent'>
-                <h2 className='text-center'>Project Gallery</h2>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-6">
-                            <div className='main-images'>
-                                <img src="../portfolio/abhisheak/abhisheak-1.webp" alt="" />
-                            </div>
+            {project?.filter(item => slugifyTitle(item?.title) === location)?.map(project =>
+
+                <div className='PortfolioGallery-parent'>
+                    <h2 className='text-center'>Project Gallery</h2>
+
+                    <div className="container">
+                        <div className="row">
+                            {project?.mainImg?.map((profileImg, index) => (
+                                <div className="col-md-6" key={index}>
+                                    <div className='main-images'>
+                                        <img src={profileImg?.img} alt="" />
+                                    </div>
+                                </div>
+                            ))}
                         </div>
-                        <div className="col-md-6">
-                            <div className='main-images'>
-                            <img src="../portfolio/abhisheak/abhisheak-2.webp" alt="" />
+                        <div className="Secondrowgallery-images">
+                            <div className="row">
+                                {project?.images?.map((profileImg, index) => (
+                                    <div className="col-md-4" key={index}>
+                                        <div className='gallery-sub-images'>
+                                            <img src={profileImg.img} alt="" />
+                                        </div>
+                                    </div>
+                                ))}
                             </div>
                         </div>
                     </div>
-                    <div className="Secondrowgallery-images">
-                    <div className="row">
-                        <div className="col-md-4">
-                            <div className='gallery-sub-images'>
-                                <img src="../portfolio/abhisheak/abhisheak-3.webp" alt="" />
-                            </div>
-                        </div>
-                        <div className="col-md-4">
-                            <div className='gallery-sub-images'>
-                                <img src="../portfolio/abhisheak/abhisheak-4.webp" alt="" />
-                            </div>
-                        </div>
-                        <div className="col-md-4">
-                            <div className='gallery-sub-images'>
-                                <img src="../portfolio/abhisheak/abhisheak-5.webp" alt="" />
-                            </div>
-                        </div>
-                        <div className="col-md-4">
-                            <div className='gallery-sub-images'>
-                                <img src="../portfolio/abhisheak/abhisheak-6.webp" alt="" />
-                            </div>
-                        </div>
-                        <div className="col-md-4">
-                            <div className='gallery-sub-images'>
-                                <img src="../portfolio/abhisheak/abhisheak-7.webp" alt="" />
-                            </div>
-                        </div>
-                        <div className="col-md-4">
-                            <div className='gallery-sub-images'>
-                                <img src="../portfolio/abhisheak/abhisheak-8.webp" alt="" />
-                            </div>
-                        </div>
-                        
-                    </div>
-                    </div>
+
                 </div>
-            </div>
+            )}
         </>
     )
 }

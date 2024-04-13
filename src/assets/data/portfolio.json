@@ -1,0 +1,38 @@
+[
+    {
+        "customerName":"Srinivas Residency",
+        "date":"NOVEMBER 2, 2023",
+        "place":"Bangalore",
+        "totalArea":"5600 sq.ft",
+        "projectType":" Residential",
+        "projectStatus":" Completed",
+        "para1":"This minimal house is planned in such a way that the building incorporates all the spaces in a three storey building for easy access. The use of cladding material on the exterior, which is in contrast with the main structure, grant a striking character to the whole residence. This residence is defined by vertical elements broken by intermediate horizontal planes which bring in a pattern to the building. A humble yet dignified structure fulfills the need of the client as a perfect home.",
+        "mainImg1":"/Srinivas/srinivas-3.webp",
+        "mainImg2":"/Srinivas/srinivas-2.webp",
+        "subImg1":"/Srinivas/srinivas-1.webp",
+        "subImg2":"/Srinivas/srinivas-4.webp",
+        "subImg3":"/Srinivas/srinivas-5.webp",
+        "subImg4":"/Srinivas/srinivas-6.webp",
+        "subImg5":"/Srinivas/srinivas-7.webp"
+    },
+    {
+        "slug":"/portfolio/ds-shyams-eco-nest/",
+        "customerName":"DS Shyam’s Eco Nest",
+        "date":"JUNE 29, 2021",
+        "place":"Bangalore",
+        "totalArea":"5200 sq.ft",
+        "projectType":" Residential",
+        "projectStatus":" Completed",
+        "para1":"On the southern periphery of the site stood a magnificent and ancient tree that influenced the spatial layout of this 4 bedroom house in Bangalore. The tree with its sculptural roots straddling the compound wall defines the entrance court of the home and influences its imprint and location on the site.",
+        "para2":"The flow of public spaces on the ground & first floor include living, dining, family, kitchen, study and a guest bedroom. The upper level of the house has the master bedroom, an open family area as well as two children’s rooms. with a small family pool.",
+        "mainImg1":"/dsshyam/dsshyam-2.webp",
+        "mainImg2":"/dsshyam/dsshyam-3.webp",
+        "subImg1":"/dsshyam/dsshyam-1.webp",
+        "subImg2":"/dsshyam/dsshyam-4.webp",
+        "subImg3":"/dsshyam/dsshyam-5.webp",
+        "subImg4":"/dsshyam/dsshyam-6.webp",
+        "subImg5":"/dsshyam/dsshyam-7.webp",
+        "subImg6":"/dsshyam/dsshyam-8.webp",
+        "subImg7":"/dsshyam/dsshyam-9.webp"
+    }
+]
