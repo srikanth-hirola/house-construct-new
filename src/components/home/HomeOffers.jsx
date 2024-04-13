@@ -41,13 +41,13 @@ const HomeOffers = () => {
                         modules={[Navigation, Scrollbar, A11y,Autoplay]}
                         breakpoints={{
                             220: {
-                                slidesPerView: 2,
+                                slidesPerView: 1,
                                 spaceBetween: 5,
                                 centeredSlides: true,
                             },
                             540: {
-                                slidesPerView: 3,
-                                spaceBetween: 15,
+                                slidesPerView:2,
+                                spaceBetween: 5,
                                 centeredSlides: true,
                             },
                             768: {
@@ -55,7 +55,7 @@ const HomeOffers = () => {
                                 spaceBetween: 20,
                             },
                             1024: {
-                                slidesPerView: 5,
+                                slidesPerView: 4,
                                 spaceBetween: 10,
                             },
                         }}

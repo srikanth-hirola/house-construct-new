@@ -2,6 +2,9 @@
   padding-top: 60px;
  background:  #f4f7f9;
  padding-bottom: 40px;
+ @media only screen and (max-width:575px){
+  padding-bottom: 0;
+ }
   .housecontruct-page-sub {
     .housecontruct-page-heading {
       h2 {

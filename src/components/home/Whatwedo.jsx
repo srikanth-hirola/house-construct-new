@@ -50,21 +50,21 @@ const Whatwedo = () => {
                     className="mySwiper"
                     breakpoints={{
                       0: {
-                          slidesPerView: 1,
+                        slidesPerView: 1,
                       },
                       640: {
-                          slidesPerView: 1,
+                        slidesPerView: 1,
                       },
                       768: {
-                          slidesPerView: 1,
+                        slidesPerView: 1,
                       },
                       900: {
-                          slidesPerView: 1,
+                        slidesPerView: 1,
                       },
                       1200: {
-                          slidesPerView: 1,
+                        slidesPerView: 1,
                       },
-                  }}
+                    }}
                   >
                     <br />
                     <br />
@@ -82,11 +82,12 @@ const Whatwedo = () => {
                             <h5>{info.title}</h5>
                             <h6>{info.customer}</h6>
                           </div>
+                          <div className="swiper-below-shape">
+                            </div>
                         </div>
+
                       </SwiperSlide>
                     ))}
-                      
-
                   </Swiper>
                 </div>
               </div>

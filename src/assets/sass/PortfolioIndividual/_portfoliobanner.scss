@@ -1,19 +1,23 @@
 .PortfolioIndividual-parent{
     .PortfolioIndividual-banner-bg{
-        background-image: url('/portfolioindividualbanner.png');
-        background-position: center;
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        height: 500px;
+        background-color: #1c242a;
+        height: 350px;
         .PortfolioIndividual-banner-content{
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
+            flex-direction: column;
             height: 100%;
             align-items: center;
             color: #fff;
             p{
                 margin: 0;
                 font-weight: 500;
+            }
+            h2{
+                font-size: 57px;
+                line-height: 72px;
+                text-transform: none;
+                font-weight: 700;
             }
         }
     }
@@ -22,12 +26,15 @@
 @media only screen and (max-width:575px){
     .PortfolioIndividual-parent{
         .PortfolioIndividual-banner-bg{
-            height: 320px;
+            height: 300px;
             .PortfolioIndividual-banner-content {
-                justify-content: center;
-                flex-direction: column;
+               text-align: center;
                 p{
                     font-weight: 600;
+                }
+                h2{
+                    font-size: 26px;
+                    line-height: 50px;
                 }
             }
         }
@@ -36,14 +43,32 @@
 @media only screen and (min-width:576px) and (max-width:767px){
     .PortfolioIndividual-parent{
         .PortfolioIndividual-banner-bg{
-            height: 400px;
+            height:320px;
             .PortfolioIndividual-banner-content{
-                justify-content: center;
-                flex-direction: column;
                 p{
-                    font-weight: 600;
+                    font-weight: 500;
+                    font-size: 15px;
+                }
+                h2{
+                    font-size: 38px;
                 }
             }
         }
     }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    .PortfolioIndividual-parent{
+        .PortfolioIndividual-banner-bg{
+            height:360px;
+            .PortfolioIndividual-banner-content{
+                p{
+                    font-weight: 500;
+                    font-size: 15px;
+                }
+                h2{
+                    font-size: 46px;
+                }
+            }
+        }
+    } 
 }

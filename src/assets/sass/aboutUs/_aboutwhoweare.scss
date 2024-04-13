@@ -97,6 +97,9 @@
                     .row{
                         .col-md-6{
                             padding:10px;
+                            @media only screen and (min-width:768px) and (max-width:991px){
+                                padding:5px;
+                            }
                             .WhoweraeAbout-sub-2-content{
                                 box-shadow: 12px 23px 29px 0px rgba(0, 0, 0, 0.15);
                                 transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;

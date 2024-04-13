@@ -78,6 +78,11 @@
       }
       
 }
+@media only screen and (max-width:675px){
+  .marquee-text {
+    padding-top: 10px;
+  }
+}
 @media screen and (max-width:767px){
     .marquee-text{
         .marquee__content > * {

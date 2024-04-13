@@ -20,6 +20,7 @@ import ArchitecturalDesign from './components/blogSingle/ArchitecturalDesign';
 import VerticalStepperForm from './Sample';
 import IndividualBlogsPage from './pages/IndividualBlogsPage';
 import IndividualBlogsPage2 from './pages/IndividualBlogsPage2';
+
 const App = () => {
   return (
     <>

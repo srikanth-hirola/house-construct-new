@@ -18,6 +18,9 @@
         @media only screen and (max-width:575px){
           padding-top: 5px;
         }
+        @media only screen and (min-width:575px) and (max-width:767px){
+          padding-top: 30px;
+        }
         .contactus-careers-left{
           width: 90%;
           margin: auto;
@@ -196,6 +199,7 @@
   .contactus-carres-page-parent {
     .contactus-carres-page-parent-sub {
       padding-top: 13px;
+      padding-bottom: 0;
 
       .container {
         .row {
@@ -220,7 +224,7 @@
               text-align: justify;
               margin: 0;
               padding-top: 6px;
-              line-height: 25px;
+              line-height: 21px;
             }
           }
 
@@ -271,7 +275,6 @@
               font-size: 24px;
             }
           }
-
           .contactus-page-sec1-text3 {
             p {
               font-size: 15px;

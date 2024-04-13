@@ -13,7 +13,7 @@
     }
   }
   .trusted-partners-sub {
-    padding-top: 40px;    
+    padding: 40px;    
     .trusted-conatiner {
       .trustes-partners-heading {
 
@@ -62,13 +62,14 @@
      
     }
     .trusted-partners-sub{
+      padding-top: 10px;
       .trustedpartners-brandlogos{
         height:80px;
       }
       .trusted-conatiner{
         .trustes-partners-heading{
           h2{
-            font-size: 25px;
+            font-size: 27px;
             font-weight: 600;
           }
           p{

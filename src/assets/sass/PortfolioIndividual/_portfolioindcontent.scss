@@ -277,39 +277,180 @@
 //     }
 // }
 
-.PortfolioIndividualContent-parent{
-    .row{
-        .col-md-4{
-            .portfolioIndividual-sub1{
-                h5{
+.PortfolioIndividualContent-parent {
+    padding: 60px 0px 10px;
+
+    .row {
+        .col-md-4 {
+            .portfolioIndividual-sub1 {
+                h5 {
                     font-size: 18px;
                     font-weight: 600;
                 }
-                p{
+
+                p {
                     font-weight: 400;
                 }
             }
         }
-        .col-md-8{
-            .PortfolioIndividual-sub2{
-                .title{
-                    p{
+
+        .col-md-8 {
+            .PortfolioIndividual-sub2 {
+                .title {
+                    p {
                         font-size: 13px;
                         font-weight: 600;
                         text-transform: uppercase;
                         letter-spacing: 2.3px;
                     }
-                    h1{
+
+                    h1 {
                         font-size: 57px;
                         line-height: 72px;
                         font-weight: 700;
                         padding-bottom: 15px;
                     }
                 }
-                p{
+
+                p {
                     font-weight: 400;
                 }
             }
         }
     }
+}
+
+@media only screen and (max-width:575px) {
+
+    .PortfolioIndividualContent-parent {
+        padding: 30px 0px 0px;
+        .row {
+            .col-md-4 {
+                .portfolioIndividual-sub1 {
+                    .d-flex{
+                        justify-content: center;
+                    }
+                    h5 {
+                        font-size: 16px;
+                        font-weight: 500;
+                        margin: 4px 0px;
+                    }
+                    p {
+                        font-weight: 400;
+                        margin: 4px 0px;
+                    }
+                }
+            }
+            .col-md-8 {
+                padding-top: 35px;
+                .PortfolioIndividual-sub2 {
+                    .title {
+                        p {
+                            text-align: center;
+                            margin: 0;
+                            letter-spacing: 1.3px;
+                        }
+
+                        h1 {
+                            font-size: 26px;
+                            text-align: center;
+                            line-height: 40px;
+                        }
+                    }
+
+                    p {
+                        text-align: justify;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width:576px) and (max-width:767px){
+    .PortfolioIndividualContent-parent {
+        padding: 30px 0px 0px;
+        width: 90%;
+        margin: auto;
+        .row {
+            .col-md-4 {
+                .portfolioIndividual-sub1 {
+                    h5 {
+                        font-size: 16px;
+                        font-weight: 500;
+                        margin: 4px 0px;
+                    }
+                    p {
+                        font-weight: 400;
+                        margin: 4px 0px;
+                    }
+                }
+            }
+            .col-md-8 {
+                padding-top: 35px;
+                .PortfolioIndividual-sub2 {
+                    .title {
+                        p {
+                            margin: 0;
+                            letter-spacing: 1.3px;
+                        }
+
+                        h1 {
+                            font-size: 32px;
+                            padding-top: 15px;
+                            line-height: 40px;
+                        }
+                    }
+
+                    p {
+                        text-align: justify;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }  
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    .PortfolioIndividualContent-parent {
+        padding: 30px 0px 0px;
+        width: 90%;
+        margin: auto;
+        .row {
+            .col-md-4 {
+                .portfolioIndividual-sub1 {
+                    h5 {
+                        font-size: 16px;
+                        font-weight: 500;
+                        margin: 4px 0px;
+                    }
+                    p {
+                        font-weight: 400;
+                        margin: 4px 0px;
+                    }
+                }
+            }
+            .col-md-8 {
+                .PortfolioIndividual-sub2 {
+                    .title {
+                        p {
+                            margin: 0;
+                            letter-spacing: 1.3px;
+                        }
+
+                        h1 {
+                            font-size: 36px;
+                            padding-top: 15px;
+                            line-height: 40px;
+                        }
+                    }
+
+                    p {
+                        text-align: justify;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    } 
 }

@@ -22,6 +22,10 @@
             font-family: "Jost", sans-serif;
             padding-bottom: 5px;
             font-weight: 600;
+            cursor: pointer;
+            option{
+                cursor: pointer;
+            }
         }
     }
     .main-package {
@@ -105,8 +109,13 @@
 .mobile-packeges{
     display: none;
 }
-
+@media screen and (max-width:575px){
+    .mobile-packeges{
+        overflow: hidden;
+    }  
+}
 @media screen and (max-width:767px){
+   
     .mobile-packeges{
         display: block;
     }
@@ -199,6 +208,9 @@
         .ant-steps-icon {
             color: #fff !important;
         }
+    }
+    .package-text h3{
+        font-size: 30px !important;
     }
 }
 

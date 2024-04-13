@@ -1,223 +1,90 @@
-.Home-WorksWeOffer-parent {
-    padding: 25px 0px;
-    background-position: center;
-    background-size: contain;
-
-    .Home-WorksWeOffer-title {
-        text-align: center;
-        padding: 20px 0px 45px;
-        font-weight: 600;
-        .row{
-            
-            .col-md-6{
-                &:last-child{
-                    text-align: right;
-                }
-            }
-        }
-        h2{
-            font-size: 45px;
-            text-align: left;
-            font-weight: 600;
-            padding-bottom: 5px;
-            color: #000;
-        }
-        h6{
-            color: #000;
-            font-weight: 600;
-            text-align: left;
-            font-size: 13px;
-            letter-spacing: 2px;
-        }
+.PortfolioRelatedProjects-parent{
+    .swiper-button-prev:after, .swiper-button-next:after {
+        background: black;
+        opacity: 0.5;
+        padding: 15px 16px;
+        font-size: 26px;
+        color: #fff;
     }
-
-    .Home-works-offer-sub-parent {
-        position: relative;
-        margin-bottom: 20px;
-
-        .Home-works-offer-sub-image {
-            height: 300px;
-            width: 100%;
-            position: relative;
-            overflow: hidden;
-            cursor: pointer;
-
-            img {
-                height: 100%;
-                width: 100%;
-                display: block;
-                // border-radius: 10px;
-                transition: transform 0.5s;
-                // filter: brightness(0.5);
-            }
-
-            &:hover {
-                img {
-                    img {
-                        transform: scale(1.1);
+    .Home-WorksWeOffer-parent {
+        padding: 25px 0px;
+        background-position: center;
+        background-size: contain;
+    
+        .Home-WorksWeOffer-title-relatedprojects {
+            text-align: center;
+            padding: 20px 0px 45px;
+            font-weight: 600;
+            .row{
+                
+                .col-md-6{
+                    &:last-child{
+                        text-align: right;
                     }
                 }
             }
-        }
-
-        .Home-works-offer-sub-content {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            color: #fff;
-            text-align: center;
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-
-        &:hover {
-            .Home-works-offer-sub-content {
-                opacity: 1;
-            }
-        }
-
-        .overlay {
-            width: 100%;
-            height: 0;
-            background: linear-gradient(transparent, #1c1c1c 58%);
-            // border-radius: 10px;
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            overflow: hidden;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            padding: 0 40px;
-            text-align: center;
-            font-size: 14px;
-            transition: height 0.5s;
-
-            h5 {
-                font-weight: 500;
-                margin-bottom: 5px;
-                font-family: 'Bebas Neue', sans-serif;
-                letter-spacing: 2px;
-                color: #fff;
-            }
-
-            p {
-                color: #fff;
-            }
-
-            a {
-                margin-top: 10px;
-                font-weight: 600;
-                color: #262626;
-                border: none;
-                margin-bottom: 10px;
-                text-decoration: none;
-                font-size: 13px;
-                background: #fff;
-                border-radius: 50px;
-                text-align: center;
-                padding: 5px 15px;
-            }
-        }
-
-        &:hover {
-            .overlay {
-                height:100%;
-            }
-        }
-    }
-}
-
-@media only screen and (max-width:575px){
-    .Home-WorksWeOffer-parent{
-        width: 95%;
-        margin: auto;
-        padding: 40px 0px 40px 0px;
-        .Home-WorksWeOffer-title {
-            padding: 20px 0px 15px;
             h2{
-                font-size: 20px;
+                font-size: 45px;
+                text-align: left;
+                font-weight: 600;
+                padding-bottom: 5px;
+                color: #000;
             }
             h6{
-                font-size: 16px;
+                color: #000;
+                font-weight: 600;
+                text-align: left;
+                font-size: 13px;
+                letter-spacing: 2px;
             }
-            .row{
-                padding-bottom: 40px;
-                .col-md-6{
-                    // &:last-child{
-                       width: 50%;
-                    // }
-                }
-            }
-            a{
-    padding: 7px 15px;
-    font-size: 12px;
-            }
-
         }
+    
         .Home-works-offer-sub-parent {
-            margin-bottom: 5px;
-            .overlay{
+            position: relative;
+            margin-bottom: 20px;
+    
+            .Home-works-offer-sub-image {
+                height: 300px;
                 width: 100%;
-                height: 0;
-                background: linear-gradient(transparent, #1c1c1c 30%);
-                // border-radius: 10px;
+                position: relative;
+                overflow: hidden;
+                cursor: pointer;
+    
+                img {
+                    height: 100%;
+                    width: 100%;
+                    display: block;
+                    // border-radius: 10px;
+                    transition: transform 0.5s;
+                    // filter: brightness(0.5);
+                }
+    
+                &:hover {
+                    img {
+                        img {
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+    
+            .Home-works-offer-sub-content {
                 position: absolute;
-                left: 0;
-                bottom: -100px;
-                overflow: visible;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                flex-direction: column;
-                padding: 0 40px;
+                bottom: 0;
+                width: 100%;
+                color: #fff;
                 text-align: center;
-                font-size: 14px;
-                transition: height 0.5s;
-                p{
-                    position: relative;
-                    bottom: 170px;
-                }
-                h5{
-                    position: relative;
-                    bottom: 170px;
-                }
-                a{
-                    position: relative;
-                    bottom: 170px;
+                opacity: 0;
+                transition: opacity 0.3s ease;
+            }
+    
+            &:hover {
+                .Home-works-offer-sub-content {
+                    opacity: 1;
                 }
             }
-            .Home-works-offer-sub-image{
-                height: 250px;
-            }
-            a{
-                width: 110px;
-                padding: 7px 15px;
-            }
-        }
-        .col-6 {
-            padding: 4px !important;
-        }
-    }
-}
-
-@media only screen and (min-width:576px) and (max-width:767px){
-    .Home-WorksWeOffer-parent{
-        width: 95%;
-        margin: auto;
-        padding: 30px 0px 40px 0px;
-        .Home-WorksWeOffer-title {
-            padding: 5px 0px 30px;
-            h2{
-                font-size: 28px;
-            }
-            p{
-                font-size: 16px;
-            }
-        }
-        .Home-works-offer-sub-parent {
-            .overlay{
+    
+            .overlay {
                 width: 100%;
                 height: 0;
                 background: linear-gradient(transparent, #1c1c1c 58%);
@@ -225,7 +92,7 @@
                 position: absolute;
                 left: 0;
                 bottom: 0;
-                overflow: visible;
+                overflow: hidden;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -234,29 +101,177 @@
                 text-align: center;
                 font-size: 14px;
                 transition: height 0.5s;
+    
+                h5 {
+                    font-weight: 500;
+                    margin-bottom: 5px;
+                    font-family: 'Bebas Neue', sans-serif;
+                    letter-spacing: 2px;
+                    color: #fff;
+                }
+    
+                p {
+                    color: #fff;
+                }
+    
+                a {
+                    margin-top: 10px;
+                    font-weight: 600;
+                    color: #262626;
+                    border: none;
+                    margin-bottom: 10px;
+                    text-decoration: none;
+                    font-size: 13px;
+                    background: #fff;
+                    border-radius: 50px;
+                    text-align: center;
+                    padding: 5px 15px;
+                }
             }
-            margin-bottom: 5px;
-            .Home-works-offer-sub-image{
-                height: 250px;
+    
+            &:hover {
+                .overlay {
+                    height:100%;
+                }
             }
-            a{
-                width: 110px;
-                padding: 7px 15px;
-            }
-        }
-        .col-6 {
-            padding: 4px !important;
         }
     }
 }
-@media only screen and (min-width:768px) and (max-width:1199px){
-    .Home-WorksWeOffer-parent{
-        padding: 0px 0px 20px 0px;
-        .Home-WorksWeOffer-title {
-            padding: 20px 0px 25px;
-            h2{
-                font-size: 32px;
+@media only screen and (max-width:575px){
+    .PortfolioRelatedProjects-parent{
+        .Home-WorksWeOffer-parent{
+            width: 95%;
+            margin: auto;
+            padding: 0px 0px 40px 0px;
+            .Home-WorksWeOffer-title-relatedprojects {
+                padding: 20px 0px 15px;
+
+                h2{
+                    font-size: 24px;
+                }
+                h6{
+                    font-size: 12px;
+                }
+                .row{
+                    padding-bottom: 40px;
+                    .col-md-6{
+                        width: 100%;
+                    }
+                }
+                a{
+        padding: 7px 15px;
+        font-size: 12px;
+                }
+    
+            }
+            .Home-works-offer-sub-parent {
+                margin-bottom: 5px;
+                .overlay{
+                    width: 100%;
+                    height: 0;
+                    background: linear-gradient(transparent, #1c1c1c 30%);
+                    // border-radius: 10px;
+                    position: absolute;
+                    left: 0;
+                    bottom: -100px;
+                    overflow: visible;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    padding: 0 40px;
+                    text-align: center;
+                    font-size: 14px;
+                    transition: height 0.5s;
+                    p{
+                        position: relative;
+                        bottom: 170px;
+                    }
+                    h5{
+                        position: relative;
+                        bottom: 170px;
+                    }
+                    a{
+                        position: relative;
+                        bottom: 170px;
+                    }
+                }
+                .Home-works-offer-sub-image{
+                    height: 250px;
+                }
+                a{
+                    width: 110px;
+                    padding: 7px 15px;
+                }
+            }
+            .col-6 {
+                padding: 4px !important;
             }
         }
+    }
+
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+    .PortfolioRelatedProjects-parent{
+        .Home-WorksWeOffer-parent{
+            width: 95%;
+            margin: auto;
+            padding: 30px 0px 40px 0px;
+            .Home-WorksWeOffer-title-relatedprojects {
+                padding: 5px 0px 30px;
+                h2{
+                    font-size: 28px;
+                }
+                p{
+                    font-size: 16px;
+                }
+            }
+            .Home-works-offer-sub-parent {
+                .overlay{
+                    width: 100%;
+                    height: 0;
+                    background: linear-gradient(transparent, #1c1c1c 58%);
+                    // border-radius: 10px;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    overflow: visible;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    padding: 0 40px;
+                    text-align: center;
+                    font-size: 14px;
+                    transition: height 0.5s;
+                }
+                margin-bottom: 5px;
+                .Home-works-offer-sub-image{
+                    height: 250px;
+                }
+                a{
+                    width: 110px;
+                    padding: 7px 15px;
+                }
+            }
+            .col-6 {
+                padding: 4px !important;
+            }
+        }
+    }
+
+}
+@media only screen and (min-width:768px) and (max-width:1199px){
+    .PortfolioRelatedProjects-parent{
+        .Home-WorksWeOffer-parent{
+            padding: 0px 0px 20px 0px;
+            .Home-WorksWeOffer-title-relatedprojects {
+                padding: 20px 0px 25px;
+                h2{
+                    font-size: 32px;
+                }
+            }
+        } 
     }
 }

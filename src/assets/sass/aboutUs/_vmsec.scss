@@ -1,6 +1,12 @@
 .vm-sec-main {
     background: url("/images/test-bg.webp");
     padding: 50px 0px 60px 0px;
+    @media screen and (max-width:767px){
+        padding-bottom: 0;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 991px){
+        padding: 20px 0px 0px 0px;
+    }
     .container{
       .first-row{
         text-align: center;

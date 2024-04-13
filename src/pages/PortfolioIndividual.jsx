@@ -98,7 +98,7 @@ console.log("selectedProject",selectedProject)
       {/* Pass the selected project as props to PortfolioIndividualContent */}
       <PortfolioIndividualContent project={selectedProject} />
       <PortfolioGallery/>
-      <PortfolioRelatedProjects/>
+      {/* <PortfolioRelatedProjects/> */}
       <Footer />
     </>
   );

@@ -1,8 +1,12 @@
 .location-main-contactus{
 
-    @media only screen and (max-width:767px){
-        padding-bottom: 10px;
-        padding-top: 25px;
+    @media only screen and (max-width:575px){
+        padding-bottom:0px;
+        padding-top: 0px;
+    }
+    @media only screen and (min-width:576px) and (max-width:767px){
+        padding-bottom:10px;
+        padding-top: 0px;
     }
     .first-row{
         text-align: center;
@@ -62,10 +66,12 @@
          padding: 50px 0px;
          @media only screen and (max-width:575px){
             padding: 0;
-            padding-top: 100px;
+            padding-top: 130px;
          }
          @media only screen and (min-width:576px) and (max-width:767px){
-            padding-bottom:0px;
+            padding-bottom: 0px;
+            padding-top: 0;
+            margin-top: -56px;
         }
         @media only screen and (min-width:768px) and (max-width:991px){
             padding:20px 10px;
@@ -79,7 +85,7 @@
                     padding-top: 40px;
                 }
                 @media only screen and (min-width:768px) and (max-width:991px){
-                    gap: 20px;
+                    gap: 8px;
                 }
                 .col-md-4{
                     box-shadow: 4px 10px 30px 0px rgba(0, 0, 0, 0.15);
@@ -95,6 +101,7 @@
                     }
                     @media only screen and (min-width:768px) and (max-width:991px){
                         width: 31.5%;
+                        padding: 20px 15px;
                     }
                     @media only screen and (min-width:992px) and (max-width:1199px){
                         width: 32%;
@@ -113,7 +120,7 @@
                             font-weight: 600;
                         }
                         @media only screen and (min-width:768px) and (max-width:991px){
-                            font-size: 22px;
+                            font-size: 20px;
                             padding-top: 7px;
                         }
                         @media only screen and (min-width:992px) and (max-width:1399px){

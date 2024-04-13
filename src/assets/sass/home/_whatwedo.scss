@@ -1,4 +1,5 @@
 .whatwedo-parent {
+
   padding: 50px 0;
 
   .whatwedo-sub {
@@ -8,6 +9,12 @@
     .whatwego-heading {
       margin: auto;
       width: 88%;
+      div{
+        img{
+          height: 55px;
+          width: 55px;
+        }
+      }
 
       .WhoweraeAbout-sub-viewmore-button {
         display: flex;
@@ -58,7 +65,7 @@
       .whatwedo-paragraph {
         h4 {
 
-          font-size: 56px;
+          font-size: 48px;
           font-weight: 600;
           line-height: 58px;
           padding: 20px 0px;
@@ -67,13 +74,12 @@
 
         p {
           color: #fff;
-          font-size: 18px;
+          font-size: 17px;
           font-style: normal;
           padding-bottom: 20px;
           margin: auto;
-          font-weight: 500;
-          line-height: 34px;
-          text-transform: capitalize;
+          font-weight: 400;
+          line-height: 32px;
         }
       }
     }
@@ -85,13 +91,22 @@
             
             .swiper-wrapper {
               .swiper-slide {
+                overflow: visible;
                 padding: 0px;
                 background-color: #fff;
+                // width: 350px !important;
 
                 .whatwedo-sec2-text {
                   background-repeat: no-repeat;
-                  background-size: 80% 70%;
-                  background-position: top right;
+                  background-repeat: no-repeat;
+                  background-size: contain;
+                  background-position: right;
+                  @media only screen and (max-width:576px){
+                    background-size:initial;
+                  }
+
+                  // background-size: 80% 70%;
+                  // background-position: top right;
 
                   p {
                     padding: 60px 30px 20px 30px;
@@ -101,6 +116,7 @@
                 }
 
                 .profilecontent {
+                  position: relative;
                   display: flex;
                   align-items: center;
                   padding: 10px 30px;
@@ -113,6 +129,17 @@
                       width: 100%;
                       height: 100%;
                     }
+                  }
+                  .swiper-below-shape{
+                    border-left: 30px solid transparent;
+                    border-right: 0px solid transparent;
+                    border-top: 20px solid #ffffff;
+                    position: absolute;
+                    z-index: 99999999999;
+                    right: 0;
+                    bottom: -20px;
+                    border: 30px solid top right left;
+                  
                   }
                 }
               }
@@ -137,15 +164,22 @@
     }
   }
 }
-
+@media only screen and (max-width:575px){
+  .text-parent{
+    margin-top: -40px;
+  }
+}
 @media only screen and (max-width:767px) {
   .whatwedo-parent {
-    padding: 50px 0;
+    padding: 30px 0 10px 0px;
 
     .whatwedo-sub {
 
       .whatwego-heading {
         width: 92%;
+        img{
+          height: 40px;
+        }
 
         .WhoweraeAbout-sub-viewmore-button {
           display: flex;
@@ -172,14 +206,16 @@
 
         .whatwedo-paragraph {
           h4 {
-            font-size: 32px;
+            font-size:28px;
             line-height: 45px;
             padding: 10px 0;
           }
 
           p {
             font-size: 15px;
-            line-height: 30px;
+            font-weight: 400;
+            text-align: justify;
+            line-height: 26px;
           }
         }
       }
@@ -196,6 +232,7 @@
                   background-color: #fff;
 
                   .whatwedo-sec2-text {
+
                     p {
                       padding: 60px 30px 20px 30px;
 

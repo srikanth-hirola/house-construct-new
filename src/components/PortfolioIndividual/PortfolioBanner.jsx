@@ -4,13 +4,12 @@ import React from "react";
 const PortfolioBanner = () => {
   return (
     <>
-      <div className="contactus-banner">
+      <div className="PortfolioIndividual-parent">
         <div
-          className="contactus-banner-sub"
-          style={{ backgroundImage: "url('/contactus/30.png')" }}
+          className="PortfolioIndividual-banner-bg"
         >
-          <div className="contactus-banner-heading">
-            <h5>Abhisheak’s Residency</h5>
+          <div className="PortfolioIndividual-banner-content">
+            <h2>Abhisheak’s Residency</h2>
             <p>
             NOVEMBER 18, 2023
             </p>

@@ -46,7 +46,6 @@ const HomePackages = () => {
       <div className="home-packages">
         <div className="home-packages-sub">
           <div className="container-lg container-xl container-xxl p-0">
-
             <div className="home-packages">
               <div className="home-packages-sub">
                 <div className="container-lg container-xl container-xxl">
