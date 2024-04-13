@@ -39,43 +39,43 @@ const Portfolio = () => {
   };
   return (
     <>
-    <Modal
-                    title=""
-                    visible={visibleModal}
-                    onOk={handleModalClose}
-                    onCancel={handleModalClose}
-                    className='cautious-title'
-                    footer={null}
-                >
-              
-                    <div className=" dataform">
-                                <div className='banner-form-services'>
-                                    <form>
-                                        <div className='for-enquiry'>
-                                            <h2>Enquiry</h2>
-                                            <p>
-                                                Feel free to reach out for assistance or inquiries.</p>
-                                        </div>
-                                        <div className='input-tags-name'>
-                                            <input type="text" placeholder='Please Enter Name' />
-                                            <input type="text" placeholder='Please Enter Email' />
-                                            <input type="text" placeholder='Please Enter Mobile Number' />
-                                            <input type="text" placeholder='Please Enter Plot Size' />
-                                            <input type="text" placeholder='Please Enter Plot No' />
-                                        </div>
-                                        <div className='input-tags-button'>
-                                            <button>Submit</button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                    {/* <strong id='scam-tt' >Hirola Infotech Solutions</strong> */}
-                </Modal>
-    <Header/>
-    <PortfolioBanner/>
-<PortfolioMain/>
+      <Modal
+        title=""
+        visible={visibleModal}
+        onOk={handleModalClose}
+        onCancel={handleModalClose}
+        className='cautious-title'
+        footer={null}
+      >
 
-    <Footer/>
+        <div className=" dataform">
+          <div className='banner-form-services'>
+            <form>
+              <div className='for-enquiry'>
+                <h2>Enquiry</h2>
+                <p>
+                  Feel free to reach out for assistance or inquiries.</p>
+              </div>
+              <div className='input-tags-name'>
+                <input type="text" placeholder='Please Enter Name' />
+                <input type="text" placeholder='Please Enter Email' />
+                <input type="text" placeholder='Please Enter Mobile Number' />
+                <input type="text" placeholder='Please Enter Plot Size' />
+                <input type="text" placeholder='Please Enter Plot No' />
+              </div>
+              <div className='input-tags-button'>
+                <button>Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        {/* <strong id='scam-tt' >Hirola Infotech Solutions</strong> */}
+      </Modal>
+      <Header />
+      <PortfolioBanner />
+      <PortfolioMain />
+
+      <Footer />
     </>
   )
 }

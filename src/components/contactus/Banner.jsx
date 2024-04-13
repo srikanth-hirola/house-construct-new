@@ -10,14 +10,14 @@ const Banner = () => {
           style={{ backgroundImage: "url('/contactus/30.png')" }}
         >
           <div className="row">
-            <div className="col-md-5 col-sm-4 about-us-banner-left-section">
+            <div className="col-md-5 col-sm-5 about-us-banner-left-section">
               <div className="about-us-banner-subtitle d-flex gap-3">
               <Link><p>Home</p></Link>
               <Link><p>. Contact Us</p></Link>
               </div>
               <Link><h1 className='about-us-banner-title'>Contact Us</h1></Link>
             </div>
-            <div className="col-md-6 col-sm-8">
+            <div className="col-md-6 col-sm-7">
               <div className="contactUs-banner-form">
                <div className="contactUs-banner-form-sub">
                <h2>Let's Talk to Our Experts</h2>
